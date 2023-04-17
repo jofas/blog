@@ -30,6 +30,10 @@ highlight_code = true
 
 [extra]
 
+[extra.show]
+tags = true
+links = true
+
 [extra.social]
 github = "jofas"
 stackoverflow = "20665825"
