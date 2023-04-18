@@ -34,7 +34,7 @@ back_button = false
 
 [extra.show]
 tags = true
-links = true
+links = false
 
 [extra.social]
 homepage = "https://fassbender.dev"
