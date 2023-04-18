@@ -29,6 +29,7 @@ last_page = "Last Page"
 highlight_code = true
 
 [extra]
+share = false
 
 [extra.show]
 tags = true
