@@ -30,6 +30,7 @@ highlight_code = true
 
 [extra]
 share = false
+back_button = false
 
 [extra.show]
 tags = true
