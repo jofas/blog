@@ -31,6 +31,9 @@ highlight_code = true
 [extra]
 share = false
 back_button = false
+logo = "me.jpg"
+avatar = "logo_192.png"
+favicon = "logo_192.png"
 
 [extra.show]
 tags = true
