@@ -32,7 +32,8 @@ highlight_code = true
 share = false
 back_button = false
 logo = "me.jpg"
-avatar = "logo_192.png"
+avatar_dark = "logo_dark.svg"
+avatar_light = "logo_light.svg"
 favicon = "logo_192.png"
 
 [extra.show]
