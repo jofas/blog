@@ -45,3 +45,7 @@ homepage = "https://fassbender.dev"
 github = "jofas"
 stackoverflow = "20665825"
 linkedin = "jofas"
+
+[extra.comment.utterances]
+repo = "jofas/blog"
+issue_term = "pathname"
