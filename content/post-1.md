@@ -6,7 +6,7 @@ date = 2020-01-02T15:00:00Z
 tags = ["markdown", "demo"]
 [extra]
 summary = "Shows how basic Markdown syntax are rendered"
-mathjax = "tex-mml"
+katex = true
 +++
 
 <!-- more -->
@@ -123,17 +123,12 @@ Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the ses
 
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
 
-## mathjax
+## KaTeX
 
 $$
-\displaylines{x = a + b \\\\ y = b + c}
+x = a + b \\\\ y = b + c
 $$
 
 $$
-\require{bussproofs}
-\begin{prooftree}
-\AxiomC{A}
-\AxiomC{B}
-\BinaryInfC{D}
-\end{prooftree}
+\frac{A}{B}
 $$
