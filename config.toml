@@ -29,8 +29,6 @@ last_page = "Last Page"
 highlight_code = true
 
 [extra]
-share = false
-back_button = false
 logo = "me.jpg"
 avatar_dark = "logo_dark.svg"
 avatar_light = "logo_light.svg"
