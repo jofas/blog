@@ -19,9 +19,10 @@ summary = "Automatically publish your crates when you push a tag to your reposit
 I wouldn't be able to call myself a DevOps Engineer[^1] if I wouldn't automate even
 the silliest and most banal of tasks.
 Not even when I know that I will spend considerably more time writing the
-code than it will ever save me.
+code (and debugging it!) than it will ever save me.
 In this post, we will have a look at how much[^2] effort it takes to automate 
 publishing your Rust crate to crates.io.
+
 Publishing your crate is one of the most complex deployments out there. 
 On par with publishing your app in the Apple App Store or updating your
 Kubernetes deployment across availability zones, I'd say.
@@ -48,51 +49,23 @@ And I think that this setup should contain the seemingly trivial tasks, even
 when the automation looks a lot more complex than the task itself.
 A late adopter of the CD (continuous deployment) part of CI/CD, I learned that
 there is more to a release than meets the eye.
-Even with seemingly simple deployments like a crate or binary distributed via 
-Cargo.
-I started automating crate publishing inside my CI/CD pipeline, because it is 
-coupled to a second command.
-Namely creating and pushing a Git [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) 
-with the current version number of my crate to my repository.
-Say I just committed the last change of the next release of my crate (`v0.2.1`
-for example), I would run the following commands:
+Even with seemingly simple deployments like a crate distributed via Cargo.
+I originally started automating crate publishing inside my CI/CD pipeline, 
+because even in my very simple and minimal setup, a release always consists of 
+more than just a single command.
+There are simple things that need to be done, like tagging the commit that got 
+released, but also more complex tasks, like creating a decent release on GitHub 
+or publishing to other places.
 
-```bash
-> cargo publish
-> git tag -a v0.2.1 -m "v0.2.1"
-> git push --tags
-```
-
-Keeping a reference within Git to the state my crate was in when I published it 
-allows me and others to easily revisit the source code of the published version 
-later.
-This can come in handy for backporting bug fixes, for example.
-Having a easily accessible tag for reference is a lot simpler than having to
-look through potentially thousands of commits to find the one that contains the
-exact code of the published package.
-It enables me to navigate quickly and conveniently between different released 
-versions of my crate with my favorite source control system (or GitHub's web 
-UI).
-Having a tag denoting the commit containing the published version of your 
-library or package is all pretty standard and common procedure, I'd say.
-
-**TODO:** here add some context 
-
-<sub>
-These commands and the whole procedure are ingrained in my head and I only 
-recall forgetting to push the tag once in the hundreds of times I executed 
-these exact commands listed above.
-Still, for a notorious over-thinker and perfectionist like me the thought 
-of forgetting to create and push the tag after publishing my crate weighs heavy 
-on my heart. 
-Thinking about leaving my repository in such a subtly inconsistent state makes me 
-shiver.
+The moment you have to execute more than a single instruction to complete a 
+task, you enter the land of programming and automation. 
+I've messed up releases before. 
+So far just annoying things like forgetting to create the Git tag, or creating 
+a tag that has the wrong version.
+But as a notorious over-thinker and perfectionist, the thought of leaving a 
+project in such a subtly inconsistent state makes me shiver.
 Luckily there are other neurotic people out there that came up with the idea
 of CI/CD and convenient and powerful tools like GitHub Actions.
-</sub>
-
-* now describe why this coupling may fail (forgetting to tag commit)
-* integration into a bigger release-setup
 
 In this post I'll give a step-by-step tutorial on how to set up a GitHub Action
 that publishes your crate to [crates.io](https://crates.io) when you push a
