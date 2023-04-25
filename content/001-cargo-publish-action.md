@@ -67,16 +67,50 @@ This post contains a step-by-step tutorial on how to set up a GitHub Action
 workflow that publishes your crate to crates.io  when you push a tag that looks 
 like a [SemVer](https://semver.org/) version (without extensions).
 This tutorial expects you to have a basic knowledge of 
-[GitHub Actions](https://docs.github.com/en/actions) and a GitHub repository 
-containing a crate you wish to publish to crates.io, of course.
-Except the first part (where we get an access token from crates.io which we 
-store as a secret in our repository), this tutorial extends to publishing a 
-crate to [registries](https://doc.rust-lang.org/cargo/reference/registries.html) 
-other than crates.io as well.
+[GitHub Actions](https://docs.github.com/en/actions), a GitHub repository with
+a crate you wish to publish and an account on crates.io.
+Except the first part (where we get an API token from crates.io), this 
+tutorial extends to publishing a crate to 
+[registries](https://doc.rust-lang.org/cargo/reference/registries.html) other 
+than crates.io as well.
 
 # 1. Get an API Token from crates.io
 
+<div style="text-align: center">
+
+![crates.io: navigate to API tokens](/images/crates_io_1.jpg)
+
+*How to navigate to* [`https://crates.io/settings/tokens`](https://crates.io/settings/tokens) 
+*from within the webapp*
+
+</div>
+
+<div style="text-align: center">
+
+![crates.io: create new API token](/images/crates_io_2.jpg)
+
+*Create a new API token*
+
+</div>
+
 # 2. Store the API Token in a GitHub Secret
+
+<div style="text-align: center">
+
+![GitHub: navigate to new Action secret](/images/github_secrets_1.jpg)
+
+*How to navigate to* `https://github.com/{user or orga}/{repo}/settings/secrets/actions/new`
+*from within the webapp*
+
+</div>
+
+<div style="text-align: center">
+
+![GitHub: create new Action secret](/images/github_secrets_2.jpg)
+
+*Create a new GitHub Action secret*
+
+</div>
 
 # 3. Write the Workflow
 
