@@ -223,7 +223,6 @@ that looks a little bit like a regular expression.
 Let's have a look at the trigger already:
 
 ```yaml
-name: Publish
 on:
   push:
     tags:
@@ -241,6 +240,27 @@ Note that if you prefer your version tags without the leading `v`, all you have
 to do is remove the `v` from the glob pattern: `[0-9]+.[0-9]+.[0-9]+`.
 This would match a tag consisting solely of a SemVer version number, like 
 `1.2.3`.
+
+Now that we have our trigger we have to tell GitHub what to do.
+There are pretty much only two steps necessary to publish our crate, (I) get
+the code and (II) tell Cargo to publish it.
+To get the code, we'll use the [checkout](https://github.com/marketplace/actions/checkout)
+action.
+It will pull our repository into the workflow, allowing it access to the 
+contents, i.e. the crate's source code.
+But first we have to tell GitHub what kind of machine and container we'd like 
+our workflow to run in.
+We'll use a fairly common setup for that, namely the latest Ubuntu LTS version
+as basis and on top of that the latest release of the 
+[Rust](https://hub.docker.com/_/rust) container:
+
+```yaml
+jobs:
+  Publish:
+    runs-on: ubuntu-latest
+    container:
+      image: rust:latest
+```
 
 % TODO: job: checkout repo
 
