@@ -12,7 +12,7 @@ summary = "Automatically publish your crates when you push a tag to your reposit
 
 [![Automation](https://imgs.xkcd.com/comics/automation.png)](https://xkcd.com/1319/) 
 
-*I also think that if the task is not time-consuming at all*
+Figure 1: *I also think that if the task is not time-consuming at all*
 
 </div>
 
@@ -80,18 +80,46 @@ than crates.io as well.
 
 ![crates.io: navigate to API tokens](/images/crates_io_1.jpg)
 
-*How to navigate to* [`https://crates.io/settings/tokens`](https://crates.io/settings/tokens) 
+Figure 2: *How to navigate to* 
+[`https://crates.io/settings/tokens`](https://crates.io/settings/tokens) 
 *from within the webapp*
 
 </div>
+
+First, we need to authenticate ourselves with crates.io.
+The registry needs to know who we are and if we in fact have the right to 
+publish our crate.
+For this, crates.io offers API tokens.
+You can generate a new API token in the web UI.
+To do that, make sure you are signed into crates.io in your browser (I registered with 
+crates.io with my GitHub account which makes SSO nice and easy).
+Once you are signed in, navigate to [`https://crates.io/settings/tokens`](https://crates.io/settings/tokens).
+In the web UI you have a drop-down menu in the upper right corner, next to your 
+avatar and username. 
+It contains an entry "Account Settings". 
+The account settings contain the page "API Tokens" where we can manage our
+tokens. 
 
 <div style="text-align: center">
 
 ![crates.io: create new API token](/images/crates_io_2.jpg)
 
-*Create a new API token*
+Figure 3: *Create a new API token*
 
 </div>
+
+There's a button on the API tokens page that says "New Token".
+Click on it.
+A new text field will open below.
+Type in the name you want to associate with the new token.
+I normally use the crate name, that way I know where I used the token.
+This'd make deleting the token after it accidentally got leaked easier.
+Once you've typed the token's name, click on the "Create" button next to the
+text input.
+The token will be displayed below.
+Copy the token and don't close the page until you have successfully stored
+the token safely (you'll never be able to see the token again after closing the
+page!).
 
 # 2. Store the API Token in a GitHub Secret
 
@@ -99,7 +127,7 @@ than crates.io as well.
 
 ![GitHub: navigate to new Action secret](/images/github_secrets_1.jpg)
 
-*How to navigate to* `https://github.com/{user or orga}/{repo}/settings/secrets/actions/new`
+Figure 4: *How to navigate to* `https://github.com/{user or orga}/{repo}/settings/secrets/actions/new`
 *from within the webapp*
 
 </div>
@@ -108,7 +136,7 @@ than crates.io as well.
 
 ![GitHub: create new Action secret](/images/github_secrets_2.jpg)
 
-*Create a new GitHub Action secret*
+Figure 5: *Create a new GitHub Action secret*
 
 </div>
 
