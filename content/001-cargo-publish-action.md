@@ -169,10 +169,25 @@ Paste the secret from the clipboard into the second text input labeled
 "Secret".
 Click on the "Add secret" button below to create the secret.
 
+#### Using the GitHub CLI to Create the Secret
+% TODO: GitHub CLI
+
 # 3. Write the Workflow
 
 Now that we have our API token in place, we can finally get to the fun part:
 writing the actual workflow.
+
+% TODO: located under `.github/workflows`
+
+% TODO: basic setup `name, on`
+
+% TODO: job: checkout repo
+
+% TODO: job: publish
+
+#### Permissions for Private Repositories
+
+% TODO: `permissions` for private repos
 
 # 4. Optional: Comparing Cargo.toml Version with Tag 
 
