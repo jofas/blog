@@ -125,6 +125,8 @@ page!).
 
 <div style="text-align: center">
 
+<a name="fig-navigate-to-secret"></a>
+
 ![GitHub: navigate to new Action secret](/images/github_secrets_1.jpg)
 
 Figure 4: *How to navigate to* `https://github.com/{user or orga}/{repo}/settings/secrets/actions/new`
@@ -132,7 +134,21 @@ Figure 4: *How to navigate to* `https://github.com/{user or orga}/{repo}/setting
 
 </div>
 
+Once we have copied our API token from crates.io to our clipboard, we have to
+make it available to our workflow.
+The token must stay a secret (otherwise people could publish malicious content
+to crates.io using our credentials or [yank](https://doc.rust-lang.org/cargo/reference/publishing.html#cargo-yank) 
+our crates).
+We can store the token securely on GitHub in an [Action secret](https://docs.github.com/en/actions/security-guides/encrypted-secrets).
+You can create a new secret for the repository containing your crate under
+`https://github.com/{user or orga}/{repo}/settings/secrets/actions/new`.
+You can navigate to the page from your repository.
+You can find it under *Settings > Secrets and variables > Actions* (see
+Figure [4](#fig-navigate-to-secret)).
+
 <div style="text-align: center">
+
+<a name="fig-create-secret"></a>
 
 ![GitHub: create new Action secret](/images/github_secrets_2.jpg)
 
@@ -140,7 +156,23 @@ Figure 5: *Create a new GitHub Action secret*
 
 </div>
 
+The page you'll see is depicted in Figure [5](#fig-create-secret). 
+You have two text inputs, one for the name of the secret, one for the secret
+itself.
+Type in the name of your secret.
+I use `CARGO_REGISTRY_TOKEN` for the secret name, as it is the name of the
+[environment variable](https://doc.rust-lang.org/cargo/reference/config.html#registrytoken) 
+Cargo uses to look up the token during publishing.
+We'll use the secret name explicitly in our workflow, mapping it to the 
+environment variable, so you can name the secret however you like.
+Paste the secret from the clipboard into the second text input labeled 
+"Secret".
+Click on the "Add secret" button below to create the secret.
+
 # 3. Write the Workflow
+
+Now that we have our API token in place, we can finally get to the fun part:
+writing the actual workflow.
 
 # 4. Optional: Comparing Cargo.toml Version with Tag 
 
