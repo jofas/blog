@@ -273,4 +273,4 @@ This would match a tag consisting solely of a SemVer version number, like
   in them that'd match all possible SemVer versions, while not matching a string 
   that is not a valid SemVer version. 
   I leave it up to you to write a glob pattern that fits your use of SemVer 
-  metadata, if you need it.
+  metadata.
