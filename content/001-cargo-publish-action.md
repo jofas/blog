@@ -194,10 +194,53 @@ You can find the documentation for the `gh secret set` command
 
 Now that we have our API token in place, we can finally get to the fun part:
 writing the actual workflow.
+Workflows are yaml files that live in the `.github/workflows` directory of your 
+repository.
+Let's create a new workflow `.github/workflows/publish.yml` and start with
+giving it a name:
 
-% TODO: located under `.github/workflows`
+```yaml
+name: Publish
+```
 
-% TODO: basic setup `name, on`
+Okay now, that was not very spicy. 
+Let's get to a more fun section of our workflow we have to define, the trigger.
+We want to trigger the publishing workflow when we create a tag that looks like
+the version of our crate.
+The version of our crate can be found in the `Cargo.toml` manifest file in the
+[`package.version`](https://doc.rust-lang.org/cargo/reference/manifest.html#the-version-field) 
+field.
+Crates must adhere to semantic versioning, as it is used by Cargo to check for
+compatible versions during dependency resolution.
+Without going into much detail, SemVer version numbers consist of three numeric
+parts (called major, minor and patch) separated by dots, like `1.0.1`, or 
+`0.1.1234`, for example.
+Semantic versioning also supports additional labels and metadata after the 
+version number (like `1.0.0-beta.12`)[^3].
+Tag filters can be described with a 
+[glob pattern](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet)
+that looks a little bit like a regular expression.
+Let's have a look at the trigger already:
+
+```yaml
+name: Publish
+on:
+  push:
+    tags:
+      - v[0-9]+.[0-9]+.[0-9]+
+```
+
+The [`on`](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on) 
+field looks pretty straight-forward.
+Every time we push a tag that looks like `v[0-9]+.[0-9]+.[0-9]+`, run this
+workflow.
+For example, when we push a tag `v0.1.0`, this workflow would be executed, 
+whereas a tag `some-tag` would not trigger this workflow, as it is not matched 
+by the glob pattern.
+Note that if you prefer your version tags without the leading `v`, all you have
+to do is remove the `v` from the glob pattern: `[0-9]+.[0-9]+.[0-9]+`.
+This would match a tag consisting solely of a SemVer version number, like 
+`1.2.3`.
 
 % TODO: job: checkout repo
 
@@ -218,3 +261,16 @@ writing the actual workflow.
   convenient for me as possible.
 
 [^2]: Actually rather little effort is needed.
+
+[^3]: This tutorial omits the support for pre-release labels and metadata, 
+  focusing solely on the version numbers.
+  You can find regular expressions for matching SemVer versions correctly 
+  [here](https://semver.org/#is-there-a-suggested-regular-expression-regex-to-check-a-semver-string),
+  in case you have the need to extend the workflow trigger to contain such.
+  GitHub's [glob patterns](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet) 
+  are not very powerful compared to regular expressions.
+  Therefore it's quite hard (if not impossible) to write a universal filter
+  in them that'd match all possible SemVer versions, while not matching a string 
+  that is not a valid SemVer version. 
+  I leave it up to you to write a glob pattern that fits your use of SemVer 
+  metadata, if you need it.
