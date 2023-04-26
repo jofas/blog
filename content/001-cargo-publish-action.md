@@ -170,7 +170,25 @@ Paste the secret from the clipboard into the second text input labeled
 Click on the "Add secret" button below to create the secret.
 
 #### Using the GitHub CLI to Create the Secret
-% TODO: GitHub CLI
+
+Instead of using GitHub's web UI, you can also use [GitHub CLI](https://cli.github.com/),
+which you may find more convenient.
+Open your console and navigate to your repository.
+Inside your repository, run the following command to create the secret:
+
+```bash
+gh secret set CARGO_REGISTRY_TOKEN -b "$TOKEN"
+```
+
+`$TOKEN` is your API token from crates.io. 
+On Linux with X11, you can insert the token from your clipboard easily with:
+
+```bash
+gh secret set CARGO_REGISTRY_TOKEN -b "$(xclip -o)"
+```
+
+You can find the documentation for the `gh secret set` command 
+[here](https://cli.github.com/manual/gh_secret_set).
 
 # 3. Write the Workflow
 
@@ -186,8 +204,6 @@ writing the actual workflow.
 % TODO: job: publish
 
 #### Permissions for Private Repositories
-
-% TODO: `permissions` for private repos
 
 # 4. Optional: Comparing Cargo.toml Version with Tag 
 
