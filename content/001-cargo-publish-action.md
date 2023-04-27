@@ -47,7 +47,8 @@ the task itself.
 A late adopter of the CD (continuous deployment) part of CI/CD, I learned that
 there is more to a release than meets the eye, even with seemingly simple 
 deployments like a crate distributed via Cargo.
-A release always consists of more than just a single command.
+Creating a release always requires you to execute more than just a single 
+command.
 There are simple things that need to be done, like tagging the release commit. 
 But publishing a crate can also be embedded in a bigger and more 
 complex release setup that consists of multiple deployments to different 
@@ -241,14 +242,14 @@ to do is remove the `v` from the glob pattern: `[0-9]+.[0-9]+.[0-9]+`.
 This would match a tag consisting solely of a SemVer version number, like 
 `1.2.3`.
 
-Now that we have our trigger we have to tell GitHub what to do.
-There are pretty much only two steps necessary to publish our crate, (I) make
+Now that we have our trigger, we have to tell GitHub what to do.
+There are basically only two steps necessary to publish our crate, (I) make
 the source code available in our workflow runner and (II) tell Cargo to publish 
 it.
 But first we have to tell GitHub what kind of machine and container we'd like 
 our workflow to run in.
-We'll use a fairly common setup for that, namely the latest Ubuntu LTS version
-as basis and on top of that the latest release of the 
+We'll use a fairly common setup&mdash;in Rust world&mdash;for that, namely the 
+latest Ubuntu LTS version as basis and on top of that the latest release of the 
 [Rust](https://hub.docker.com/_/rust) container that makes the necessary tools
 to publish our crate available to us:
 
@@ -260,16 +261,71 @@ jobs:
       image: rust:latest
 ```
 
-To get the code, we'll use the [checkout](https://github.com/marketplace/actions/checkout)
-action.
+Now that we have our basic runner setup, we have to write the necessary steps 
+our runner should perform (see above).
+To get the source code from our repository, we'll use the 
+[checkout](https://github.com/marketplace/actions/checkout) action.
 It will pull our repository into the workflow, allowing it access to the 
-contents, i.e. the crate's source code.
+contents, i.e. the crate's source code:
 
-% TODO: job: checkout repo
+```yaml
+jobs:
+  Publish:
+    runs-on: ubuntu-latest
+    container:
+      image: rust:latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+```
 
-% TODO: job: publish
+Everything is in place now for Cargo to do its job and publish our crate.
+All we have to do is run `cargo publish` with our API token exposed in the
+`CARGO_REGISTRY_TOKEN` environment variable and Cargo will do the rest:
 
-#### Permissions for Private Repositories
+```yaml
+jobs:
+  Publish:
+    runs-on: ubuntu-latest
+    container:
+      image: rust:latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Publish
+        run: cargo publish
+        env:
+          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+```
+
+Et voilà! Not hard to setup a GitHub Action workflow that publishes your crate
+to crates.io at all!
+Note that if you used a different name than `CARGO_REGISTRY_TOKEN` for the 
+secret with the API token from crates.io, you have to change 
+`${{ secrets.CARGO_REGISTRY_TOKEN }}` to `${{ secrets.YOUR_SECRET_NAME }}`.
+Here our whole workflow at this point:
+
+```yaml
+name: Publish
+on:
+  push:
+    tags:
+      - v[0-9]+.[0-9]+.[0-9]+
+jobs:
+  Publish:
+    runs-on: ubuntu-latest
+    container:
+      image: rust:latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Publish
+        run: cargo publish
+        env:
+          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+```
+
+#### Publishing to Registries other than Crates.io
 
 # 4. Optional: Comparing Cargo.toml Version with Tag 
 
