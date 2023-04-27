@@ -396,14 +396,14 @@ jobs:
 [^2]: Actually rather little effort is needed.
 
 [^3]: This tutorial omits the support for pre-release labels and metadata, 
-  focusing solely on the version numbers.
+  focusing solely on the version number.
   You can find regular expressions for matching SemVer versions correctly 
   [here](https://semver.org/#is-there-a-suggested-regular-expression-regex-to-check-a-semver-string),
   in case you have the need to extend the workflow trigger to contain such.
   GitHub's [glob patterns](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet) 
   are not very powerful compared to regular expressions.
   Therefore it's quite hard (if not impossible) to write a universal filter
-  in them that'd match all possible SemVer versions, while not matching a string 
-  that is not a valid SemVer version. 
+  that'd match all possible SemVer versions, while not matching a string that 
+  is not a valid SemVer version. 
   I leave it up to you to write a glob pattern that fits your use of SemVer 
   metadata.
