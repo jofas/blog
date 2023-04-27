@@ -383,6 +383,46 @@ jobs:
 
 # 4. Optional: Comparing Cargo.toml Version with Tag 
 
+While we automated crate publishing just now, there's an easy-to-make error we
+haven't protected us from yet.
+Namely using a tag that does not match the version number of our crate.
+As stated above, Cargo uses the `package.version` field from the `Cargo.toml`
+manifest file of your crate to determine the version that is published.
+Say we want to publish version `0.2.1` of our crate.
+So far, nothing hinders us from triggering the workflow with a tag that looks
+like a SemVer version different from the one in our manifest. 
+For the paranoids, this is not good enough.
+Having release `0.2.1` tagged as `0.2.2` is not acceptable.
+So we need to compare the version in our manifest with the tag and make sure 
+they are equal.
+
+Getting the name of the tag we pushed is easy. 
+It is available to our workflow in the `github.ref_name` property of the 
+`github` [context](https://docs.github.com/en/actions/learn-github-actions/contexts).
+Getting the value of the `package.version` field from `Cargo.toml` is more 
+tricky.
+We need a tool that can parse `toml` files and extract the information we need
+from it.
+Luckily there is such a tool available that is easy to get with the tools we
+already have installed in our runner, [toml-cli](https://crates.io/crates/toml-cli).
+Binaries from crates.io can be installed with 
+[`cargo install`](https://doc.rust-lang.org/cargo/commands/cargo-install.html):
+
+```bash
+cargo install toml-cli
+````
+
+After we have installed `toml-cli`, we can extract the version from our 
+manifest file with the following command:
+
+```bash
+toml get -r Cargo.toml package.version
+```
+
+% TODO: bash test
+
+% TODO: complete workflow
+
 # 5. Optional: Speed up Workflow with Caching
 
 # 6. Final Workflow
