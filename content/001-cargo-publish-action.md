@@ -327,6 +327,60 @@ jobs:
 
 #### Publishing to Registries other than Crates.io
 
+So far we only looked at publishing to crates.io, the default registry used by
+Cargo.
+What if you want to publish to a different registry?
+Let's have a look how we can set up our workflow to publish to another
+registry.
+Note that in this tutorial we want to configure Cargo solely from within the 
+workflow, not with a [configuration file](https://doc.rust-lang.org/cargo/reference/config.html).
+Let's use the example from the [Cargo Book](https://doc.rust-lang.org/cargo/reference/registries.html).
+Say you want to publish to the `my-registry` registry, whose index is located 
+at `https://my-intranet:8080/git/index`.
+To tell Cargo to use a different registry than the default registry, we can
+use the `--registry` flag:
+
+```bash
+cargo publish --registry=my-registry
+```
+
+We still have to provide an API token to the new registry.
+This must be done with a different environment variable than 
+`CARGO_REGISTRY_TOKEN`, which we used before, as it only works for crates.io.
+For a different registry, Cargo uses the `CARGO_REGISTRIES_<name>_TOKEN` 
+environment variable, where `<name>` is the stylised name of our registry 
+(stylised to uppercase and dashes are converted to underscores).
+In the `my-registry` case, the environment variable would be 
+`CARGO_REGISTRIES_MY_REGISTRY_TOKEN`.
+Unfortunately, we are not done yet.
+Cargo knows where it can find the index of crates.io, but we have to tell it
+where it finds the index of `my-registry`.
+So we need to add another environment variable with the index. 
+It looks nearly identical with the environment variable with the API token:
+`CARGO_REGISTRIES_<name>_INDEX`. Here the changes to the workflow to publish to 
+`my-registry`, instead of crates.io:
+
+```yaml
+name: Publish
+on:
+  push:
+    tags:
+      - v[0-9]+.[0-9]+.[0-9]+
+jobs:
+  Publish:
+    runs-on: ubuntu-latest
+    container:
+      image: rust:latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Publish
+        run: cargo publish --registry=my-registry
+        env:
+          CARGO_REGISTRIES_MY_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+          CARGO_REGISTRIES_MY_REGISTRY_INDEX: https://my-intranet:8080/git/index
+```
+
 # 4. Optional: Comparing Cargo.toml Version with Tag 
 
 # 5. Optional: Speed up Workflow with Caching
