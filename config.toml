@@ -1,6 +1,6 @@
 base_url = "https://fassbender.dev/blog"
 title = "Jonas' Blog"
-description = "Something profound"
+description = "No idea where this is going"
 
 compile_sass = true
 
