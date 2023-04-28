@@ -21,8 +21,8 @@ developer with a blog.
 What's the point? Who cares. The point is that I like writing, so why
 not write a blog. 
 From what I read on the internet on a daily basis, I deduce that 
-writing doesn't have to be profound and insightful (no offense), it can just be 
-an enjoyable act.
+writing doesn't have to be all serious and profound, but that it can be 
+just an enjoyable act.
 At least that is what I'm hoping you guys are doing out there.
 Having fun, growing as individuals and writers whilst sharing your
 letters, making yourselves vulnerable by exposing your thoughts and
@@ -30,6 +30,7 @@ emotions to anybody who cares to read them.
 So to hell with it, if you enjoy reading the musings of your fellow
 individuals on the internet, why not give mine a try? 
 Maybe.
+If you feel like it.
 
 So I guess that is the answer to where this is going. 
 Me having fun writing about stuff I like.
@@ -37,6 +38,8 @@ Like software and computer science.
 Or the highs and lows of freelancing and the sweet freedoms and
 stressful responsibilities that come with it.
 Or maybe cooking or literature.
+Philosophy when I'm in a particularly good mood.
+Random thoughts that pass through my brain that I deem worthy of sharing.
 Probably not sports, which I enjoy doing and watching but don't really
 see the point writing about.
 I have enough to do discussing my personal progress and what's going on in the 
