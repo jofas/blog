@@ -14,15 +14,18 @@ concurrency:
 jobs:
   BuildAndDeploy:
     runs-on: ubuntu-latest
-    container:
-      image: getzola/zola:latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Build website
+      - name: Install zola
+        uses: taiki-e/install-action@v2
+        with:
+          tool: zola@0.17.1
+      - name: Checkout
         uses: actions/checkout@v3
-      - run: zola build
+      - name: Build
+        run: zola build
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
