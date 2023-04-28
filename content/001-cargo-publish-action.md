@@ -1,5 +1,5 @@
 +++
-title = "Publishing your Crates to crates.io with GitHub Actions"
+title = "Automate Publishing your Crates with GitHub Actions"
 template = "page.html"
 date = 2023-04-21T15:00:00Z
 [taxonomies]
@@ -20,8 +20,7 @@ I wouldn't be able to call myself a DevOps Engineer[^1] if I wouldn't automate e
 the silliest and most banal of tasks.
 Not even when I know that I will spend considerably more time writing the
 code (and debugging it!) than it will ever save me.
-In this post, we will have a look at how much[^2] effort it takes to automate 
-publishing your Rust crate to [crates.io](https://crates.io).
+In this post, we will have a look at how to automate publishing your Rust crate. 
 
 Publishing your crate is one of the most complex deployments out there. 
 On par with publishing your app in the Apple App Store or updating your
@@ -65,8 +64,9 @@ Luckily there are other neurotic people out there that came up with the idea
 of CI/CD and convenient and powerful tools like GitHub Actions.
 
 This post contains a step-by-step tutorial on how to set up a GitHub Action
-workflow that publishes your crate to crates.io  when you push a tag that looks 
-like a [SemVer](https://semver.org/) version (without extensions).
+workflow that publishes your crate to [crates.io](https://crates.io)  when you 
+push a tag that looks like a [SemVer](https://semver.org/) version (without 
+extensions).
 This tutorial expects you to have a basic knowledge of 
 [GitHub Actions](https://docs.github.com/en/actions), a GitHub repository with
 a crate you wish to publish and an account on crates.io.
@@ -216,8 +216,8 @@ compatible versions during dependency resolution.
 Without going into much detail, SemVer version numbers consist of three numeric
 parts (called major, minor and patch) separated by dots, like `1.0.1`, or 
 `0.1.1234`, for example.
-Semantic versioning also supports additional labels and metadata after the 
-version number (like `1.0.0-beta.12`)[^3].
+Semantic versioning also supports additional labels and metadata&mdash;so called
+extensions&mdash;after the version number, like `1.0.0-beta.12`[^2].
 Tag filters can be described with a 
 [glob pattern](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet)
 that looks a little bit like a regular expression.
@@ -246,7 +246,7 @@ Now that we have our trigger, we have to tell GitHub what to do.
 There are basically only two steps necessary to publish our crate, (I) make
 the source code available in our workflow runner and (II) tell Cargo to publish 
 it.
-But first we have to tell GitHub what kind of machine and container we'd like 
+But first GitHub needs to know what kind of machine and container we'd like 
 our workflow to run in.
 We'll use a fairly common setup&mdash;in Rust world&mdash;for that, namely the 
 latest Ubuntu LTS version as basis and on top of that the latest release of the 
@@ -262,40 +262,40 @@ jobs:
 ```
 
 Now that we have our basic runner setup, we have to write the necessary steps 
-our runner should perform (see above).
+our runner should perform.
 To get the source code from our repository, we'll use the 
 [checkout](https://github.com/marketplace/actions/checkout) action.
 It will pull our repository into the workflow, allowing it access to the 
 contents, i.e. the crate's source code:
 
-```yaml
-jobs:
-  Publish:
-    runs-on: ubuntu-latest
-    container:
-      image: rust:latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+```diff
+ jobs:
+   Publish:
+     runs-on: ubuntu-latest
+     container:
+       image: rust:latest
++    steps:
++      - name: Checkout repository
++        uses: actions/checkout@v3
 ```
 
 Everything is in place now for Cargo to do its job and publish our crate.
 All we have to do is run `cargo publish` with our API token exposed in the
 `CARGO_REGISTRY_TOKEN` environment variable and Cargo will do the rest:
 
-```yaml
-jobs:
-  Publish:
-    runs-on: ubuntu-latest
-    container:
-      image: rust:latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-      - name: Publish
-        run: cargo publish
-        env:
-          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+```diff
+ jobs:
+   Publish:
+     runs-on: ubuntu-latest
+     container:
+       image: rust:latest
+     steps:
+       - name: Checkout repository
+         uses: actions/checkout@v3
++      - name: Publish
++        run: cargo publish
++        env:
++          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
 ```
 
 Et voilà! Not hard to setup a GitHub Action workflow that publishes your crate
@@ -360,25 +360,27 @@ It looks nearly identical with the environment variable with the API token:
 `CARGO_REGISTRIES_<name>_INDEX`. Here the changes to the workflow to publish to 
 `my-registry`, instead of crates.io:
 
-```yaml
-name: Publish
-on:
-  push:
-    tags:
-      - v[0-9]+.[0-9]+.[0-9]+
-jobs:
-  Publish:
-    runs-on: ubuntu-latest
-    container:
-      image: rust:latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-      - name: Publish
-        run: cargo publish --registry=my-registry
-        env:
-          CARGO_REGISTRIES_MY_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
-          CARGO_REGISTRIES_MY_REGISTRY_INDEX: https://my-intranet:8080/git/index
+```diff
+ name: Publish
+ on:
+   push:
+     tags:
+       - v[0-9]+.[0-9]+.[0-9]+
+ jobs:
+   Publish:
+     runs-on: ubuntu-latest
+     container:
+       image: rust:latest
+     steps:
+       - name: Checkout repository
+         uses: actions/checkout@v3
+       - name: Publish
+-        run: cargo publish
++        run: cargo publish --registry=my-registry
+         env:
+-          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
++          CARGO_REGISTRIES_MY_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
++          CARGO_REGISTRIES_MY_REGISTRY_INDEX: https://my-intranet:8080/git/index
 ```
 
 # 4. Optional: Comparing Cargo.toml Version with Tag 
@@ -404,7 +406,8 @@ tricky.
 We need a tool that can parse `toml` files and extract the information we need
 from it.
 Luckily there is such a tool available that is easy to get with the tools we
-already have installed in our runner, [toml-cli](https://crates.io/crates/toml-cli).
+already have installed in our runner: [`toml-cli`](https://crates.io/crates/toml-cli).
+`toml-cli` is a CLI program distributed as a Rust binary on crates.io.
 Binaries from crates.io can be installed with 
 [`cargo install`](https://doc.rust-lang.org/cargo/commands/cargo-install.html):
 
@@ -419,9 +422,44 @@ manifest file with the following command:
 toml get -r Cargo.toml package.version
 ```
 
-% TODO: bash test
+All that is left is compare the extracted version from our manifest with the
+pushed tag.
+We'll use another command that we already have available in our runner:
+Bash's [`test`](https://www.man7.org/linux/man-pages/man1/test.1.html) command.
+It allows us to compare two strings&mdash;the version from our manifest and our
+tag&mdash;and fail the workflow if they are not equal (by returning an exit 
+code other than zero).
+Here's how we install `toml-cli` and compare manifest version with the tag, in
+two easy steps:
 
-% TODO: complete workflow
+```diff
+ name: Publish
+ on:
+   push:
+     tags:
+       - v[0-9]+.[0-9]+.[0-9]+
+ jobs:
+   Publish:
+     runs-on: ubuntu-latest
+     container:
+       image: rust:latest
+     steps:
+       - name: Checkout repository
+         uses: actions/checkout@v3
++      - name: Install toml-cli
++        run: cargo install toml-cli
++      - name: Check version
++        run: test "v$(toml get -r Cargo.toml package.version)" = "${{ github.ref_name }}"
+       - name: Publish
+         run: cargo publish --registry=my-registry
+         env:
+           CARGO_REGISTRIES_MY_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+           CARGO_REGISTRIES_MY_REGISTRY_INDEX: https://my-intranet:8080/git/index
+```
+
+If you don't use the `v` in front of your version number in your release tags,
+you have to remove the `v` in front of the embedded call to `toml-cli` in the
+"Check version" step.
 
 # 5. Optional: Speed up Workflow with Caching
 
@@ -433,10 +471,8 @@ toml get -r Cargo.toml package.version
   I also love writing my own CLI programs and scripts to make Ops as easy and 
   convenient for me as possible.
 
-[^2]: Actually rather little effort is needed.
-
-[^3]: This tutorial omits the support for pre-release labels and metadata, 
-  focusing solely on the version number.
+[^2]: This tutorial omits the support for extensions, focusing solely on the 
+  version number.
   You can find regular expressions for matching SemVer versions correctly 
   [here](https://semver.org/#is-there-a-suggested-regular-expression-regex-to-check-a-semver-string),
   in case you have the need to extend the workflow trigger to contain such.
@@ -446,4 +482,4 @@ toml get -r Cargo.toml package.version
   that'd match all possible SemVer versions, while not matching a string that 
   is not a valid SemVer version. 
   I leave it up to you to write a glob pattern that fits your use of SemVer 
-  metadata.
+  extensions.
