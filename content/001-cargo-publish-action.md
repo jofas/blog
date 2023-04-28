@@ -61,19 +61,20 @@ creating a tag that has the wrong version.
 But as a notorious over-thinker and perfectionist, the thought of leaving a 
 project in such a subtly inconsistent state makes me shiver.
 Luckily there are other neurotic people out there that came up with the idea
-of CI/CD and convenient and powerful tools like GitHub Actions.
+of CI/CD and convenient and powerful tools like 
+[GitHub Actions](https://docs.github.com/en/actions).
 
-This post contains a step-by-step tutorial on how to set up a GitHub Action
+This post contains a step-by-step tutorial on how to set up a GitHub Actions
 workflow that publishes your crate to [crates.io](https://crates.io)  when you 
 push a tag that looks like a [SemVer](https://semver.org/) version (without 
 extensions).
-This tutorial expects you to have a basic knowledge of 
-[GitHub Actions](https://docs.github.com/en/actions), a GitHub repository with
-a crate you wish to publish and an account on crates.io.
+This tutorial expects you to have a basic knowledge of GitHub Actions, a GitHub 
+repository with a crate you wish to publish and an account on crates.io.
 Except the first part (where we get an API token from crates.io), this 
 tutorial extends to publishing a crate to 
 [registries](https://doc.rust-lang.org/cargo/reference/registries.html) other 
 than crates.io as well.
+The complete workflow can be found in [this](#6-final-workflow) section.
 
 # 1. Get an API Token from crates.io
 
@@ -250,7 +251,7 @@ But first GitHub needs to know what kind of machine and container we'd like
 our workflow to run in.
 We'll use a fairly common setup&mdash;in Rust world&mdash;for that, namely the 
 latest Ubuntu LTS version as basis and on top of that the latest release of the 
-[Rust](https://hub.docker.com/_/rust) container that makes the necessary tools
+[Rust container](https://hub.docker.com/_/rust) that makes the necessary tools
 to publish our crate available to us:
 
 ```yaml
@@ -451,19 +452,56 @@ two easy steps:
 +      - name: Check version
 +        run: test "v$(toml get -r Cargo.toml package.version)" = "${{ github.ref_name }}"
        - name: Publish
-         run: cargo publish --registry=my-registry
-         env:
-           CARGO_REGISTRIES_MY_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
-           CARGO_REGISTRIES_MY_REGISTRY_INDEX: https://my-intranet:8080/git/index
+         run: cargo publish
+         env:            
+           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
 ```
 
 If you don't use the `v` in front of your version number in your release tags,
 you have to remove the `v` in front of the embedded call to `toml-cli` in the
 "Check version" step.
+If your `Cargo.toml` manifest file is not located in the root directory of your
+repository, you'd have to change the path to in the call to `toml-cli`:
 
-# 5. Optional: Speed up Workflow with Caching
+```bash
+toml get -r path/to/Cargo.toml package.version
+```
 
 # 6. Final Workflow
+
+In this tutorial we looked at how to automate publishing a Rust crate with a
+GitHub Actions workflow.
+We created a trigger that runs the workflow whenever we push a tag that looks
+like a SemVer version number (with a leading `v` and without) and performs the
+necessary steps to publish our crate (to crates.io or another registry).
+Furthermore we made the workflow more bullet-proof by adding a test that makes
+sure the crate version in our `Cargo.toml` manifest file matches the tag we
+pushed, to avoid having releases labeled with the wrong version number.
+Here the final workflow:
+
+```yaml
+name: Publish
+on:
+  push:
+    tags:
+      - v[0-9]+.[0-9]+.[0-9]+
+jobs:
+  Publish:
+    runs-on: ubuntu-latest
+    container:
+      image: rust:latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Install toml-cli
+        run: cargo install toml-cli
+      - name: Check version
+        run: test "v$(toml get -r Cargo.toml package.version)" = "${{ github.ref_name }}"
+      - name: Publish
+        run: cargo publish
+        env:            
+          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+```
 
 [^1]: I don't call me that, but I enjoy dabbling with modern concepts of DevOps
   like CI/CD, artifact registries, containerisation, Kubernetes and cloud 
