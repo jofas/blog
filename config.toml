@@ -6,6 +6,8 @@ compile_sass = true
 
 build_search_index = false
 
+generate_feed = true
+
 theme = "anatole-zola"
 
 taxonomies = [
