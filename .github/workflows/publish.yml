@@ -24,6 +24,8 @@ jobs:
           tool: zola@0.17.1
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          submodules: true
       - name: Build
         run: zola build
       - name: Setup Pages
