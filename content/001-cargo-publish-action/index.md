@@ -81,7 +81,7 @@ The complete workflow can be found in [this](#6-final-workflow) section.
 
 <div style="text-align: center">
 
-![crates.io: navigate to API tokens](/blog/images/crates_io_1.jpg)
+![crates.io: navigate to API tokens](crates_io_1.jpg)
 
 Figure 2: *How to navigate to* 
 [`https://crates.io/settings/tokens`](https://crates.io/settings/tokens) 
@@ -105,7 +105,7 @@ tokens.
 
 <div style="text-align: center">
 
-![crates.io: create new API token](/blog/images/crates_io_2.jpg)
+![crates.io: create new API token](crates_io_2.jpg)
 
 Figure 3: *Create a new API token*
 
@@ -130,7 +130,7 @@ page!).
 
 <a name="fig-navigate-to-secret"></a>
 
-![GitHub: navigate to new Action secret](/blog/images/github_secrets_1.jpg)
+![GitHub: navigate to new Action secret](github_secrets_1.jpg)
 
 Figure 4: *How to navigate to* `https://github.com/{user or orga}/{repo}/settings/secrets/actions/new`
 *from within the webapp*
@@ -153,7 +153,7 @@ Figure [4](#fig-navigate-to-secret)).
 
 <a name="fig-create-secret"></a>
 
-![GitHub: create new Action secret](/blog/images/github_secrets_2.jpg)
+![GitHub: create new Action secret](github_secrets_2.jpg)
 
 Figure 5: *Create a new GitHub Action secret*
 
