@@ -14,10 +14,16 @@ concurrency:
 jobs:
   BuildAndDeploy:
     runs-on: ubuntu-latest
+    container:
+      image: node:latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Install dependencies
+        run: |
+          apt-get update
+          apt-get install build-essential
       - name: Install zola
         uses: taiki-e/install-action@v2
         with:
@@ -27,7 +33,7 @@ jobs:
         with:
           submodules: true
       - name: Build
-        run: zola build
+        run: make release
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
