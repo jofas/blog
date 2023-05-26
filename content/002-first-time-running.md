@@ -28,14 +28,14 @@ memories to arise.
 Which they did.
 And now I'm going to tell you about them in a hopefully slightly funny and 
 entertaining story that does not contain an ounce of wisdom, advice or anything 
-else valuable that you could apply to your life.
+else valuable that you could apply to your own life.
 I just can't help myself but to find human foolishness endlessly amusing.
 Which is probably why God gave me so much of it.
 
 You&mdash;probably a responsible adult with working instincts and the healthy 
 ability to assess your own skills and abilities with accuracy&mdash;may be 
 asking yourself right now: what is he talking about, running isn't so bad?
-I totally agree that running is not bad at all.
+I agree with you that running is not bad at all.
 In fact, I believe the opposite to be true, that running can be a very healthy 
 and rewarding endeavour.
 After all, our bodies were built to run.
@@ -46,13 +46,15 @@ Like pretty much anything else out there, the act of putting one feet in front
 of the other in an interval so rapid that there's a short period of time where 
 neither foot touches the ground can be abused and perverted in a way it becomes 
 painful and destructive to the organism performing this particular motion.
-
-I'm quite unable to find the right level of intensity, resulting in me either
-underestimating or&mdash;which makes for far better stories&mdash;overestimating
-my abilities completely.
-When it comes to sports, luckily I'm more often confronted with situations 
-arising due to the latter.
-Really, I seem to imagine myself to be some invincible uber-athlete in my head.
+You see, oftentimes&mdash;especially without past experiences for 
+guidance&mdash;I'm quite incapable of finding the right level of intensity.
+I'm either underestimating or&mdash;which makes for far better 
+stories&mdash;overestimating my abilities to a point beyond mere folly.
+No, when I'm assessing myself, the results tend to be in the land of utter and 
+complete absurdity.
+Thanks to this trait o' mine, I occasionally find myself in these strange
+moments where I get a short but intense glimpse at the true extend of my
+abilities which has never been flattering.
 
 % explain why it was so hurtful (I overdid it completely)
 
