@@ -26,18 +26,16 @@ venomous words of ~~Lucifer~~ my obviously masochist friends.
 Certainly time has corroded my defenses and opened the door for new painful 
 memories to arise.
 Which they did.
-And now I'm going to tell you about them in a hopefully slightly funny and 
-entertaining story that does not contain an ounce of wisdom, advice or anything 
-else valuable that you could apply to your own life.
+To properly process them I wrote this hopefully slightly funny and entertaining 
+story that does not contain an ounce of wisdom, advice or anything else valuable 
+that you could apply to your own life.
 I just can't help myself but to find human foolishness endlessly amusing.
 Which is probably why God gave me so much of it.
 
 You&mdash;probably a responsible adult with working instincts and the healthy 
 ability to assess your own skills and abilities with accuracy&mdash;may be 
 asking yourself right now: what is he talking about, running isn't so bad?
-I agree with you that running is not bad at all.
-In fact, I believe the opposite to be true, that running can be a very healthy 
-and rewarding endeavour.
+Running is not bad at all and it can be a very healthy and rewarding endeavour.
 After all, our bodies were built to run.
 But, as you might have guessed by now, I'm not a responsible adult with working
 instincts and the healthy ability to assess my own skills and abilities with 
@@ -47,16 +45,17 @@ of the other in an interval so rapid that there's a short period of time where
 neither foot touches the ground can be abused and perverted in a way it becomes 
 painful and destructive to the organism performing this particular motion.
 You see, oftentimes&mdash;especially without past experiences for 
-guidance&mdash;I'm quite incapable of finding the right level of intensity.
-I'm either underestimating or&mdash;which makes for far better 
-stories&mdash;overestimating my abilities to a point beyond mere folly.
-No, when I'm assessing myself, the results tend to be in the land of utter and 
-complete absurdity.
-Thanks to this trait o' mine, I occasionally find myself in these strange
-moments where I get a short but intense glimpse at the true extend of my
-abilities which has never been flattering.
-
-% explain why it was so hurtful (I overdid it completely)
+guidance&mdash;I'm overestimating my abilities to a point beyond mere folly, no, 
+the results tend to be in the land of utter and complete absurdity.
+Combine this with the inability to be reasonable and give up when it becomes
+clear that the set goals are not realistic and you'll experience a good 
+dosage of self-inflicted physical and mental pain.
+This stubbornness allows me to experience these strange moments where I get a 
+short but intense glimpse at the true extend of my abilities; never flattering.
+Luckily for me I'm weak as hell, so I don't need to run 200 miles in two days 
+straight like Courtney Dauwalter (a person I've nothing but admiration for) to
+enter my pain cave, but just eight kilometers in about an hour, never far from 
+home.
 
 % Paragraph Physical condition
 
@@ -64,6 +63,7 @@ abilities which has never been flattering.
 
 % Describe the run
 
-% Describe what happened afterwards
+% Describe what happened afterwards (calves, nose, body temperature, runners
+high)
 
 % Conclusion
