@@ -53,11 +53,76 @@ dosage of self-inflicted physical and mental pain.
 This stubbornness allows me to experience these strange moments where I get a 
 short but intense glimpse at the true extend of my abilities; never flattering.
 Luckily for me I'm weak as hell, so I don't need to run 200 miles in two days 
-straight like Courtney Dauwalter (a person I've nothing but admiration for) to
-enter my pain cave, but just eight kilometers in about an hour, never far from 
-home.
+straight like Courtney Dauwalter to enter my pain cave, but just eight 
+kilometers in about an hour, never far from home.
 
-% Paragraph Physical condition
+The second question that probably popped into your head: just eight kilometers, 
+he must be in terrible shape then?
+No, I'm not.
+Before this fateful event I'm describing here, I thought I was in peak physical
+condition.
+I've been doing sports pretty much my whole life, with two notable absences: one 
+year when I was 14 and three years from 2017 to 2020 during most of my undergrad 
+and the first semester of my post-grad.
+The former was due to a knee injury and the latter was caused by pure and utter 
+laziness.
+The three year absence till 2020 is somewhat important, as it was a long period
+of time and because my focus shifted after starting to exercise again.
+Before the break I was playing basketball in a club and all other athletic 
+training I did&mdash;including running&mdash;was accessory to my goal of 
+becoming a good basketball player. 
+Then a few things happened in my life, one being the development of chronic 
+pain in my knees, shins and feet due to my flat footedness (important detail to 
+keep in mind) and I just stopped playing basketball, a sport I have played 
+since I remember.
+I tried to do some exercises in the months that followed, but I never mustered 
+enough motivation to find a regular training routine suitable to improve my 
+weaknesses.
+The next three years I played the occasional match on the outdoor courts in the
+summer, a few games of squash and some day-long hikes, but really nothing 
+much else. 
+No weightlifting and for sure no running.
+No regular training routine.
+I lost some weight but otherwise stayed in decent enough shape.
+
+Then, in 2020 a friend and I were discussing the fact that we were not using 
+the offerings of our university enough.
+So he suggested to go to the gym together, as our uni had its own&mdash;the 
+Pleasance Gym in Edinburgh, terrific place&mdash;with fair prices for enrolled 
+students.
+I politely declined.
+He was adamant and told me, we could just go and play a game of squash.
+I approved of that plan and so we went to the gym together.
+Deviousness is nothing I'd associate with him, but that day I got tricked badly.
+We went to the Pleasance. Thirty minutes early.
+
+"What should we do until our court is ready?" he asked.
+
+"I don't know."
+
+"Well, we could go down to the vaults and warm up."
+
+"Alright." I answered innocently and followed like a lamb to the slaughter.
+
+Of course we had to do squats. For warm-ups. Man. Long story short, squatting
+after three years with no weight training was nearly as bad as going for a run
+after eight years of no running.
+The pain my body had to endure for over a week was excruciating.
+One of the best parts of my daily routine was walking to and from uni through 
+beautiful Edinburgh every day.
+From Leith along Leith Walk to Princes Street, over North Bridge with its 
+breathtaking view of Old and New Town, Scott Monument and the Balmoral
+and finally along Old College to the Bayes Centre at George Square and back.
+2.5 kilometers one-way.
+For a week I had to hobble the whole distance.
+But I was hooked again on weight lifting.
+How your body feels afterwards; the stress release and endorphins are just too 
+good.
+Combine that with the reward of getting stronger, feeling healthier and a more 
+attractive physical appearance, I was back on the grind and have been since 
+that day I completely wracked my legs and lower back.
+
+% how my training routine has looked like in recent years
 
 % Paragraph setting the concrete scene + my state of mind
 
