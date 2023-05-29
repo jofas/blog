@@ -104,25 +104,36 @@ We went to the Pleasance. Thirty minutes early.
 
 "Alright." I answered innocently and followed like a lamb to the slaughter.
 
-Of course we had to do squats. For warm-ups. Man. Long story short, squatting
-after three years with no weight training was nearly as bad as going for a run
-after eight years of no running.
-The pain my body had to endure for over a week was excruciating.
+Of course we had to do squats. For warm-ups. Man. Squatting after three years 
+with no weight training was nearly as bad as going for a run after eight years 
+of no running.
+The soreness my body had to endure for over a week was excruciating.
 One of the best parts of my daily routine was walking to and from uni through 
 beautiful Edinburgh every day.
-From Leith along Leith Walk to Princes Street, over North Bridge with its 
-breathtaking view of Old and New Town, Scott Monument and the Balmoral
-and finally along Old College to the Bayes Centre at George Square and back.
+From Leith along Leith Walk to bustling Princes Street, over North Bridge with 
+its breathtaking view over Old and New Town, Scott Monument and the Balmoral
+and finally alongside Old College through Potterrow Port to the Bayes Centre at 
+George Square and back.
 2.5 kilometers one-way.
 For a week I had to hobble the whole distance.
 But I was hooked again on weight lifting.
-How your body feels afterwards; the stress release and endorphins are just too 
-good.
-Combine that with the reward of getting stronger, feeling healthier and a more 
+How your body feels afterwards; the stress relief and the release of endorphins 
+are just too good.
+Combined with the reward of getting stronger, feeling healthier and a more 
 attractive physical appearance, I was back on the grind and have been since 
 that day I completely wracked my legs and lower back.
+My aim shifted from being a good basketball player to being a healthy, 
+injury-free person with high overall strength and athletic ability.
+Since 2020 I've tried out various training plans and routines to achieve that 
+goal.
 
-% how my training routine has looked like in recent years
+% TODO: here something is missing, I need to figure out what (discussion on my
+        health, I guess)
+
+I've been focusing mostly on increasing my personal records in my favourite 
+full-body lifts like deadlifts, squats, overhead presses, cleans and power 
+snatches, though these days I'm back on bodyweight exercises with a focus on
+pistol squats and decline push-ups.
 
 % Paragraph setting the concrete scene + my state of mind
 
