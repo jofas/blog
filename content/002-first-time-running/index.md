@@ -11,24 +11,24 @@ summary = "I went running for the first time in eight years. This is what happen
 
 Last week I went running for the first time.
 Well, not for the first time ever, but for the first time in a really long time.
-A time span so long that it warrants a slightly more sensational title (though 
-neither "Going Running for the First Time" nor "Going Running for the First Time 
-in a Really Long Time" are particularly sensational and arousing; really, why 
-the hell are you reading this?) in my humble opinion.
+A time span so long that it warrants a slightly more sensational title in my
+humble opinion, though neither "Going Running for the First Time" nor "Going 
+Running for the First Time in a Really Long Time" are particularly sensational 
+and arousing; really, why the hell are you reading this? 
 I think the last time I went for a run&mdash;it was so long ago that I can't
 even remember exactly when&mdash;was around the time I had the written exams for 
 my Abitur (German A-levels).
 That was in April or May 2015, so pretty much exactly eight years ago.
 Long enough for the bad memories to cease their hunting. 
-Long enough to forget the suffering I put myself through.
+Long enough to forget the suffering.
 Long enough to get weary, let down my guard and fall prey to the sweetly
 venomous words of ~~Lucifer~~ my obviously masochist friends.
 Certainly time has corroded my defenses and opened the door for new painful 
 memories to arise.
 Which they did.
-To properly process them I wrote this hopefully slightly funny and entertaining 
-story that does not contain an ounce of wisdom, advice or anything else valuable 
-that you could apply to your own life.
+To properly process them I wrote this hopefully slightly entertaining story that 
+does not contain an ounce of wisdom, advice or anything else valuable that you 
+could apply to your own life.
 I just can't help myself but to find human foolishness endlessly amusing.
 Which is probably why God gave me so much of it.
 
@@ -36,13 +36,13 @@ You&mdash;probably a responsible adult with working instincts and the healthy
 ability to assess your own skills and abilities with accuracy&mdash;may be 
 asking yourself right now: what is he talking about, running isn't so bad?
 Running is not bad at all and it can be a very healthy and rewarding endeavour.
-After all, our bodies were built to run.
+After all, our bodies are build to run.
 But, as you might have guessed by now, I'm not a responsible adult with working
 instincts and the healthy ability to assess my own skills and abilities with 
 accuracy.
 Like pretty much anything else out there, the act of putting one feet in front
 of the other in an interval so rapid that there's a short period of time where 
-neither foot touches the ground can be abused and perverted in a way it becomes 
+neither foot touches the ground, can be abused and perverted in a way it becomes 
 painful and destructive to the organism performing this particular motion.
 You see, oftentimes&mdash;especially without past experiences for 
 guidance&mdash;I'm overestimating my abilities to a point beyond mere folly, no, 
@@ -61,9 +61,9 @@ he must be in terrible shape then?
 No, I'm not.
 Before this fateful event I'm describing here, I thought I was in peak physical
 condition.
-I've been doing sports pretty much my whole life, with two notable absences: one 
-year when I was 14 and three years from 2017 to 2020 during most of my undergrad 
-and the first semester of my post-grad.
+I've been doing sports pretty much my whole life, with two notable absences. 
+One year when I was 14 and three years from 2017 to 2020 during most of my 
+undergrad and the first semester of my post-grad.
 The former was due to a knee injury and the latter was caused by pure and utter 
 laziness.
 The three year absence till 2020 is somewhat important, as it was a long period
@@ -72,9 +72,8 @@ Before the break I was playing basketball in a club and all other athletic
 training I did&mdash;including running&mdash;was accessory to my goal of 
 becoming a good basketball player. 
 Then a few things happened in my life, one being the development of chronic 
-pain in my knees, shins and feet due to my flat footedness (important detail to 
-keep in mind) and I just stopped playing basketball, a sport I have played 
-since I remember.
+pain in my knees, shins and feet due to my flat footedness and I just stopped 
+playing basketball, a sport I have played since I remember.
 I tried to do some exercises in the months that followed, but I never mustered 
 enough motivation to find a regular training routine suitable to improve my 
 weaknesses.
@@ -85,14 +84,14 @@ No weightlifting and for sure no running.
 No regular training routine.
 I lost some weight but otherwise stayed in decent enough shape.
 
-Then, in 2020 a friend and I were discussing the fact that we were not using 
-the offerings of our university enough.
-So he suggested to go to the gym together, as our uni had its own&mdash;the 
-Pleasance Gym in Edinburgh, terrific place&mdash;with fair prices for enrolled 
+In 2020 a friend and I were discussing the fact that we were not using the 
+offerings of our university enough.
+So he suggested to go to the gym together, as our uni had its own (the 
+Pleasance Gym in Edinburgh, terrific place) with fair prices for enrolled 
 students.
 I politely declined.
 He was adamant and told me, we could just go and play a game of squash.
-I approved of that plan and so we went to the gym together.
+I yielded and we went to the gym together.
 Deviousness is nothing I'd associate with him, but that day I got tricked badly.
 We went to the Pleasance. Thirty minutes early.
 
@@ -116,26 +115,28 @@ and finally alongside Old College through Potterrow Port to the Bayes Centre at
 George Square and back.
 2.5 kilometers one-way.
 For a week I had to hobble the whole distance.
-But I was hooked again on weight lifting.
+But I was hooked on weightlifting.
 How your body feels afterwards; the stress relief and the release of endorphins 
 are just too good.
 Combined with the reward of getting stronger, feeling healthier and a more 
 attractive physical appearance, I was back on the grind and have been since 
 that day I completely wracked my legs and lower back.
 My aim shifted from being a good basketball player to being a healthy, 
-injury-free person with high overall strength and athletic ability.
-Since 2020 I've tried out various training plans and routines to achieve that 
-goal.
+injury-free and athletic person. 
 
-% TODO: here something is missing, I need to figure out what (discussion on my
-        health, I guess)
+I've been contemplating taking up running again for quite some time, but never
+mustered the strength to do so. 
+Doing squats and deadlifts and other heavy compound exercises are a great way 
+to train your leg strength, but I discovered that I couldn't address two of
+my most glaring weaknesses properly with just weightlifting, namely an 
+underdeveloped cardiovascular system and weak-ass feet.
+Both scream for moderate running with focus on proper forefoot striking 
+[@Davis2022; @Lin2015].
+When I had a friend who runs regularly stay over for a couple of weeks, I 
+finally decided to join him on one of his runs.
 
-I've been focusing mostly on increasing my personal records in my favourite 
-full-body lifts like deadlifts, squats, overhead presses, cleans and power 
-snatches, though these days I'm back on bodyweight exercises with a focus on
-pistol squats and decline push-ups.
-
-% Paragraph setting the concrete scene + my state of mind
+% Paragraph setting the concrete scene + my state of mind (stress, restlessness
+and anxiety feeling like an itch that must be scratched)
 
 % Describe the run
 
@@ -143,3 +144,5 @@ pistol squats and decline push-ups.
 high)
 
 % Conclusion
+
+# References
