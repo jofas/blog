@@ -131,7 +131,7 @@ to train your leg strength, but I discovered that I couldn't address two of
 my most glaring weaknesses properly with just weightlifting, namely an 
 underdeveloped cardiovascular system and weak-ass feet.
 Both scream for moderate running with focus on proper forefoot striking 
-[@Davis2022; @Lin2015].
+\[[1](#ref-1),[2](#ref-2)\].
 When I had a friend who runs regularly stay over for a couple of weeks, I 
 finally decided to join him on one of his runs.
 
@@ -146,3 +146,16 @@ high)
 % Conclusion
 
 # References
+
+\[<a name="ref-1">1</a>\] Irene S. Davis, Tony Lin-Wei Chen, and Scott C.
+Wearing. 2022. Reversing the mismatch with forefoot striking to reduce
+running injuries. *Frontiers in Sports and Active Living* 4, (May 2022).
+DOI:[https://doi.org/10.3389/fspor.2022.794005](https://doi.org/10.3389/fspor.2022.794005)
+
+\[<a name="ref-2">2</a>\] Xiaochen Lin, Xi Zhang, Jianjun Guo, Christian
+K. Roberts, Steve McKenzie, Wen‐Chih Wu, Simin Liu, and Yiqing Song.
+2015. Effects of exercise training on cardiorespiratory fitness and
+biomarkers of cardiometabolic health: A systematic review and
+meta‐analysis of randomized controlled trials. *Journal of the American
+Heart Association* 4, 7 (July 2015).
+DOI:[https://doi.org/10.1161/jaha.115.002014](https://doi.org/10.1161/jaha.115.002014)
