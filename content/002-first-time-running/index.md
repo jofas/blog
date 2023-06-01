@@ -108,25 +108,27 @@ One of the best parts of my daily routine was walking to and from uni through
 beautiful Edinburgh every day.
 From Leith along Leith Walk to bustling Princes Street, over North Bridge with 
 its breathtaking view over Old and New Town, Scott Monument and the Balmoral
-and finally alongside Old College through Potterrow Port to the Bayes Centre at 
-George Square and back.
+and finally alongside Old College through Potterrow Port to the Bayes Centre 
+and back.
 2.5 kilometers one-way.
-For a week I had to hobble the whole distance.
-But I was hooked on weightlifting.
-How your body feels afterwards; the stress relief and the release of endorphins 
-are just too good.
+For a week I had to hobble the whole distance, but it was absolutely worth it.
+I was hooked on weightlifting again.
+How your body feels afterwards; the stress relief and your mind feeling light
+as air from the release of all these colourful endorphins in the brain are just 
+too good.
 Combined with the reward of getting stronger, feeling healthier and a more 
 attractive physical appearance, I was back on the grind and have been since 
 that day I completely wracked my legs and lower back.
 My aim shifted from being a good basketball player to being a healthy, 
 injury-free and athletic person. 
 
+It has been almost exclusively weightlifting for me since then, with a few 
+bodyweight exercises and the occasional squash match interspersed. 
 I've been contemplating taking up running again for quite some time, but never
 mustered the strength to do so. 
-Doing squats and deadlifts and other heavy compound exercises are a great way 
-to train your leg strength, but I discovered that I couldn't address two of
-my most glaring weaknesses with just weightlifting, namely an underdeveloped 
-cardiovascular system and weak-ass feet.
+Weightlifting is a great way to train your leg strength, but I was unable to 
+address two of my most glaring weaknesses, namely an underdeveloped 
+cardiovascular system and my weak-ass flatfeet.
 Both scream for moderate running with focus on proper forefoot striking 
 \[[1](#ref-1),[2](#ref-2)\].
 When I had a friend who runs regularly stay over for a couple of weeks, I 
