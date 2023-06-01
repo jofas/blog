@@ -59,8 +59,7 @@ kilometers in about an hour, never far from home.
 The second question that probably popped into your head: just eight kilometers, 
 he must be in terrible shape then?
 No, I'm not.
-Before this fateful event I'm describing here, I thought I was in peak physical
-condition.
+Before it all, I thought I was in peak physical condition.
 I've been doing sports pretty much my whole life, with two notable absences. 
 One year when I was 14 and three years from 2017 to 2020 during most of my 
 undergrad and the first semester of my post-grad.
@@ -77,23 +76,21 @@ playing basketball, a sport I have played since I remember.
 I tried to do some exercises in the months that followed, but I never mustered 
 enough motivation to find a regular training routine suitable to improve my 
 weaknesses.
-The next three years I played the occasional match on the outdoor courts in the
-summer, a few games of squash and some day-long hikes, but really nothing 
-much else. 
+The next three years I had no regular training routine.
 No weightlifting and for sure no running.
-No regular training routine.
 I lost some weight but otherwise stayed in decent enough shape.
 
 In 2020 a friend and I were discussing the fact that we were not using the 
 offerings of our university enough.
-So he suggested to go to the gym together, as our uni had its own (the 
-Pleasance Gym in Edinburgh, terrific place) with fair prices for enrolled 
-students.
+He suggested to go to the gym together, as our uni had its own (the 
+Pleasance Gym in Edinburgh, terrific place), with reasonable plans and fair 
+prices for enrolled students.
 I politely declined.
 He was adamant and told me, we could just go and play a game of squash.
 I yielded and we went to the gym together.
-Deviousness is nothing I'd associate with him, but that day I got tricked badly.
-We went to the Pleasance. Thirty minutes early.
+Of course he played me.
+Sure, we went to the Pleasance to play squash, but without my knowledge we 
+arrived thirty minutes early.
 
 "What should we do until our court is ready?" he asked.
 
@@ -128,8 +125,8 @@ I've been contemplating taking up running again for quite some time, but never
 mustered the strength to do so. 
 Doing squats and deadlifts and other heavy compound exercises are a great way 
 to train your leg strength, but I discovered that I couldn't address two of
-my most glaring weaknesses properly with just weightlifting, namely an 
-underdeveloped cardiovascular system and weak-ass feet.
+my most glaring weaknesses with just weightlifting, namely an underdeveloped 
+cardiovascular system and weak-ass feet.
 Both scream for moderate running with focus on proper forefoot striking 
 \[[1](#ref-1),[2](#ref-2)\].
 When I had a friend who runs regularly stay over for a couple of weeks, I 
