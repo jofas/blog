@@ -44,31 +44,28 @@ Like pretty much anything else out there, the act of putting one feet in front
 of the other in an interval so rapid that there's a short period of time where 
 neither foot touches the ground, can be abused and perverted in a way it becomes 
 painful and destructive to the organism performing this particular motion.
-You see, oftentimes&mdash;especially without past experiences for 
-guidance&mdash;I'm overestimating my abilities to a point beyond mere folly, no, 
-the results tend to be in the land of utter and complete absurdity.
+You see, oftentimes I'm overestimating my abilities to a point beyond mere 
+folly, no, the results tend to be in the land of utter and complete absurdity.
 Combine this with the inability to be reasonable and give up when it becomes
-clear that the set goals are not realistic and you'll experience a good 
+clear that the set goals are not realistic, and you'll experience a good 
 dosage of self-inflicted physical and mental pain.
-This stubbornness allows me to experience these strange moments where I get a 
-short but intense glimpse at the true extend of my abilities; never flattering.
-Luckily for me I'm weak as hell, so I don't need to run 200 miles in two days 
-straight like Courtney Dauwalter to enter my pain cave, but just eight 
-kilometers in about an hour, never far from home.
+This stubbornness leads to strange and unflattering moments where reality and 
+the true extend of my abilities is revealed to me.
+Luckily I'm weak as hell.
+I don't need to run 200 miles in two days straight like Courtney Dauwalter to 
+enter my pain cave, but just eight kilometers in about an hour, never far from 
+home.
 
 The second question that probably popped into your head: just eight kilometers, 
 he must be in terrible shape then?
 No, I'm not.
 Before it all, I thought I was in peak physical condition.
 I've been doing sports pretty much my whole life, with two notable absences. 
-One year when I was 14 and three years from 2017 to 2020 during most of my 
-undergrad and the first semester of my post-grad.
+One year when I was 14 and three years from 2017 to 2020.
 The former was due to a knee injury and the latter was caused by pure and utter 
 laziness.
-The three year absence till 2020 is somewhat important, as it was a long period
-of time and because my focus shifted after starting to exercise again.
-Before the break I was playing basketball in a club and all other athletic 
-training I did&mdash;including running&mdash;was accessory to my goal of 
+Before 2017 I was playing basketball in a club and all other athletic 
+training&mdash;including running&mdash;was accessory to my goal of 
 becoming a good basketball player. 
 Then a few things happened in my life, one being the development of chronic 
 pain in my knees, shins and feet due to my flat footedness and I just stopped 
@@ -76,12 +73,14 @@ playing basketball, a sport I have played since I remember.
 I tried to do some exercises in the months that followed, but I never mustered 
 enough motivation to find a regular training routine suitable to improve my 
 weaknesses.
-The next three years I had no regular training routine.
-No weightlifting and for sure no running.
-I lost some weight but otherwise stayed in decent enough shape.
+The next three years I did not exercise regularly, no weightlifting and for 
+sure no running.
+I lost some weight but otherwise stayed in decent enough shape and didn't
+degenerate too badly.
 
-In 2020 a friend and I were discussing the fact that we were not using the 
-offerings of our university enough.
+In 2020 then, a friend&mdash;a decent amateur strength athlete&mdash;and 
+I were discussing the fact that we were not using the offerings of our 
+university enough.
 He suggested to go to the gym together, as our uni had its own (the 
 Pleasance Gym in Edinburgh, terrific place), with reasonable plans and fair 
 prices for enrolled students.
@@ -89,8 +88,8 @@ I politely declined.
 He was adamant and told me, we could just go and play a game of squash.
 I yielded and we went to the gym together.
 Of course he played me.
-Sure, we went to the Pleasance to play squash, but without my knowledge we 
-arrived thirty minutes early.
+Sure, we went to the Pleasance to play squash, but to my surprise we arrived 
+thirty minutes early.
 
 "What should we do until our court is ready?" he asked.
 
@@ -103,9 +102,9 @@ arrived thirty minutes early.
 Of course we had to do squats. For warm-ups. Man. Squatting after three years 
 with no weight training was nearly as bad as going for a run after eight years 
 of no running.
-The soreness my body had to endure for over a week was excruciating.
+The soreness I had to endure for over a week was excruciating.
 One of the best parts of my daily routine was walking to and from uni through 
-beautiful Edinburgh every day.
+beautiful Edinburgh.
 From Leith along Leith Walk to bustling Princes Street, over North Bridge with 
 its breathtaking view over Old and New Town, Scott Monument and the Balmoral
 and finally alongside Old College through Potterrow Port to the Bayes Centre 
@@ -113,26 +112,39 @@ and back.
 2.5 kilometers one-way.
 For a week I had to hobble the whole distance, but it was absolutely worth it.
 I was hooked on weightlifting again.
-How your body feels afterwards; the stress relief and your mind feeling light
-as air from the release of all these colourful endorphins in the brain are just 
-too good.
+The stress relief and your mind feeling light and fluffy from the release of 
+all these colourful endorphins in the brain are just too good.
 Combined with the reward of getting stronger, feeling healthier and a more 
 attractive physical appearance, I was back on the grind and have been since 
 that day I completely wracked my legs and lower back.
-My aim shifted from being a good basketball player to being a healthy, 
-injury-free and athletic person. 
-
 It has been almost exclusively weightlifting for me since then, with a few 
 bodyweight exercises and the occasional squash match interspersed. 
-I've been contemplating taking up running again for quite some time, but never
-mustered the strength to do so. 
-Weightlifting is a great way to train your leg strength, but I was unable to 
-address two of my most glaring weaknesses, namely an underdeveloped 
-cardiovascular system and my weak-ass flatfeet.
+
+Just a few weeks ago then, a friend&mdash;a decent amateur endurance athlete 
+this time&mdash;stayed over for a couple of weeks.
+He asked if I'd like to join him on one of his runs.
+I politely declined.
+He was adamant and told me, I'd feel great afterwards.
+I yielded and we went running together.
+If there is a morale to this tale then it is probably that you shouldn't be
+spineless and give in to your friends so easily.
+Okay spinelessness was not the only reason I took him up on his offer.
+I've been contemplating going running again for quite some time, because with 
+just weightlifting I've been unable to address two of my most glaring weaknesses, 
+namely an underdeveloped cardiovascular system and weak-ass flatfeet.
 Both scream for moderate running with focus on proper forefoot striking 
 \[[1](#ref-1),[2](#ref-2)\].
-When I had a friend who runs regularly stay over for a couple of weeks, I 
-finally decided to join him on one of his runs.
+It just took a little nudge and the right conditions to finally set my plans in 
+motion.
+The most important condition to set me in the right mood for running were high
+levels of stress and anxiety I was experiencing at that time.
+Having a guest around, I wasn't paying enough attention to my personal 
+well-being, not following my carefully laid out self-care 
+routines&mdash;including regular exercising&mdash;which lead to the excitement 
+of being the host to a dear friend turn sour.
+Whenever I'm in such a restless state of mind, my subconscious turns to 
+escapism manifesting itself in masochistic fantasises of self-castigation 
+through, well, excessive bodily exercise.
 
 % Paragraph setting the concrete scene + my state of mind (stress, restlessness
 and anxiety feeling like an itch that must be scratched)
