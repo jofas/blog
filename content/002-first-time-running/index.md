@@ -143,8 +143,8 @@ well-being, not following my carefully laid out self-care
 routines&mdash;including regular exercising&mdash;which lead to the excitement 
 of being the host to a dear friend turn sour.
 Whenever I'm in such a restless state of mind, my subconscious turns to 
-escapism manifesting itself in masochistic fantasises of self-castigation 
-through, well, excessive bodily exercise.
+escapism manifesting itself in a wish for self-castigation through, well, 
+excessive bodily exercise.
 
 % Paragraph setting the concrete scene + my state of mind (stress, restlessness
 and anxiety feeling like an itch that must be scratched)
