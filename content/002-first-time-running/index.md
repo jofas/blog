@@ -28,7 +28,7 @@ memories to arise.
 
 You&mdash;probably a responsible adult with working instincts and the healthy 
 ability to assess your own skills and abilities with accuracy&mdash;may be 
-asking yourself right now: what is he talking about, running isn't so bad?
+asking yourself right now: what is this about, running isn't so bad?
 Running is not bad at all and it can be a very healthy and rewarding endeavour.
 After all, we were born to run \[[1](#ref-1)\].
 But, as you might have guessed by now, I'm not a responsible adult with working
@@ -36,16 +36,17 @@ instincts and the healthy ability to assess my own skills and abilities with
 accuracy.
 Like pretty much anything else out there, the act of putting one feet in front
 of the other in an interval so rapid that there's a short period of time where 
-neither foot touches the ground, can be abused and perverted in a way it becomes 
-painful and destructive to the organism performing this particular motion.
+neither foot touches the ground, can be abused in a way it becomes painful and 
+destructive to the organism performing this particular motion.
 You see, oftentimes I'm overestimating my abilities to a point beyond mere 
 folly, no, the results tend to be in the land of utter and complete absurdity.
-Combine this with the inability to be reasonable and give up when it becomes
-clear that the set goals are not realistic, and you'll experience a good 
-dosage of self-inflicted physical and mental pain.
+Combine this with a tendency for self-flagellation through physical exercise 
+and the inability to be reasonable and give up when it becomes clear that the 
+set goals are not realistic, and you'll experience a good dosage of 
+self-inflicted physical and mental pain.
 This stubbornness leads to strange and unflattering moments where reality and 
 the true extend of my abilities is revealed to me.
-Luckily I'm weak as hell.
+Luckily it turns out I'm weak as hell.
 I don't need to run 200 miles in two days straight like Courtney Dauwalter to 
 enter my pain cave. Just eight kilometers in about an hour never far from 
 home are sufficient.
@@ -93,15 +94,15 @@ thirty minutes early.
 "Alright." I answered innocently and followed like a lamb to the slaughter.
 
 Of course we had to do squats. For warm-ups. Man. Squatting after three years 
-with no weight training was nearly as bad as going for a run after eight years 
-of no running.
+with no weight training was nearly as bad as going running after an eight year
+hiatus. 
 The soreness I had to endure for over a week was excruciating.
 One of the best parts of my daily routine was walking to and from uni through 
 beautiful Edinburgh.
-From Leith along Leith Walk to bustling Princes Street, over North Bridge with 
-its breathtaking view over Old and New Town, Scott Monument and the Balmoral
-and finally alongside Old College through Potterrow Port to the Bayes Centre 
-and back.
+From Leith along Leith Walk to bustling Princes Street, crossing North Bridge 
+with its breathtaking view over Old and New Town, Scott Monument and the 
+Balmoral and finally alongside Old College through Potterrow Port to the Bayes 
+Centre and back.
 2.5 kilometers one-way.
 For a week I hobbled the whole distance, but it was absolutely worth it.
 I was hooked on weightlifting again.
@@ -142,8 +143,22 @@ Or a demon that must be exorcised, if you so will.
 Definitely a fine condition to be in before dusting off running shoes unused 
 for nearly a decade.
 
-% Describe the run (I had a goal; shortcoming was not an option. I didn't even
-bother to check out the distance)
+% Describe the run (I didn't even bother to check out the distance; forgot to
+put on sunscreen)
+
+Because I've been contemplating taking up running again, I already had a route
+in my head.
+I wanted to run to an outdoor gym I've seen when driving through a nearby
+village, not far from home.
+My intention was to run there, do some pull ups, some dips and run back.
+Turned out this outdoor gym was not an outdoor gym at all but just the weirdest
+playground for children ever.
+Not that I was in a condition to actually do some upper body workout when I 
+arrived there, but still, what a disappointment.
+
+With having quite the overconfidence in my abilities, the simultaneous wish to
+wreck myself and the inability to quit on unrealistic goals, coming short of
+my goal to reach that playground was not an option.
 
 % Describe what happened afterwards (calves, nose, body temperature, runners
 high)
