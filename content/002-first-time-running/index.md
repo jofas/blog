@@ -30,7 +30,7 @@ You&mdash;probably a responsible adult with working instincts and the healthy
 ability to assess your own skills and abilities with accuracy&mdash;may be 
 asking yourself right now: what is he talking about, running isn't so bad?
 Running is not bad at all and it can be a very healthy and rewarding endeavour.
-After all, we were born to run [TODO: citation].
+After all, we were born to run \[[1](#ref-1)\].
 But, as you might have guessed by now, I'm not a responsible adult with working
 instincts and the healthy ability to assess my own skills and abilities with 
 accuracy.
@@ -126,7 +126,7 @@ I've been contemplating going running again for quite some time, because with
 just weightlifting I've been unable to address two of my most glaring weaknesses, 
 namely an underdeveloped cardiovascular system and weak-ass flatfeet.
 Both scream for moderate running with focus on proper forefoot striking 
-\[[1](#ref-1),[2](#ref-2)\].
+\[[2](#ref-2),[3](#ref-3)\].
 The most important condition to set me in the right mood for running though 
 was the stress and anxiety I was experiencing at that time.
 Having a guest around, I wasn't paying enough attention to my personal 
@@ -151,12 +151,17 @@ high)
 
 # References
 
-\[<a name="ref-1">1</a>\] Irene S. Davis, Tony Lin-Wei Chen, and Scott C.
+\[<a name="ref-1">1</a>\] Dennis M. Bramble and Daniel E. Lieberman.
+2004. Endurance running and the evolution of homo. *Nature* 432, 7015
+(November 2004), 345–352.
+DOI:[https://doi.org/10.1038/nature03052](https://doi.org/10.1038/nature03052)
+
+\[<a name="ref-2">2</a>\] Irene S. Davis, Tony Lin-Wei Chen, and Scott C.
 Wearing. 2022. Reversing the mismatch with forefoot striking to reduce
 running injuries. *Frontiers in Sports and Active Living* 4, (May 2022).
 DOI:[https://doi.org/10.3389/fspor.2022.794005](https://doi.org/10.3389/fspor.2022.794005)
 
-\[<a name="ref-2">2</a>\] Xiaochen Lin, Xi Zhang, Jianjun Guo, Christian
+\[<a name="ref-3">3</a>\] Xiaochen Lin, Xi Zhang, Jianjun Guo, Christian
 K. Roberts, Steve McKenzie, Wen‐Chih Wu, Simin Liu, and Yiqing Song.
 2015. Effects of exercise training on cardiorespiratory fitness and
 biomarkers of cardiometabolic health: A systematic review and
