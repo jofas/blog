@@ -9,34 +9,28 @@ tags = ["story", "personal"]
 summary = "I went running for the first time in eight years. This is what happened"
 +++
 
+This is a tale of human foolishness and does not contain an ounce of wisdom.
 Last week I went running for the first time.
 Well, not for the first time ever, but for the first time in a really long time.
-A time span so long that it warrants a slightly more sensational title in my
+A time frame so long that it warrants a slightly more sensational title in my
 humble opinion, though neither "Going Running for the First Time" nor "Going 
 Running for the First Time in a Really Long Time" are particularly sensational 
-and arousing; really, why the hell are you reading this? 
+or arousing.
 I think the last time I went for a run&mdash;it was so long ago that I can't
-even remember exactly when&mdash;was around the time I had the written exams for 
-my Abitur (German A-levels).
-That was in April or May 2015, so pretty much exactly eight years ago.
+even remember exactly when&mdash;was in the early summer months of 2015, pretty 
+much exactly eight years ago.
 Long enough for the bad memories to cease their hunting. 
 Long enough to forget the suffering.
 Long enough to get weary, let down my guard and fall prey to the sweetly
 venomous words of ~~Lucifer~~ my obviously masochist friends.
 Certainly time has corroded my defenses and opened the door for new painful 
 memories to arise.
-Which they did.
-To properly process them I wrote this hopefully slightly entertaining story that 
-does not contain an ounce of wisdom, advice or anything else valuable that you 
-could apply to your own life.
-I just can't help myself but to find human foolishness endlessly amusing.
-Which is probably why God gave me so much of it.
 
 You&mdash;probably a responsible adult with working instincts and the healthy 
 ability to assess your own skills and abilities with accuracy&mdash;may be 
 asking yourself right now: what is he talking about, running isn't so bad?
 Running is not bad at all and it can be a very healthy and rewarding endeavour.
-After all, our bodies are build to run.
+After all, we were born to run [TODO: citation].
 But, as you might have guessed by now, I'm not a responsible adult with working
 instincts and the healthy ability to assess my own skills and abilities with 
 accuracy.
@@ -71,8 +65,7 @@ Then a few things happened in my life, one being the development of chronic
 pain in my knees, shins and feet due to my flat footedness and I just stopped 
 playing basketball, a sport I have played since I remember.
 I tried to do some exercises in the months that followed, but I never mustered 
-enough motivation to find a regular training routine suitable to improve my 
-weaknesses.
+enough motivation to find a training routine suitable to improve my weaknesses.
 The next three years I did not exercise regularly, no weightlifting and for 
 sure no running.
 I lost some weight but otherwise stayed in decent enough shape and didn't
@@ -110,10 +103,10 @@ its breathtaking view over Old and New Town, Scott Monument and the Balmoral
 and finally alongside Old College through Potterrow Port to the Bayes Centre 
 and back.
 2.5 kilometers one-way.
-For a week I had to hobble the whole distance, but it was absolutely worth it.
+For a week I hobbled the whole distance, but it was absolutely worth it.
 I was hooked on weightlifting again.
 The stress relief and your mind feeling light and fluffy from the release of 
-all these colourful endorphins in the brain are just too good.
+all those colourful endorphins in the brain are just too good.
 Combined with the reward of getting stronger, feeling healthier and a more 
 attractive physical appearance, I was back on the grind and have been since 
 that day I completely wracked my legs and lower back.
@@ -134,21 +127,19 @@ just weightlifting I've been unable to address two of my most glaring weaknesses
 namely an underdeveloped cardiovascular system and weak-ass flatfeet.
 Both scream for moderate running with focus on proper forefoot striking 
 \[[1](#ref-1),[2](#ref-2)\].
-It just took a little nudge and the right conditions to finally set my plans in 
-motion.
 The most important condition to set me in the right mood for running though 
 was the stress and anxiety I was experiencing at that time.
 Having a guest around, I wasn't paying enough attention to my personal 
-well-being, not following my carefully laid out self-care 
+well-being, not following my carefully laid-out self-care 
 routines&mdash;including regular exercising&mdash;which lead to the excitement 
 of being the host to a dear friend turn sour.
 Whenever I'm in such an agitated and restless state of mind, my subconscious 
 turns to escapism manifesting itself in a wish for self-castigation through, 
 well, excessive bodily exercise.
-Feels like an itch that must be scratched.
-A demon that must be exorcised, if you so will.
-Definitely a fine condition to be in before dusting off age-old running shoes
-unused for nearly a decade.
+Feels like an itch that must be scratched till the skin is all raw and tender. 
+Or a demon that must be exorcised, if you so will.
+Definitely a fine condition to be in before dusting off running shoes unused 
+for nearly a decade.
 
 % Describe the run (I had a goal; shortcoming was not an option. I didn't even
 bother to check out the distance)
