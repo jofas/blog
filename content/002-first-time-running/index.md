@@ -130,13 +130,14 @@ Both scream for moderate running with focus on proper forefoot striking
 The most important condition to set me in the right mood for running though 
 was the stress and anxiety I was experiencing at that time.
 Having a guest around, I wasn't paying enough attention to my personal 
-well-being, not following my carefully laid-out self-care 
-routines&mdash;including regular exercising&mdash;which lead to the excitement 
-of being the host to a dear friend turn sour.
+well-being, not following my carefully laid-out self-care routines, which 
+include regular exercising.
+The excitement of being the host to a dear friend turned sour.
 Whenever I'm in such an agitated and restless state of mind, my subconscious 
 turns to escapism manifesting itself in a wish for self-castigation through, 
 well, excessive bodily exercise.
-Feels like an itch that must be scratched till the skin is all raw and tender. 
+It feels like an itch that must be scratched till the skin is all raw and 
+tender. 
 Or a demon that must be exorcised, if you so will.
 Definitely a fine condition to be in before dusting off running shoes unused 
 for nearly a decade.
