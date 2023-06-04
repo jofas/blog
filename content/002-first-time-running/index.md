@@ -169,8 +169,8 @@ was too annoying to carry around with me), we were finally on the road.
 It was a fair day with the sun hanging fat and bright in a lazy blue sky.
 A gentle breeze made the warm air quite pleasant on the skin.
 We started out running down a hill with a smooth and easy decline, allowing us
-to take in and enjoy the most gorgeous view.
-The hill leads down to a gentle and civilized plain stretching far and wide,
+to take in and stare in wonder at the most gorgeous view.
+The hill leads down to a calm and civilized plain stretching far and wide,
 full of fields of rapeseed and wheat.
 Behind the plain abruptly rise wild and wooded foothills over which throne
 the taller mountains higher up, kings and queens with their crowns of snow.
@@ -183,7 +183,7 @@ about to start cramping.
 
 The weakest link though was my stomach.
 Not knowing the day was about to get a lot more strenuous, I had a tremendous
-lunch.
+and improper lunch.
 We Germans love our bread and having a meal consisting of a few slices with 
 a bunch of savory toppings to make open sandwiches and maybe a salad on the 
 side is something quite common in Germany.
@@ -191,7 +191,7 @@ It is certainly the meal I consumed the most in my live and I deeply value
 the nourishment provided to both body and soul.
 Anyway, we had a nice and prolonged lunch with lots of thick slices of 
 *Schwarzbrot*, topped with a thick layer of strong allioli, thick slices of 
-fresh tomatoes and even thicker pieces of strong cheese, made perfect with a 
+fresh tomatoes and even thicker pieces of hearty cheese, made perfect with a 
 drizzle of olive oil and arugula on top.
 Some pickled olives and cucumbers and a small salad with a honey-mustard 
 dressing on the side&mdash;it was pure and utter ecstasy.
@@ -204,6 +204,8 @@ would be a fine place to have my first rest, approximately one kilometer into
 the run.
 I didn't know that at the time, I was too concerned with my body to think about 
 anything else.
+By that time, the wheat started separating itself from the chaff.
+I was the chaff.
 
 % He ran of -> demoralizing
 %
