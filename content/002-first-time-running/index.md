@@ -10,7 +10,7 @@ summary = "I went running for the first time in eight years. This is what happen
 +++
 
 This is a tale of human foolishness and does not contain an ounce of wisdom.
-Last week I went running for the first time.
+A few weeks ago I went running for the first time.
 Well, not for the first time ever, but for the first time in a really long time.
 A time frame so long that it warrants a slightly more sensational title in my
 humble opinion, though neither "Going Running for the First Time" nor "Going 
@@ -31,9 +31,8 @@ ability to assess your own skills and abilities with accuracy&mdash;may be
 asking yourself right now: what is this about, running isn't so bad?
 Running is not bad at all and it can be a very healthy and rewarding endeavour.
 After all, we were born to run \[[1](#ref-1)\].
-But, as you might have guessed by now, I'm not a responsible adult with working
-instincts and the healthy ability to assess my own skills and abilities with 
-accuracy.
+But I'm not a responsible adult with working instincts and the healthy ability 
+to assess my own skills and abilities with accuracy.
 Like pretty much anything else out there, the act of putting one feet in front
 of the other in an interval so rapid that there's a short period of time where 
 neither foot touches the ground, can be abused in a way it becomes painful and 
@@ -65,7 +64,7 @@ becoming a good basketball player.
 Then a few things happened in my life, one being the development of chronic 
 pain in my knees, shins and feet due to my flat footedness and I just stopped 
 playing basketball, a sport I have played since I remember.
-I tried to do some exercises in the months that followed, but I never mustered 
+I tried to do some exercises in the months that followed, but never mustered 
 enough motivation to find a training routine suitable to improve my weaknesses.
 The next three years I did not exercise regularly, no weightlifting and for 
 sure no running.
@@ -146,19 +145,74 @@ for nearly a decade.
 % Describe the run (I didn't even bother to check out the distance; forgot to
 put on sunscreen)
 
-Because I've been contemplating taking up running again, I already had a route
-in my head.
+The day I broke my eight year streak of no running finally arrived.
+Throughout most of the day, I didn't know what was going to happen that late 
+afternoon.
+Though the pressure inside my brain has been high at the time, in the end
+the decision felt quite spontaneous.
+It was just my friend telling me that he'd go for a run now, asking me if I'd 
+like to join him and I said yes, without a second thought.
+I knew I couldn't keep up with him, so we decided to start out together and
+split up.
+I already had a route in mind.
 I wanted to run to an outdoor gym I've seen when driving through a nearby
-village, not far from home.
+village.
 My intention was to run there, do some pull ups, some dips and run back.
-Turned out this outdoor gym was not an outdoor gym at all but just the weirdest
-playground for children ever.
-Not that I was in a condition to actually do some upper body workout when I 
+Turned out this outdoor gym I thought I had seen was not an outdoor gym at all 
+but just the weirdest playground for children ever.
+Not that I was in a condition to actually do an upper body workout when I 
 arrived there, but still, what a disappointment.
 
+After a couple of small starting problems (I took some time getting ready and 
+had to turn around after a few meters&mdash;I had to leave my mobile behind, it
+was too annoying to carry around with me), we were finally on the road.
+It was a fair day with the sun hanging fat and bright in a lazy blue sky.
+A gentle breeze made the warm air quite pleasant on the skin.
+We started out running down a hill with a smooth and easy decline, allowing us
+to take in and enjoy the most gorgeous view.
+The hill leads down to a gentle and civilized plain stretching far and wide,
+full of fields of rapeseed and wheat.
+Behind the plain abruptly rise wild and wooded foothills over which throne
+the taller mountains higher up, kings and queens with their crowns of snow.
+I was thoroughly enjoying myself and the beauty all around me.
+But not for long.
+Once we reached the plain, not one kilometer into the run, I was already 
+starting to struggle. 
+I felt winded and my calves and feet were starting to act up, like they were
+about to start cramping.
+
+The weakest link though was my stomach.
+Not knowing the day was about to get a lot more strenuous, I had a tremendous
+lunch.
+We Germans love our bread and having a meal consisting of a few slices with 
+a bunch of savory toppings to make open sandwiches and maybe a salad on the 
+side is something quite common in Germany.
+It is certainly the meal I consumed the most in my live and I deeply value 
+the nourishment provided to both body and soul.
+Anyway, we had a nice and prolonged lunch with lots of thick slices of 
+*Schwarzbrot*, topped with a thick layer of strong allioli, thick slices of 
+fresh tomatoes and even thicker pieces of strong cheese, made perfect with a 
+drizzle of olive oil and arugula on top.
+Some pickled olives and cucumbers and a small salad with a honey-mustard 
+dressing on the side&mdash;it was pure and utter ecstasy.
+Though lunch was amazing, it was not really the best choice of food to eat 
+before taking my endurance to its limits and by the time we entered the plain,
+I was feeling sicker with every step.
+We finally reached the crossroads where we would part.
+A few trees and shrubs were giving valuable and scarce shade and I decided this 
+would be a fine place to have my first rest, approximately one kilometer into 
+the run.
+I didn't know that at the time, I was too concerned with my body to think about 
+anything else.
+
+% He ran of -> demoralizing
+%
+
+In my unpreparedness, I forgot to put on sunscreen.
+
 With having quite the overconfidence in my abilities, the simultaneous wish to
-wreck myself and the inability to quit on unrealistic goals, coming short of
-my goal to reach that playground was not an option.
+wreck myself and the inability to quit on unrealistic goals, not reaching that 
+playground was not an option.
 
 % Describe what happened afterwards (calves, nose, body temperature, runners
 high)
