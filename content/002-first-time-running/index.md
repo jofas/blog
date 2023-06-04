@@ -142,9 +142,6 @@ Or a demon that must be exorcised, if you so will.
 Definitely a fine condition to be in before dusting off running shoes unused 
 for nearly a decade.
 
-% Describe the run (I didn't even bother to check out the distance; forgot to
-put on sunscreen)
-
 The day I broke my eight year streak of no running finally arrived.
 Throughout most of the day, I didn't know what was going to happen that late 
 afternoon.
@@ -199,22 +196,26 @@ Though lunch was amazing, it was not really the best choice of food to eat
 before taking my endurance to its limits and by the time we entered the plain,
 I was feeling sicker with every step.
 We finally reached the crossroads where we would part.
-A few trees and shrubs were giving valuable and scarce shade and I decided this 
-would be a fine place to have my first rest, approximately one kilometer into 
-the run.
+A few trees and shrubs were giving valuable and scarce shade&mdash;in my 
+unpreparedness, I had forgotten to put on sunscreen, of course&mdash;and I 
+decided this would be a fine place to have my first rest, approximately one 
+kilometer into the run.
 I didn't know that at the time, I was too concerned with my body to think about 
 anything else.
+
 By that time, the wheat started separating itself from the chaff.
 I was the chaff.
 
+% Describe the run (I didn't even bother to check out the distance; forgot to
+put on sunscreen)
+
 % He ran of -> demoralizing
-%
 
-In my unpreparedness, I forgot to put on sunscreen.
+To add insult to injury, he turned around and came back to me.
 
-With having quite the overconfidence in my abilities, the simultaneous wish to
+With having quite the overconfidence in my athleticism, the simultaneous wish to
 wreck myself and the inability to quit on unrealistic goals, not reaching that 
-playground was not an option.
+cursed playground was not an option.
 
 % Describe what happened afterwards (calves, nose, body temperature, runners
 high)
