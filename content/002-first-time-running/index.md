@@ -113,9 +113,10 @@ that day I completely wracked my legs and lower back.
 It has been almost exclusively weightlifting for me since then, with a few 
 bodyweight exercises and the occasional squash match interspersed. 
 
-Just a few weeks ago then, a friend&mdash;a decent amateur endurance athlete 
-this time&mdash;stayed over for a couple of weeks.
-He asked if I'd like to join him on one of his runs.
+Just a few weeks ago then, another friend&mdash;let's call him L, like that 
+dude from Death Note&mdash;stayed over for a couple of weeks.
+He's a decent amateur endurance athlete and asked if I'd like to join him on 
+one of his runs.
 I politely declined.
 He was adamant and told me, I'd feel great afterwards.
 I yielded and we went running together.
@@ -147,7 +148,7 @@ Throughout most of the day, I didn't know what was going to happen that late
 afternoon.
 Though the pressure inside my brain has been high at the time, in the end
 the decision felt quite spontaneous.
-It was just my friend telling me that he'd go for a run now, asking me if I'd 
+It was just L telling me that he'd go for a run now, asking me if I'd 
 like to join him and I said yes, without a second thought.
 I knew I couldn't keep up with him, so we decided to start out together and
 split up.
@@ -169,16 +170,16 @@ We started out running down a hill with a smooth and easy decline, allowing us
 to take in and stare in wonder at the most gorgeous view.
 The hill leads down to a calm and civilized plain stretching far and wide,
 full of fields of rapeseed and wheat.
-Behind the plain abruptly rise wild and wooded foothills over which throne
+Behind the plain, wild and wooded foothills rise abruptly, over which throne
 the taller mountains higher up, kings and queens with their crowns of snow.
 I was thoroughly enjoying myself and the beauty all around me.
 But not for long.
-Once we reached the plain, not one kilometer into the run, I was already 
-starting to struggle. 
+Once we reached the plain I was already starting to struggle, my condition 
+deteriorating quicker than I had anticipated. 
 I felt winded and my calves and feet were starting to act up, like they were
 about to start cramping.
 
-The weakest link though was my stomach.
+The weakest link was my stomach though.
 Not knowing the day was about to get a lot more strenuous, I had a tremendous
 and improper lunch.
 We Germans love our bread and having a meal consisting of a few slices with 
@@ -195,23 +196,46 @@ dressing on the side&mdash;it was pure and utter ecstasy.
 Though lunch was amazing, it was not really the best choice of food to eat 
 before taking my endurance to its limits and by the time we entered the plain,
 I was feeling sicker with every step.
-We finally reached the crossroads where we would part.
+
+We finally caught sight of the crossroads where we would part.
 A few trees and shrubs were giving valuable and scarce shade&mdash;in my 
 unpreparedness, I had forgotten to put on sunscreen, of course&mdash;and I 
-decided this would be a fine place to have my first rest, approximately one 
-kilometer into the run.
-I didn't know that at the time, I was too concerned with my body to think about 
-anything else.
+decided this would be a fine place to have my first rest.
+L was already distancing himself from me, until about 200 meters separated us 
+when he reached the crossroads.
+To add insult to injury, he turned around and came back to me.
+When we reached the crossroads together this time, I told him he can go and run 
+his route and I'll run mine.
+So he sprang off, taking a right.
+I stayed behind in the shadow, bent over, gasping for air and absolution.
+He ran around the corner, accelerating even more.
+I retched.
+He came prancing back, smiling at me and telling me he had taken the wrong way, 
+he must take a right at the next crossing.
+He took off to the left this time and disappeared around the other corner.
+I retched again.
 
-By that time, the wheat started separating itself from the chaff.
-I was the chaff.
+This might sound strange, but I was in my element, happy as pie.
+No doubt, I was a foolish and miserable creature standing next to the road, 
+sick to my stomach, feet and lungs burning.
+But at the same time alive and free, purged of the anxiety and restlessness 
+that had plagued me the last few days.
+Unable to be anything but in the present moment, I had what I wanted.
+The most brutal way of being present.
+
+I didn't know it at that time but I already managed to run two kilometers,
+two thirds of the usual distance I'd run back in the days.
+In my arrogance I didn't bother to check the distance of the route to the 
+playground and I badly miscalculated it.
+Even with the self-destructive mindset and the overconfidence in my athletic 
+abilities, I'd probably only aimed for five kilometers, a distance I've outrun
+maybe once or twice in my entire life.
+I thought running to the playground and back would cover that distance.
+
+% State of mind at this point
 
 % Describe the run (I didn't even bother to check out the distance; forgot to
 put on sunscreen)
-
-% He ran of -> demoralizing
-
-To add insult to injury, he turned around and came back to me.
 
 With having quite the overconfidence in my athleticism, the simultaneous wish to
 wreck myself and the inability to quit on unrealistic goals, not reaching that 
