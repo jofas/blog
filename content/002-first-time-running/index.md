@@ -12,43 +12,44 @@ summary = "I went running for the first time in eight years. This is what happen
 This is a tale of human foolishness and does not contain an ounce of wisdom.
 A few weeks ago I went running for the first time.
 Well, not for the first time ever, but for the first time in a really long time.
-A time frame so long that it warrants a slightly more sensational title in my
-humble opinion, though neither "Going Running for the First Time" nor "Going 
-Running for the First Time in a Really Long Time" are particularly sensational 
-or arousing.
+So long that it warrants a slightly more sensational title, though neither 
+"Going Running for the First Time" nor "Going Running for the First Time in a 
+Really Long Time" are particularly arousing.
 I think the last time I went for a run&mdash;it was so long ago that I can't
-even remember exactly when&mdash;was in the early summer months of 2015, pretty 
+remember exactly when&mdash;was in the early summer months of 2015, pretty 
 much exactly eight years ago.
 Long enough for the bad memories to cease their hunting. 
 Long enough to forget the suffering.
 Long enough to get weary, let down my guard and fall prey to the sweetly
 venomous words of ~~Lucifer~~ my obviously masochist friends.
-Certainly time has corroded my defenses and opened the door for new painful 
-memories to arise.
+Time has corroded my defenses and opened the door for new painful memories to 
+arise.
+This is a story about these memories.
 
 You&mdash;probably a responsible adult with working instincts and the healthy 
 ability to assess your own skills and abilities with accuracy&mdash;may be 
 asking yourself right now: what is this about, running isn't so bad?
-Running is not bad at all and it can be a very healthy and rewarding endeavour.
+I agree, running is not bad at all and it can be a very healthy and rewarding 
+endeavour.
 After all, we were born to run \[[1](#ref-1)\].
 But I'm not a responsible adult with working instincts and the healthy ability 
 to assess my own skills and abilities with accuracy.
 Like pretty much anything else out there, the act of putting one feet in front
-of the other in an interval so rapid that there's a short period of time where 
-neither foot touches the ground, can be abused in a way it becomes painful and 
-destructive to the organism performing this particular motion.
-You see, oftentimes I'm overestimating my abilities to a point beyond mere 
+of the other so rapidly that there's a short moment where neither foot touches 
+the ground, can be abused until it becomes painful and destructive to the 
+organism performing this particular motion.
+~~You see, oftentimes I'm overestimating my abilities to a point beyond mere 
 folly, no, the results tend to be in the land of utter and complete absurdity.
 Combine this with a tendency for self-flagellation through physical exercise 
 and the inability to be reasonable and give up when it becomes clear that the 
 set goals are not realistic, and you'll experience a good dosage of 
 self-inflicted physical and mental pain.
 This stubbornness leads to strange and unflattering moments where reality and 
-the true extend of my abilities is revealed to me.
-Luckily it turns out I'm weak as hell.
+the true extend of my abilities is revealed to me.~~
+Luckily I'm weak as hell.
 I don't need to run 200 miles in two days straight like Courtney Dauwalter to 
-enter my pain cave. Just eight kilometers in about an hour never far from 
-home are sufficient.
+enter my pain cave. 
+Just eight kilometers in about an hour never far from home are sufficient.
 
 The second question that probably popped into your head: just eight kilometers, 
 he must be in terrible shape then?
@@ -122,7 +123,8 @@ He was adamant and told me, I'd feel great afterwards.
 I yielded and we went running together.
 If there is a morale to this tale then it is probably that you shouldn't be
 spineless and give in to your friends so easily.
-Okay spinelessness was not the only reason I took him up on his offer.
+While spinelessness certainly plays a prominent role in my every-day decision
+making, it was not the only reason I took him up on his offer.
 I've been contemplating going running again for quite some time, because with 
 just weightlifting I've been unable to address two of my most glaring weaknesses, 
 namely an underdeveloped cardiovascular system and weak-ass flatfeet.
@@ -131,8 +133,8 @@ Both scream for moderate running with focus on proper forefoot striking
 The most important condition to set me in the right mood for running though 
 was the stress and anxiety I was experiencing at that time.
 Having a guest around, I wasn't paying enough attention to my personal 
-well-being, not following my carefully laid-out self-care routines, which 
-include regular exercising.
+well-being, not following my carefully laid-out self-care routines (which 
+include regular exercising).
 The excitement of being the host to a dear friend turned sour.
 Whenever I'm in such an agitated and restless state of mind, my subconscious 
 turns to escapism manifesting itself in a wish for self-castigation through, 
