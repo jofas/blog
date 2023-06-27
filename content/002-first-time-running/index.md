@@ -11,7 +11,7 @@ summary = "I went running for the first time in eight years. This is what happen
 
 This is a tale of human foolishness and does not contain an ounce of wisdom.
 A few weeks ago I went running for the first time.
-Well, not for the first time ever, but for the first time in a really long time.
+Not for the first time ever, but for the first time in a really long time.
 So long that it warrants a slightly more sensational title, though neither 
 "Going Running for the First Time" nor "Going Running for the First Time in a 
 Really Long Time" are particularly arousing.
@@ -26,36 +26,36 @@ Time has corroded my defenses and opened the door for new painful memories to
 arise.
 This is a story about these memories.
 
-You&mdash;probably a responsible adult with working instincts and the healthy 
-ability to assess your own skills and abilities with accuracy&mdash;may be 
-asking yourself right now: what is this about, running isn't so bad?
-I agree, running is not bad at all and it can be a very healthy and rewarding 
+A responsible adult with working instincts and the ability to assess 
+their own abilities with accuracy, may be asking themselves right now: what's 
+this all about, running isn't so bad?
+I agree (now), running is not bad at all and can be a very healthy and rewarding 
 endeavour.
 After all, we were born to run \[[1](#ref-1)\].
-But I'm not a responsible adult with working instincts and the healthy ability 
-to assess my own skills and abilities with accuracy.
-Like pretty much anything else out there, the act of putting one feet in front
-of the other so rapidly that there's a short moment where neither foot touches 
-the ground, can be abused until it becomes painful and destructive to the 
-organism performing this particular motion.
-~~You see, oftentimes I'm overestimating my abilities to a point beyond mere 
-folly, no, the results tend to be in the land of utter and complete absurdity.
-Combine this with a tendency for self-flagellation through physical exercise 
-and the inability to be reasonable and give up when it becomes clear that the 
-set goals are not realistic, and you'll experience a good dosage of 
-self-inflicted physical and mental pain.
-This stubbornness leads to strange and unflattering moments where reality and 
-the true extend of my abilities is revealed to me.~~
-Luckily I'm weak as hell.
-I don't need to run 200 miles in two days straight like Courtney Dauwalter to 
-enter my pain cave. 
-Just eight kilometers in about an hour never far from home are sufficient.
+But like pretty much anything else out there, the act of putting one feet in 
+front of the other so rapidly that there's a short moment where neither foot 
+touches the ground, can be abused until it becomes painful and destructive to 
+the organism performing this particular motion.
+To pervert something so ordinary, all you need is a morbid wish for 
+self-flagellation through physical exercise, a tendency for absurd 
+overestimation of your own skills and the inability to give up on unrealistic 
+goals.
+Perfect recipe for a healing dosage of good ol' self-inflicted physical and 
+mental pain.
 
-The second question that probably popped into your head: just eight kilometers, 
+I make it sound like the first run after my prolonged absence was a marathon,
+or some other über-human distance.
+Unfortunately it was not.
+Turns out I don't need to run 200 miles in two days straight like Courtney 
+Dauwalter to enter my pain cave. 
+Just eight kilometers in about an hour, never far from home are sufficient.
+Which brings us the second question that probably popped into your head: he 
+didn't go running for eight years and managed to pull off just eight kilometers, 
 he must be in terrible shape then?
 No, I'm not.
 Before it all, I thought I was in peak physical condition.
-I've been doing sports pretty much my whole life, with two notable absences. 
+I've been doing sports pretty much my whole life, with only two notable 
+absences, neither one recent. 
 One year when I was 14 and three years from 2017 to 2020.
 The former was due to a knee injury and the latter was caused by pure and utter 
 laziness.
@@ -169,18 +169,16 @@ was too annoying to carry around with me), we were finally on the road.
 It was a fair day with the sun hanging fat and bright in a lazy blue sky.
 A gentle breeze made the warm air quite pleasant on the skin.
 We started out running down a hill with a smooth and easy decline, allowing us
-to take in and stare in wonder at the most gorgeous view.
+to take in the gorgeous view.
 The hill leads down to a calm and civilized plain stretching far and wide,
-full of fields of rapeseed and wheat.
-Behind the plain, wild and wooded foothills rise abruptly, over which throne
-the taller mountains higher up, kings and queens with their crowns of snow.
-I was thoroughly enjoying myself and the beauty all around me.
-But not for long.
+full of brown fields of rapeseed and wheat.
+Behind the plain wild and wooded foothills rise abruptly, overshadowed by
+the taller mountains farther away, kings and queens with their crowns of snow.
+I was thoroughly enjoying myself and the beauty all around me, but not for long.
 Once we reached the plain I was already starting to struggle, my condition 
 deteriorating quicker than I had anticipated. 
 I felt winded and my calves and feet were starting to act up, like they were
 about to start cramping.
-
 The weakest link was my stomach though.
 Not knowing the day was about to get a lot more strenuous, I had a tremendous
 and improper lunch.
@@ -216,23 +214,23 @@ He came prancing back, smiling at me and telling me he had taken the wrong way,
 he must take a right at the next crossing.
 He took off to the left this time and disappeared around the other corner.
 I retched again.
-
-This might sound strange, but I was in my element, happy as pie.
-No doubt, I was a foolish and miserable creature standing next to the road, 
-sick to my stomach, feet and lungs burning.
+There I was, a foolish and miserable creature standing next to the crossroads, 
+sick to its stomach, feet and lungs burning.
 But at the same time alive and free, purged of the anxiety and restlessness 
 that had plagued me the last few days.
-Unable to be anything but in the present moment, I had what I wanted.
+I had what I wanted.
+No thoughts. 
 The most brutal way of being present.
 
 I didn't know it at that time but I already managed to run two kilometers,
-two thirds of the usual distance I'd run back in the days.
+two thirds of the usual distance I'd run back in my basketball days.
 In my arrogance I didn't bother to check the distance of the route to the 
 playground and I badly miscalculated it.
 Even with the self-destructive mindset and the overconfidence in my athletic 
 abilities, I'd probably only aimed for five kilometers, a distance I've outrun
 maybe once or twice in my entire life.
-I thought running to the playground and back would cover that distance.
+I thought running to the playground and back would cover that distance, more or
+less.
 
 % State of mind at this point
 
