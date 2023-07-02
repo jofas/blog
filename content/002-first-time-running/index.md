@@ -267,10 +267,19 @@ Resting my aching body and soul beneath those towering, ramrod straight and dust
 soldiers not bowed by destiny or the memory of their ancient roots, stoically 
 enduring and oblivious to my meagre existence, my peace and lucidity was only 
 disturbed by innocent passers-by, their eyes and smiles and greetings telling me
-that they were unable to grasp the heroic deeds I had performed during the last 
-twenty minutes.
+that they were unable to grasp the magnitude of the heroic quest I set forth on
+not thirty minutes ago.
 I had to continue my journey, rejuvenated by resignation and a desire to flee 
 pending judgement.
+
+% last section
+
+% reaching the god-forsaken playground (putting the finishing touches on the
+foolishness of the whole endeavour).
+
+% Way back (knees acting up but steady stride till hill)
+
+% Last two hundred meters sprinting to make the ridiculousness perfect
 
 % Describe what happened afterwards (calves, nose, body temperature, runners
 high)
