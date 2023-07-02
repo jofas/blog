@@ -24,17 +24,17 @@ Long enough to get weary, let down my guard and fall prey to the sweetly
 venomous words of ~~Lucifer~~ my obviously masochist friends.
 Time has corroded my defenses and opened the door for new painful memories to 
 arise.
-This is a story about these memories.
+This is a story about these sweet memories.
 
 A responsible adult with working instincts and the ability to assess 
-their own abilities with accuracy, may be asking themselves right now: what's 
+their own abilities with accuracy may be asking themselves right now: what's 
 this all about, running isn't so bad?
 I agree (now), running is not bad at all and can be a very healthy and rewarding 
 endeavour.
 After all, we were born to run \[[1](#ref-1)\].
 But like pretty much anything else out there, the act of putting one feet in 
 front of the other so rapidly that there's a short moment where neither foot 
-touches the ground, can be abused until it becomes painful and destructive to 
+touches the ground can be abused until it becomes painful and destructive to 
 the organism performing this particular motion.
 To pervert something so ordinary, all you need is a morbid wish for 
 self-flagellation through physical exercise, a tendency for absurd 
@@ -49,14 +49,12 @@ Unfortunately it was not.
 Turns out I don't need to run 200 miles in two days straight like Courtney 
 Dauwalter to enter my pain cave. 
 Just eight kilometers in about an hour, never far from home are sufficient.
-Which brings us the second question that probably popped into your head: he 
-didn't go running for eight years and managed to pull off just eight kilometers, 
-he must be in terrible shape then?
-No, I'm not.
+I can't lie, one of the most uncomfortable ailments afterwards was my hurting
+ego.
 Before it all, I thought I was in peak physical condition.
 I've been doing sports pretty much my whole life, with only two notable 
-absences, neither one recent. 
-One year when I was 14 and three years from 2017 to 2020.
+absences, neither recent. 
+One year when I was fourteen and three years from 2017 to 2020.
 The former was due to a knee injury and the latter was caused by pure and utter 
 laziness.
 Before 2017 I was playing basketball in a club and all other athletic 
@@ -116,22 +114,22 @@ bodyweight exercises and the occasional squash match interspersed.
 
 Just a few weeks ago then, another friend&mdash;let's call him L, like that 
 dude from Death Note&mdash;stayed over for a couple of weeks.
-He's a decent amateur endurance athlete and asked if I'd like to join him on 
+He's a decent amateur endurance athlete and asked me if I'd like to join him on 
 one of his runs.
 I politely declined.
 He was adamant and told me, I'd feel great afterwards.
 I yielded and we went running together.
 If there is a morale to this tale then it is probably that you shouldn't be
-spineless and give in to your friends so easily.
+spineless and give in to your silly friends so easily.
 While spinelessness certainly plays a prominent role in my every-day decision
 making, it was not the only reason I took him up on his offer.
 I've been contemplating going running again for quite some time, because with 
 just weightlifting I've been unable to address two of my most glaring weaknesses, 
 namely an underdeveloped cardiovascular system and weak-ass flatfeet.
 Both scream for moderate running with focus on proper forefoot striking 
-\[[2](#ref-2),[3](#ref-3)\].
+\[[2](#ref-2),[4](#ref-4)\].
 The most important condition to set me in the right mood for running though 
-was the stress and anxiety I was experiencing at that time.
+was the anxiety I was experiencing at that time.
 Having a guest around, I wasn't paying enough attention to my personal 
 well-being, not following my carefully laid-out self-care routines (which 
 include regular exercising).
@@ -155,7 +153,7 @@ like to join him and I said yes, without a second thought.
 I knew I couldn't keep up with him, so we decided to start out together and
 split up.
 I already had a route in mind.
-I wanted to run to an outdoor gym I've seen when driving through a nearby
+I wanted to run to an outdoor gym I had seen when driving through a nearby
 village.
 My intention was to run there, do some pull ups, some dips and run back.
 Turned out this outdoor gym I thought I had seen was not an outdoor gym at all 
@@ -165,7 +163,7 @@ arrived there, but still, what a disappointment.
 
 After a couple of small starting problems (I took some time getting ready and 
 had to turn around after a few meters&mdash;I had to leave my mobile behind, it
-was too annoying to carry around with me), we were finally on the road.
+was too annoying to carry around with me), we were finally out on the road.
 It was a fair day with the sun hanging fat and bright in a lazy blue sky.
 A gentle breeze made the warm air quite pleasant on the skin.
 We started out running down a hill with a smooth and easy decline, allowing us
@@ -179,6 +177,7 @@ Once we reached the plain I was already starting to struggle, my condition
 deteriorating quicker than I had anticipated. 
 I felt winded and my calves and feet were starting to act up, like they were
 about to start cramping.
+
 The weakest link was my stomach though.
 Not knowing the day was about to get a lot more strenuous, I had a tremendous
 and improper lunch.
@@ -186,7 +185,7 @@ We Germans love our bread and having a meal consisting of a few slices with
 a bunch of savory toppings to make open sandwiches and maybe a salad on the 
 side is something quite common in Germany.
 It is certainly the meal I consumed the most in my live and I deeply value 
-the nourishment provided to both body and soul.
+the nourishment it provides to both body and soul.
 Anyway, we had a nice and prolonged lunch with lots of thick slices of 
 *Schwarzbrot*, topped with a thick layer of strong allioli, thick slices of 
 fresh tomatoes and even thicker pieces of hearty cheese, made perfect with a 
@@ -211,7 +210,7 @@ I stayed behind in the shadow, bent over, gasping for air and absolution.
 He ran around the corner, accelerating even more.
 I retched.
 He came prancing back, smiling at me and telling me he had taken the wrong way, 
-he must take a right at the next crossing.
+he must take a right at the next crossing, not this one.
 He took off to the left this time and disappeared around the other corner.
 I retched again.
 There I was, a foolish and miserable creature standing next to the crossroads, 
@@ -227,24 +226,58 @@ two thirds of the usual distance I'd run back in my basketball days.
 In my arrogance I didn't bother to check the distance of the route to the 
 playground and I badly miscalculated it.
 Even with the self-destructive mindset and the overconfidence in my athletic 
-abilities, I'd probably only aimed for five kilometers, a distance I've outrun
-maybe once or twice in my entire life.
-I thought running to the playground and back would cover that distance, more or
-less.
+abilities, I would've probably only aimed for five kilometers, a distance I've 
+outrun maybe once or twice in my entire life&mdash;~~even when I was running
+regularly, I never enjoyed it and I was never good at it.~~ (TODO: more 
+prominent farther up)
+I thought running to the playground and back again would cover that distance, 
+more or less.
+While waiting at the crossroads for the nausea to subside and for the devil to
+show up and offer me the same deal as he did to the great Robert Johnson and 
+that fool Faust, I was contemplating giving up and returning home.
+Entertaining that thought for a minute, I disregarded it quickly and violently.
+Not reaching that cursed playground was just not an option.
+I retched a last time, stood up and trotted onwards.
 
-% State of mind at this point
+By the time I continued, my feet and calves were cramping deliciously.
+I managed to slowly stumble a few yards with forefoot striking but had to 
+abandon it to relieve my aching muscles, switching to heel striking.
+The switch of striking style allowed me to retain a rhythmic motion carrying
+me forwards, though I knew it would be a temporary measure.
+I don't want to demonize heel striking and I'm certainly not trying to give
+anyone any advice (this story should make it pretty clear that I'm in no 
+position to do that), but I know from past experience that heel striking is not
+the right style for me, probably due to a mixture of improper form and 
+structural reasons.
+What is certain is that heel striking puts greater demand on the knees compared
+to forefoot striking, which puts more demand on the Achilles tendon, ankle and 
+foot muscles \[[3](#ref-3)\].
+Given my history with chronic knee pain which developed during puberty&mdash;I
+got diagnosed with Osgood-Schlatter disease when I was fourteen&mdash;I'm
+quite vulnerable to it flaring back up.
 
-% Describe the run (I didn't even bother to check out the distance; forgot to
-put on sunscreen)
-
-With having quite the overconfidence in my athleticism, the simultaneous wish to
-wreck myself and the inability to quit on unrealistic goals, not reaching that 
-cursed playground was not an option.
+Running through brown and hot fields at a crawling pace, the only motivation I 
+had left keeping me going was the wish to reach another shady spot.
+I didn't want to add sunburn to my list of injuries.
+It's not pain that will make you stronger and grants you relief.
+It's pain that will give you skin cancer.
+I made my way to another crossroad with a couple of Mediterranean cypress trees,
+luring me with their precious shade and sweet scent.
+Resting my aching body and soul beneath those towering, ramrod straight and dusty 
+soldiers not bowed by destiny or the memory of their ancient roots, stoically 
+enduring and oblivious to my meagre existence, my peace and lucidity was only 
+disturbed by innocent passers-by, their eyes and smiles and greetings telling me
+that they were unable to grasp the heroic deeds I had performed during the last 
+twenty minutes.
+I had to continue my journey, rejuvenated by resignation and a desire to flee 
+pending judgement.
 
 % Describe what happened afterwards (calves, nose, body temperature, runners
 high)
 
 % Conclusion
+
+% State of today
 
 # References
 
@@ -258,7 +291,12 @@ Wearing. 2022. Reversing the mismatch with forefoot striking to reduce
 running injuries. *Frontiers in Sports and Active Living* 4, (May 2022).
 DOI:[https://doi.org/10.3389/fspor.2022.794005](https://doi.org/10.3389/fspor.2022.794005)
 
-\[<a name="ref-3">3</a>\] Xiaochen Lin, Xi Zhang, Jianjun Guo, Christian
+\[<a name="ref-3">3</a>\] Joseph Hamill and Allison H. Gruber. 2017. Is
+changing footstrike pattern beneficial to runners? *Journal of Sport and
+Health Science* 6, 2 (June 2017), 146–153.
+DOI:[https://doi.org/10.1016/j.jshs.2017.02.004](https://doi.org/10.1016/j.jshs.2017.02.004)
+
+\[<a name="ref-4">4</a>\] Xiaochen Lin, Xi Zhang, Jianjun Guo, Christian
 K. Roberts, Steve McKenzie, Wen‐Chih Wu, Simin Liu, and Yiqing Song.
 2015. Effects of exercise training on cardiorespiratory fitness and
 biomarkers of cardiometabolic health: A systematic review and
