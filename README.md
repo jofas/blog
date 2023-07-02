@@ -1,5 +1,14 @@
 # https://fassbender.dev/blog/
 
+## DOI to BibTeX Entry
+
+Given a DOI `DOI`, run the following command to add an entry to your
+`bibliography.bib` BibTeX file:
+
+```
+curl -LH "Accept: text/bibliography; style=bibtex" http://dx.doi.org/"$DOI" >> bibliography.bib
+```
+
 ## Converting BibTeX References to Markdown
 
 Given a BibTeX file `bibliography.bib`, create a file `bib.md`:
