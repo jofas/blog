@@ -242,8 +242,8 @@ I retched a last time, stood up and trotted onwards.
 By the time I continued, my feet and calves were cramping deliciously.
 I managed to slowly stumble a few yards with forefoot striking but had to 
 abandon it to relieve my aching muscles, switching to heel striking.
-The switch of striking style allowed me to retain a rhythmic motion carrying
-me forwards, though I knew it would be a temporary measure.
+The switch of striking style allowed me to retain a rhythmic motion, though I 
+knew it would be a temporary measure.
 I don't want to demonize heel striking and I'm certainly not trying to give
 anyone any advice (this story should make it pretty clear that I'm in no 
 position to do that), but I know from past experience that heel striking is not
@@ -254,7 +254,7 @@ to forefoot striking, which puts more demand on the Achilles tendon, ankle and
 foot muscles \[[3](#ref-3)\].
 Given my history with chronic knee pain which developed during puberty&mdash;I
 got diagnosed with Osgood-Schlatter disease when I was fourteen&mdash;I'm
-quite vulnerable to it flaring back up.
+quite vulnerable to it flaring back up when I put too much stress on my knees.
 
 Running through brown and hot fields at a crawling pace, the only motivation I 
 had left keeping me going was the wish to reach another shady spot.
@@ -263,16 +263,17 @@ It's not pain that will make you stronger and grants you relief.
 It's pain that will give you skin cancer.
 I made my way to another crossroad with a couple of Mediterranean cypress trees,
 luring me with their precious shade and sweet scent.
-Resting my aching body and soul beneath those towering, ramrod straight and dusty 
-soldiers not bowed by destiny or the memory of their ancient roots, stoically 
-enduring and oblivious to my meagre existence, my peace and lucidity was only 
-disturbed by innocent passers-by, their eyes and smiles and greetings telling me
-that they were unable to grasp the magnitude of the heroic quest I set forth on
-not thirty minutes ago.
+Resting my aching body and soul beneath those ramrod straight and dusty soldiers 
+not bowed by destiny or the memory of their ancient roots, my peace and 
+lucidity was only disturbed by innocent passers-by, their eyes and smiles 
+showing me their utter obliviousness to the magnitude of my heroic quest.
 I had to continue my journey, rejuvenated by resignation and a desire to flee 
-pending judgement.
-
-% last section
+pending judgement, setting forth on the last section before I would reach that
+God-forsaken playground.
+The last section before reaching the halfway mark was more of the same, though 
+the last two hundred or so meters I walked through a cool and shady forest, only 
+pretending to run once I was out of the woods and faced by people again.
+Vanity, definitely the devil's favourite sin.
 
 % reaching the god-forsaken playground (putting the finishing touches on the
 foolishness of the whole endeavour).
