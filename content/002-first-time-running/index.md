@@ -328,7 +328,7 @@ To make my first run after eight years perfect in its foolishness, I sprinted.
 If you want call me wobbling and staggering slightly faster than before 
 sprinting, that is.
 Moaning and groaning like a rutting stag, wheezing and coughing like a chain 
-smoker, spitting and screaming like a psychotic person I crossed the finish line.
+smoker, spitting and screaming like a psycho I crossed the finish line.
 
 % Describe what happened afterwards (calves, nose, body temperature, runners
 high)
