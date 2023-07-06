@@ -319,15 +319,16 @@ blast to break-in new hiking boots with a fifty kilometer hike.
 Turned my feet into a bloody pulp, but that's a story for another day.
 I was able to witness an utterly irrational thought take roots in my mind,
 conquer it and annihilate all reason I had left.
-Completely filled with the conviction that the only way I was able to manage 
-the final stretch was in a full-out sprint, that's just what I did.
-While I conceptually understood that this panting wreck of a body should not
-be pushed to run as fast as it could still muster, I did it anyway.
-What's reason worth if you can be alive instead?
-To make my first run after eight years perfect in its foolishness, I actually
-sprinted. 
-If you want call this wobbly gait a sprint that is.
-I moaned and groaned like a rutting stag, but I did it.
+Completely filled with the conviction that the only way I'd manage the final 
+stretch would be in a full-out sprint, that's what I did.
+Conceptual understanding that this panting wreck of a body should not
+be pushed to run as fast as it could still muster didn't matter.
+What is reason worth if you can be alive instead?
+To make my first run after eight years perfect in its foolishness, I sprinted. 
+If you want call me wobbling and staggering slightly faster than before 
+sprinting, that is.
+I moaned and groaned like a rutting stag.
+Wheezing and coughing I crossed the finish line.
 
 % Describe what happened afterwards (calves, nose, body temperature, runners
 high)
