@@ -343,8 +343,7 @@ I was happy and couldn't stop smiling.
 Not even my hurting ego, very much displeased with my performance, could subdue 
 my state of exuberance.
  
-% Describe what happened afterwards (calves, nose, body temperature, runners
-high)
+% Describe what happened afterwards (calves, nose, body temperature, soreness)
 
 % Alexis Zorba: I had to eat sherries till vomiting to get over it
 
