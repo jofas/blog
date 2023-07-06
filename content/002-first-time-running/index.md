@@ -271,16 +271,63 @@ I had to continue my journey, rejuvenated by resignation and a desire to flee
 pending judgement, setting forth on the last section before I would reach that
 God-forsaken playground.
 The last section before reaching the halfway mark was more of the same, though 
-the last two hundred or so meters I walked through a cool and shady forest, only 
-pretending to run once I was out of the woods and faced by people again.
+the last few hundred meters I walked through a cool and shady forest, only 
+pretending to run once I was out of the woods and faced with people again.
 Vanity, definitely the devil's favourite sin.
 
-% reaching the god-forsaken playground (putting the finishing touches on the
-foolishness of the whole endeavour).
+Finally I reached my destination, though what I found was nothing like what I
+imagined. 
+To make the foolishness of the whole endeavour perfect, what had looked like an 
+outdoor gym with bars and other fitness devices when I was driving by with my 
+car turned out to be some sort of adventure playground for children from years 
+eight to fourteen.
+It wasn't like people older than fourteen were not allowed on that 
+playground&mdash;I kinda gotten the idea that the playground was an outdoor gym
+because I saw old people working out there&mdash;but more that the devices are
+not suitable for taller folks.
+What I had mistaken for a rack with an adjustable bar I could use to do pull-ups 
+and dips on turned out to be fixed in place at about hip height.
+Thoroughly enjoying the futility of what I had accomplished with my suffering,
+I smiled and started my laborious way back.
 
-% Way back (knees acting up but steady stride till hill)
+On the return trip I was able to retain a steady stride suitable for my 
+condition.
+My knees were starting to get sore but still nothing compared to my burning 
+feet and ankles.
+I kept my pace easy and slow, stopping at the shady places I stopped before.
+My brain was beautifully numb, shut down by the steady movement and exhaustion.
+While I remember the disquiet during the first quarter of the run very well,
+I can't recall the state of mind I was in while running back through the plane,
+which makes me assume it was quite peaceful.
+That is until I reached the last section, back up the hill.
+With my poor endurance I was immediately winded once the not-so-steep incline 
+began.
+I was already running as slow as possible, so I couldn't decrease my speed any 
+further if I didn't want to revert to walking.
+Luckily there was a shady spot at the end of the section with the steepest 
+incline I could use to pause and recharge before the last stupidity I would 
+commit that day.
 
-% Last two hundred meters sprinting to make the ridiculousness perfect
+Only a small hump and a hundred meters of flat homestretch was standing between 
+me and the sweet relief of home.
+Cowering in the shade, staring down the last few meters of incline I had to
+overcome, I went crazy.
+It wasn't the first or the most intense bout of short-term craziness I
+experienced due to fatigue and pain.
+Once&mdash;in a similar state of mind&mdash;I decided it would be a proper 
+blast to break-in new hiking boots with a fifty kilometer hike.
+Turned my feet into a bloody pulp, but that's a story for another day.
+I was able to witness an utterly irrational thought take roots in my mind,
+conquer it and annihilate all reason I had left.
+Completely filled with the conviction that the only way I was able to manage 
+the final stretch was in a full-out sprint, that's just what I did.
+While I conceptually understood that this panting wreck of a body should not
+be pushed to run as fast as it could still muster, I did it anyway.
+What's reason worth if you can be alive instead?
+To make my first run after eight years perfect in its foolishness, I actually
+sprinted. 
+If you want call this wobbly gait a sprint that is.
+I moaned and groaned like a rutting stag, but I did it.
 
 % Describe what happened afterwards (calves, nose, body temperature, runners
 high)
