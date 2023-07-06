@@ -53,14 +53,14 @@ I can't lie, one of the most uncomfortable ailments afterwards was my hurting
 ego.
 Before it all, I thought I was in peak physical condition.
 I've been doing sports pretty much my whole life, with only two notable 
-absences, neither recent. 
+absences, neither one recent. 
 One year when I was fourteen and three years from 2017 to 2020.
 The former was due to a knee injury and the latter was caused by pure and utter 
 laziness.
 Before 2017 I was playing basketball in a club and all other athletic 
 training&mdash;including running&mdash;was accessory to my goal of 
 becoming a good basketball player. 
-Then a few things happened in my life, one being the development of chronic 
+A few things happened in my life, one being the development of chronic 
 pain in my knees, shins and feet due to my flat footedness and I just stopped 
 playing basketball, a sport I have played since I remember.
 I tried to do some exercises in the months that followed, but never mustered 
@@ -327,8 +327,8 @@ What is reason worth if you can be alive instead?
 To make my first run after eight years perfect in its foolishness, I sprinted. 
 If you want call me wobbling and staggering slightly faster than before 
 sprinting, that is.
-Moaning and groaning like a rutting stag, wheezing and coughing like a 
-chain smoker, spitting and screaming I crossed the finish line.
+Moaning and groaning like a rutting stag, wheezing and coughing like a chain 
+smoker, spitting and screaming like a psychotic person I crossed the finish line.
 
 % Describe what happened afterwards (calves, nose, body temperature, runners
 high)
