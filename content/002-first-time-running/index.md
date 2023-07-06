@@ -275,7 +275,7 @@ the last few hundred meters I walked through a cool and shady forest, only
 pretending to run once I was out of the woods and faced with people again.
 Vanity, definitely the devil's favourite sin.
 
-Finally I reached my destination, though what I found was nothing like what I
+Finally I reached my destination, though what I found was nothing like I 
 imagined. 
 To make the foolishness of the whole endeavour perfect, what had looked like an 
 outdoor gym with bars and other fitness devices when I was driving by with my 
@@ -330,6 +330,19 @@ sprinting, that is.
 Moaning and groaning like a rutting stag, wheezing and coughing like a chain 
 smoker, spitting and screaming like a psycho I crossed the finish line.
 
+How I felt afterwards nearly made up for the wreckage I caused myself.
+My first runner's high.
+Everything was soft and beautiful.
+When I finally sat down an intense sense of calm washed over me, something I 
+had missed for quite some time.
+I was at peace, all was well.
+Even the pain in my legs and lungs felt good.
+A warm and tingly sensation arose underneath the cramps as my muscles started
+to relax.
+I was happy and couldn't stop smiling.
+Not even my hurting ego, very much displeased with my performance, could subdue 
+my state of exuberance.
+ 
 % Describe what happened afterwards (calves, nose, body temperature, runners
 high)
 
