@@ -4,7 +4,7 @@ template = "page.html"
 date = 2023-05-24T15:00:00Z
 authors = ["Jonas Fassbender"]
 [taxonomies]
-tags = ["story", "personal"]
+tags = ["story"]
 [extra]
 summary = "I went running for the first time in eight years. This is what happened"
 +++
@@ -327,11 +327,13 @@ What is reason worth if you can be alive instead?
 To make my first run after eight years perfect in its foolishness, I sprinted. 
 If you want call me wobbling and staggering slightly faster than before 
 sprinting, that is.
-I moaned and groaned like a rutting stag.
-Wheezing and coughing I crossed the finish line.
+Moaning and groaning like a rutting stag, wheezing and coughing like a 
+chain smoker, spitting and screaming I crossed the finish line.
 
 % Describe what happened afterwards (calves, nose, body temperature, runners
 high)
+
+% Alexis Zorba: I had to eat sherries till vomiting to get over it
 
 % Conclusion
 
