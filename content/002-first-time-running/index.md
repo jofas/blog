@@ -353,35 +353,40 @@ days&mdash;there were unexpected parts of my organism feeling strange as well.
 My immune system went into complete overdrive and my nose was stuffy all night.
 I could also feel that my body temperature was higher than usual when I was lying 
 in bed, making me feel like I had a slight fever.
-Though I expected to sleep like an angel after exhausting myself like that,
+Expecting to sleep like an angel after exhausting myself like that,
 I slept badly, tossing and turning all night.
 When I woke up the next day, another unexpected part of my body had turned 
-sore quite badly, my core.
+sore: my core.
 While I thought I had gotten good core activation during my regular training 
-routine, running was more demanding than expected and my abdomen was hurting
-with every breath. 
-My good mood was gone as well when I woke up.
+routine, running was quite demanding and my abdomen was hurting with every 
+breath. 
+My good mood was gone as well the next morning.
 While running helped to get rid of the surmounting everyday stress causing my bad 
-mood and troubled mind before, it was replaced with the stress from the devastation 
-I caused my body.
-It took about three days to fully recover. 
+mood and troubled mind before, it was replaced with the stress from overdoing it
+like that.
+It took me about three days to fully recover. 
 On the eighth day I laced my running shoes again.
 
 I've been going running regularly for a couple of months now.
 Of course not such hellish runs like the first one.
-It took me a few runs more to calibrate, but I've found a distance and terrain 
+It took me a few more runs to calibrate, but I've found a distance and terrain 
 suitable for my skill level.
 Right now I run a beautiful four kilometer route with eighty meters of 
 altitude in about thirty-five minutes.
-It takes me through gorgeous and fragrant woods and along quaint villages with 
-churches and chapels and fields surrounding them.
+The track takes me through gorgeous and fragrant woods and along quaint villages 
+with churches and chapels and fields full of hay surrounding them.
 I've made a lot of progress, the strength and endurance in my calves, ankles and 
 feet growing significantly, same as my cardiovascular fitness.
-
-% Running without being exhausted at the end
-
-% Moments where I feel like I could run forever
-
+My physical gains are nothing compared to the progress of my approach though.
+All my life I thought running was inherently exhausting, which is not true.
+My approach to running has made it exhausting.
+Always running as fast as possible with a high heart rate and constantly out of
+breath, I was a very inefficient runner who never conserved any energy during
+lighter stretches.
+Turns out you can run at a speed where it feels like you actually gain more 
+energy rather than depleting your reserves.
+When hitting the sweet spot of speed and heart rate I feel like I can run 
+forever, a state many runners have told me about but I thought was made up.
 As to using physical exercise as punishment to rid myself from an anxious and 
 restless mind like I did during my first run, it has not happened since then.
 Partly due to adding regular running to my self-care routine has kept my mind
