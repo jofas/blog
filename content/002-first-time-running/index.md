@@ -6,10 +6,9 @@ authors = ["Jonas Fassbender"]
 [taxonomies]
 tags = ["story"]
 [extra]
-summary = "I went running for the first time in eight years. This is what happened"
+summary = "A tale of human foolishness"
 +++
 
-This is a tale of human foolishness and does not contain an ounce of wisdom.
 A few weeks ago I went running for the first time.
 Not for the first time ever, but for the first time in a really long time.
 So long that it warrants a slightly more sensational title, though neither 
@@ -112,7 +111,7 @@ that day I completely wracked my legs and lower back.
 It has been almost exclusively weightlifting for me since then, with a few 
 bodyweight exercises and the occasional squash match interspersed. 
 
-Just a few weeks ago then, another friend&mdash;let's call him L, like that 
+A few weeks ago then, another friend&mdash;let's call him L, like that 
 dude from Death Note&mdash;stayed over for a couple of weeks.
 He's a decent amateur endurance athlete and asked me if I'd like to join him on 
 one of his runs.
@@ -348,8 +347,8 @@ Like everything else though, the feeling didn't last.
 After a nice shower the high was gone.
 The calmness stayed a little longer, the whole evening in fact. 
 But without the high, my body made me aware of what I had done to it.
-While I expected discomfort at certain spots&mdash;most notably my feet which did 
-not disappoint with their exquisite soreness making me hobble for three 
+While I expected discomfort in certain spots&mdash;most notably my feet, which 
+did not disappoint with their exquisite soreness making me hobble for three 
 days&mdash;there were unexpected parts of my organism feeling strange as well.
 My immune system went into complete overdrive and my nose was stuffy all night.
 I could also feel that my body temperature was higher than usual when I was lying 
@@ -363,14 +362,39 @@ routine, running was more demanding than expected and my abdomen was hurting
 with every breath. 
 My good mood was gone as well when I woke up.
 While running helped to get rid of the surmounting everyday stress causing my bad 
-mood before, it was replaced with the stress from the devastation my body had to 
-suffer.
+mood and troubled mind before, it was replaced with the stress from the devastation 
+I caused my body.
+It took about three days to fully recover. 
+On the eighth day I laced my running shoes again.
 
-% Alexis Zorba: I had to eat sherries till vomiting to get over it
+I've been going running regularly for a couple of months now.
+Of course not such hellish runs like the first one.
+It took me a few runs more to calibrate, but I've found a distance and terrain 
+suitable for my skill level.
+Right now I run a beautiful four kilometer route with eighty meters of 
+altitude in about thirty-five minutes.
+It takes me through gorgeous and fragrant woods and along quaint villages with 
+churches and chapels and fields surrounding them.
+I've made a lot of progress, the strength and endurance in my calves, ankles and 
+feet growing significantly, same as my cardiovascular fitness.
 
-% Conclusion
+% Running without being exhausted at the end
 
-% State of today
+% Moments where I feel like I could run forever
+
+As to using physical exercise as punishment to rid myself from an anxious and 
+restless mind like I did during my first run, it has not happened since then.
+Partly due to adding regular running to my self-care routine has kept my mind
+in a beautiful and healthy state, but also because I'm starting to doubt the 
+effectiveness of this behaviour more and more with each time I exhibit it.
+Consuming all the energy for something futile and self-destructive just to feel
+like hitting the reset button is wasteful and time-consuming. 
+There's certainly a better way or else more people would be long-distance 
+runners or indulge in self-flagellation.
+Right now I feel like Alexis Zorba did after he gorged himself on sherries till
+he got sick, just to rid himself from his addiction to them.
+Maybe I did the same with my need for penance for what I perceive to be a 
+weakness.
 
 # References
 
