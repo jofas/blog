@@ -333,17 +333,38 @@ smoker, spitting and screaming like a psycho I crossed the finish line.
 How I felt afterwards nearly made up for the wreckage I caused myself.
 My first runner's high.
 Everything was soft and beautiful.
-When I finally sat down an intense sense of calm washed over me, something I 
-had missed for quite some time.
-I was at peace, all was well.
+When I finally sat down an intense sense of calm washed over me, a feeling I 
+had missed for some time and desperately needed.
+At last, I was at peace.
 Even the pain in my legs and lungs felt good.
 A warm and tingly sensation arose underneath the cramps as my muscles started
 to relax.
-I was happy and couldn't stop smiling.
-Not even my hurting ego, very much displeased with my performance, could subdue 
+I was happy and even when L returned shortly after, as flamboyant as ever and 
+not exhausted at all from running twice the distance that nearly broke me, I 
+couldn't stop smiling.
+My hurting ego, very much displeased with my performance, was unable to subdue 
 my state of exuberance.
- 
-% Describe what happened afterwards (calves, nose, body temperature, soreness)
+Like everything else though, the feeling didn't last.
+After a nice shower the high was gone.
+The calmness stayed a little longer, the whole evening in fact. 
+But without the high, my body made me aware of what I had done to it.
+While I expected discomfort at certain spots&mdash;most notably my feet which did 
+not disappoint with their exquisite soreness making me hobble for three 
+days&mdash;there were unexpected parts of my organism feeling strange as well.
+My immune system went into complete overdrive and my nose was stuffy all night.
+I could also feel that my body temperature was higher than usual when I was lying 
+in bed, making me feel like I had a slight fever.
+Though I expected to sleep like an angel after exhausting myself like that,
+I slept badly, tossing and turning all night.
+When I woke up the next day, another unexpected part of my body had turned 
+sore quite badly, my core.
+While I thought I had gotten good core activation during my regular training 
+routine, running was more demanding than expected and my abdomen was hurting
+with every breath. 
+My good mood was gone as well when I woke up.
+While running helped to get rid of the surmounting everyday stress causing my bad 
+mood before, it was replaced with the stress from the devastation my body had to 
+suffer.
 
 % Alexis Zorba: I had to eat sherries till vomiting to get over it
 
