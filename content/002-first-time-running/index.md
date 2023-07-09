@@ -49,13 +49,14 @@ Unfortunately it was not.
 Turns out I don't need to run 200 miles in two days straight like Courtney 
 Dauwalter to enter my pain cave. 
 Just eight kilometers in about an hour, never far from home are 
-sufficient&mdash;one of the most uncomfortable ailments afterwards was my 
-hurting ego.
+sufficient (one of the most uncomfortable ailments afterwards was my hurting 
+ego).
 Before it all, I thought I was in peak physical condition.
 I've been doing sports pretty much my whole life, with only two notable 
 absences, neither one recent. 
 One year when I was fourteen and three years from 2017 to 2020.
-The former was due to a knee injury and the latter was caused by pure and utter 
+The former was due to inflammation in my knee (I got diagnosed with 
+Osgood-Schlatter disease) and the latter was caused by pure and utter 
 laziness.
 Before 2017 I was playing basketball in a club and all other athletic 
 training&mdash;including running&mdash;was accessory to my goal of 
@@ -74,13 +75,13 @@ In 2020 then, a friend&mdash;a decent amateur strength athlete&mdash;and
 I were discussing the fact that we were not using the offerings of our 
 university enough.
 He suggested to go to the gym together, as our uni had its own (the 
-Pleasance Gym in Edinburgh, terrific place), with reasonable plans and fair 
+Pleasance Gym in Edinburgh, terrific place) with reasonable plans and fair 
 prices for enrolled students.
 I politely declined.
 He was adamant and told me, we could just go and play a game of squash.
 I yielded and we went to the gym together.
 He played me.
-We went to the Pleasance to play squash.
+Sure, we went to the Pleasance to play squash.
 But to my surprise we arrived thirty minutes early.
 
 "What should we do until our court is ready?" he asked.
@@ -224,16 +225,16 @@ abilities, I only aimed for five kilometers, a distance I've outrun maybe once
 or twice in my entire life.
 I estimated running to the playground and back again would cover that distance.
 While waiting at the crossroads for the nausea to subside and for the devil to
-show up and offer me the same deal he offered to the great Robert Johnson and 
+show up and offer me the same deal he offered the great Robert Johnson and 
 that fool Faust, I was contemplating giving up and returning home.
-Entertaining that thought for a minute, I disregarded it quickly and violently.
+Entertaining that thought for a minute, I violently disregarded it.
 Not reaching that cursed outdoor gym was just not an option.
 I retched a last time, stood up and trotted onwards.
 
 By the time I continued, my feet and calves were cramping deliciously.
 I managed to slowly stumble a few yards with forefoot striking but had to 
 abandon it to relieve my aching muscles, switching to heel striking.
-The switch of striking style allowed me to retain a rhythmic motion, even so I 
+The switch of striking style allowed me to retain a rhythmic motion, but I 
 knew it would be a temporary measure.
 I don't want to demonize heel striking and I'm certainly not trying to give
 anyone any advice (this story should make it pretty clear that I'm in no 
@@ -243,9 +244,8 @@ structural reasons.
 What is certain is that heel striking puts greater demand on the knees compared
 to forefoot striking, which puts more demand on the Achilles tendon, ankle and 
 foot muscles \[[3](#ref-3)\].
-Given my history with chronic knee pain which developed during puberty&mdash;I
-got diagnosed with Osgood-Schlatter disease when I was fourteen&mdash;it can 
-flare back up when I put too much stress on my knees.
+Given my history with chronic knee pain, I'm careful not to put too much stress
+on my knees to avoid reaggravation.
 
 Running through brown and hot fields at a crawling pace, the only motivation I 
 had left was the wish to reach another shady spot.
@@ -254,10 +254,10 @@ It's not pain that will make you stronger and grants you relief.
 It's pain that will give you skin cancer.
 I made my way to another crossroad with a couple of Mediterranean cypress trees,
 luring me with their precious shade and sweet scent.
-Resting my aching body and soul beneath those ramrod straight and dusty soldiers 
-unbowed by destiny or the memory of their ancient roots, my peace and 
-lucidity was only disturbed by innocent passers-by with eyes and smiles 
-depicting their obliviousness to the magnitude of my heroic quest.
+Resting beneath those ramrod straight and dusty soldiers unbowed by destiny or 
+the memory of their ancient roots, my peace and lucidity was only disturbed by 
+innocent passers-by with eyes and smiles depicting their obliviousness to the 
+magnitude of my heroic quest.
 I had to continue my journey, rejuvenated by resignation and a desire to flee 
 pending judgement.
 The last section before reaching the God-forsaken outdoor gym was more of the 
@@ -318,10 +318,9 @@ panting wreck of a body should not be pushed to run as fast as it still could,
 it didn't matter.
 What is reason worth if you can be alive instead?
 To make my first run after eight years perfect in its foolishness, I sprinted. 
-If you want to call this wobbling and staggering gait I depicted sprinting, that 
-is.
-Moaning and groaning like a rutting stag, wheezing and coughing like a chain 
-smoker, spitting and screaming like a maniac I crossed the finish line.
+Wobbling and staggering like a drunk, moaning and groaning like a rutting stag, 
+wheezing and coughing like a chain smoker, spitting and screaming like a maniac 
+I crossed the finish line.
 
 How I felt afterwards nearly made up for the wreckage I caused myself.
 My first runner's high.
@@ -338,7 +337,7 @@ couldn't stop smiling.
 My hurting ego, very much displeased with my performance, was unable to subdue 
 my state of exuberance.
 Nevertheless, like everything else the feeling didn't last.
-After a nice shower the high was gone.
+After a prolonged shower the high was gone.
 The calmness stayed a little longer, the whole evening in fact. 
 But without the high, my body made me aware of what I had done.
 While I expected discomfort in certain spots&mdash;most notably my feet, which 
@@ -347,9 +346,9 @@ days&mdash;there were unexpected parts of my organism feeling strange as well.
 My immune system went into complete overdrive and my nose was stuffy all night.
 I could also feel that my body temperature was higher than usual when I was lying 
 in bed, making me feel like I had a slight fever.
-Expecting to sleep like an angel after exhausting myself like that,
-I slept badly, tossing and turning all night.
-When I woke up the next day, another unexpected part of my body had turned 
+Expecting to sleep like an angel after so much exhaustion, I slept badly, 
+tossing and turning all night.
+When I woke up the next day, another unforeseen part of my body had turned 
 sore: my core.
 While I thought I had gotten good core activation during my regular training 
 routine, my abdomen was hurting with every breath. 
@@ -366,19 +365,19 @@ suitable for my skill level.
 Right now I run a stunning four kilometer route with eighty meters of 
 altitude in about thirty-five minutes.
 The track takes me through gorgeous and fragrant woods and along quaint villages 
-with churches and chapels and fields full of hay surrounding them.
+with picturesque churches and chapels and fields full of hay surrounding them.
 I've made a lot of progress, the strength and endurance in my calves, ankles and 
 feet growing significantly, same as my cardiovascular fitness.
-However my physical gains are nothing compared to the progress of my approach.
+However, my physical gains are nothing compared to the progress of my approach.
 All my life I thought running was inherently exhausting, which is not true.
-My approach to running has made it exhausting.
+My approach has made it exhausting.
 Always running as fast as possible with a high heart rate and constantly out of
 breath, I was a very inefficient runner who never conserved any energy during
 lighter stretches.
 Turns out you can run at a speed where it feels like you actually gain more 
 energy rather than depleting your reserves.
 When hitting the sweet spot I feel like I can run forever, a state many runners 
-have told me about but I was sure was made up.
+have told me about but I thought was made up.
 As to using physical exercise as punishment to rid myself from an anxious and 
 restless mind like I did during my first run, it has not happened since then.
 Partly due to adding regular running to my self-care routine has kept my mind
@@ -386,8 +385,8 @@ in a calm and healthy state, but also because I'm starting to doubt the
 effectiveness of this behaviour more and more with each time I exhibit it.
 Consuming all the energy for something futile and self-destructive just to feel
 like hitting the reset button is wasteful and time-consuming. 
-There must be a better way or else more people would be long-distance runners or 
-indulge in self-flagellation.
+There must be a more efficient way or else more people would be long-distance 
+runners or indulge in self-flagellation.
 Right now I feel like Alexis Zorba did after he gorged himself on sherries till
 he got sick, just to rid himself from his addiction to them.
 Maybe I did the same with my need for penance for what I perceive to be a 
