@@ -351,7 +351,7 @@ It took me about three days to fully recover.
 On the eighth day I laced my running shoes again.
 
 I've been going running regularly since then.
-Of course not such hellish runs like the first one.
+Not such hellish runs like the first one.
 It took me a few more runs to calibrate, but I've found a distance and terrain 
 suitable for my skill level.
 Right now I run a stunning four kilometer route with eighty meters of 
