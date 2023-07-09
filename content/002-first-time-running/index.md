@@ -352,7 +352,7 @@ On the eighth day I laced my running shoes again.
 
 I've been going running regularly since then.
 Not such hellish runs like the first one.
-It took me a few more runs to calibrate, but I've found a distance and terrain 
+It took me a little to calibrate, but I've found a distance and terrain 
 suitable for my skill level.
 Right now I run a stunning four kilometer route with eighty meters of 
 altitude in about thirty-five minutes.
