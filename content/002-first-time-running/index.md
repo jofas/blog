@@ -41,7 +41,7 @@ To pervert something so ordinary, all you need is a morbid wish for
 self-flagellation through physical exercise, a tendency for absurd 
 overestimation of your own skills and the inability to give up on unrealistic 
 goals.
-Perfect recipe for a healing dosage of good ol' self-inflicted pain.
+A perfect recipe for a healing dosage of good ol' self-inflicted pain.
 
 I make it sound like the first run after my prolonged absence was a marathon or 
 some other *über*-human distance.
