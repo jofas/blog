@@ -48,8 +48,9 @@ some other *über*-human distance.
 Unfortunately it was not.
 Turns out I don't need to run 200 miles in two days straight like Courtney 
 Dauwalter to enter my pain cave. 
-Just eight kilometers in about an hour, never far from home are sufficient.
-One of the most uncomfortable ailments afterwards was my hurting ego.
+Just eight kilometers in about an hour, never far from home are 
+sufficient&mdash;one of the most uncomfortable ailments afterwards was my 
+hurting ego.
 Before it all, I thought I was in peak physical condition.
 I've been doing sports pretty much my whole life, with only two notable 
 absences, neither one recent. 
@@ -62,8 +63,8 @@ becoming a good basketball player.
 A few things then happened in my life, one being the development of chronic 
 pain in my knees, shins and feet due to my flat footedness and I just stopped 
 playing basketball, a sport I have played since I remember.
-I tried to do some exercises in the months that followed, but never mustered 
-enough motivation to find a training routine suitable to improve my weaknesses.
+I tried to do some exercises in the months that followed but never mustered 
+enough motivation.
 The next three years I did not exercise regularly, no weightlifting and for 
 sure no running.
 I lost some weight but otherwise stayed in decent enough shape and didn't
@@ -79,8 +80,8 @@ I politely declined.
 He was adamant and told me, we could just go and play a game of squash.
 I yielded and we went to the gym together.
 He played me.
-We went to the Pleasance to play squash, but to my surprise we arrived 
-thirty minutes early.
+We went to the Pleasance to play squash.
+But to my surprise we arrived thirty minutes early.
 
 "What should we do until our court is ready?" he asked.
 
@@ -97,12 +98,12 @@ running after an eight year hiatus.
 The soreness was excruciating and lasted a whole week.
 One of the best parts of my daily routine was walking to and from uni through 
 beautiful Edinburgh.
-From Leith along Leith Walk to bustling Princes Street, crossing North Bridge 
+From Leith along Leith Walk to bustling Princes Street, across North Bridge 
 with its breathtaking view over Old and New Town, Scott Monument and the 
 Balmoral and finally alongside Old College through Potterrow Port to the Bayes 
 Centre and back.
 2.5 kilometers one-way.
-For a week I hobbled the whole distance, but it was absolutely worth it.
+I hobbled the whole distance, but it was absolutely worth it.
 I was hooked on weightlifting again.
 The stress relief and your mind feeling light and fluffy from the release of 
 colourful endorphins in the brain are just too good.
@@ -128,8 +129,8 @@ just weightlifting I've been unable to address two of my most glaring weaknesses
 namely an underdeveloped cardiovascular system and weak-ass flatfeet.
 Both scream for moderate running with focus on proper forefoot striking 
 \[[2](#ref-2),[4](#ref-4)\].
-The most important condition to set me in the right mood for running though 
-was the anxiety I was experiencing at that time.
+However the most important condition to set me in the right mood for running was 
+the anxiety I was experiencing at that time.
 Having a guest around, I wasn't paying enough attention to my personal 
 well-being, not following my carefully laid-out self-care routines including
 regular exercising.
@@ -172,7 +173,7 @@ Once we reached the plain I was already starting to struggle, my condition
 deteriorating quicker than I had anticipated. 
 I felt winded and my calves and feet felt like they were about to start cramping.
 
-The weakest link was my stomach though.
+Albeit the weakest link was my stomach.
 Not knowing the day was about to get a lot more strenuous, I had a tremendous
 and improper lunch.
 We Germans love our bread and a meal consisting of a few slices with a bunch of 
@@ -185,7 +186,7 @@ fresh tomatoes and even thicker pieces of hearty cheese, made perfect with a
 drizzle of olive oil and arugula on top.
 Some pickled olives and cucumbers and a small salad with a honey-mustard 
 dressing on the side&mdash;it was pure ecstasy.
-Though lunch was amazing, it was not really the best choice of food to eat 
+Although lunch was amazing, it was not really the best choice of food to eat 
 before taking my endurance to its limits and by the time we entered the plain,
 I was feeling sicker with every step.
 
@@ -221,7 +222,7 @@ playground and I badly miscalculated it.
 Even with the self-destructive mindset and the overconfidence in my athletic 
 abilities, I only aimed for five kilometers, a distance I've outrun maybe once 
 or twice in my entire life.
-I thought running to the playground and back again would cover that distance.
+I estimated running to the playground and back again would cover that distance.
 While waiting at the crossroads for the nausea to subside and for the devil to
 show up and offer me the same deal he offered to the great Robert Johnson and 
 that fool Faust, I was contemplating giving up and returning home.
@@ -232,7 +233,7 @@ I retched a last time, stood up and trotted onwards.
 By the time I continued, my feet and calves were cramping deliciously.
 I managed to slowly stumble a few yards with forefoot striking but had to 
 abandon it to relieve my aching muscles, switching to heel striking.
-The switch of striking style allowed me to retain a rhythmic motion, though I 
+The switch of striking style allowed me to retain a rhythmic motion, even so I 
 knew it would be a temporary measure.
 I don't want to demonize heel striking and I'm certainly not trying to give
 anyone any advice (this story should make it pretty clear that I'm in no 
@@ -260,9 +261,9 @@ depicting their obliviousness to the magnitude of my heroic quest.
 I had to continue my journey, rejuvenated by resignation and a desire to flee 
 pending judgement.
 The last section before reaching the God-forsaken outdoor gym was more of the 
-same, though the last few hundred meters I walked through a cool and shady 
-forest, only pretending to run once I was out of the woods and faced with people 
-again.
+same, the only difference being the last few hundred meters, which I walked 
+through a cool and shady forest, only pretending to run once I was out of the 
+woods and faced with people again.
 Vanity, definitely the devil's favourite sin.
 
 Finally I reached my destination.
@@ -308,7 +309,7 @@ experienced due to fatigue and pain.
 Once&mdash;in a similar state of mind&mdash;I decided it'd be a proper 
 blast to break-in new hiking boots with a fifty kilometer hike.
 It turned my feet into a bloody pulp, but that's a story for another day.
-I witnessed an utterly irrational thought take roots in my mind,
+I witnessed an utterly irrational idea take roots in my mind,
 conquer it and annihilate all reason I had left.
 Completely filled with the conviction that the only way I'd manage the final 
 stretch would be in a full-out sprint, that's what I did.
@@ -336,12 +337,12 @@ not exhausted at all from running twice the distance that nearly broke me, I
 couldn't stop smiling.
 My hurting ego, very much displeased with my performance, was unable to subdue 
 my state of exuberance.
-Like everything else though, the feeling didn't last.
+Nevertheless, like everything else the feeling didn't last.
 After a nice shower the high was gone.
 The calmness stayed a little longer, the whole evening in fact. 
 But without the high, my body made me aware of what I had done.
 While I expected discomfort in certain spots&mdash;most notably my feet, which 
-did not disappoint with their exquisite soreness making me hobble for three 
+did not disappoint with their exquisite soreness making me limp for three 
 days&mdash;there were unexpected parts of my organism feeling strange as well.
 My immune system went into complete overdrive and my nose was stuffy all night.
 I could also feel that my body temperature was higher than usual when I was lying 
@@ -368,7 +369,7 @@ The track takes me through gorgeous and fragrant woods and along quaint villages
 with churches and chapels and fields full of hay surrounding them.
 I've made a lot of progress, the strength and endurance in my calves, ankles and 
 feet growing significantly, same as my cardiovascular fitness.
-My physical gains are nothing compared to the progress of my approach though.
+However my physical gains are nothing compared to the progress of my approach.
 All my life I thought running was inherently exhausting, which is not true.
 My approach to running has made it exhausting.
 Always running as fast as possible with a high heart rate and constantly out of
@@ -377,7 +378,7 @@ lighter stretches.
 Turns out you can run at a speed where it feels like you actually gain more 
 energy rather than depleting your reserves.
 When hitting the sweet spot I feel like I can run forever, a state many runners 
-have told me about but I thought was made up.
+have told me about but I was sure was made up.
 As to using physical exercise as punishment to rid myself from an anxious and 
 restless mind like I did during my first run, it has not happened since then.
 Partly due to adding regular running to my self-care routine has kept my mind
