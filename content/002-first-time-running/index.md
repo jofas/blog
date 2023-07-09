@@ -11,35 +11,22 @@ summary = "A tale of human foolishness"
 
 A couple of months ago I went running for the first time.
 Not for the first time ever, but for the first time in a really long time.
-So long that it warrants a slightly more sensational title, though neither 
-"Going Running for the First Time" nor "Going Running for the First Time in a 
-Really Long Time" are particularly arousing.
+So long that it warrants a slightly more sensational title.
 I think the last time I went for a run&mdash;it was so long ago that I can't
 remember exactly when&mdash;was in the early summer months of 2015, pretty 
 much exactly eight years ago.
-Long enough for the bad memories to cease their hunting. 
-Long enough to forget the suffering.
-Long enough to get weary, let down my guard and fall prey to the sweetly
-venomous words of ~~Lucifer~~ my obviously masochist friends.
-Time has corroded my defenses and opened the door for new painful memories to 
-arise.
-This is a story about these memories.
-
-A responsible adult with working instincts and healthy self-evaluation 
-abilities may be asking themselves right now: what's this all about, running 
-isn't so bad?
-I agree (now), running is not bad at all and can be a very healthy and rewarding 
-endeavour.
-After all, we were born to run \[[1](#ref-1)\].
-While I never enjoyed running when I did it more or less regularly eight years
-ago, preference of exercise is not what I'm talking about.
-This story is about the fact that like pretty much anything else out there, the 
-act of rapidly putting one feet in front of the other can be abused until it 
-becomes painful and destructive.
+I never enjoyed running when I did it more or less regularly back then.
+In order to become a better athlete, I did it anyway.
+As I am getting older while trying to be a healthy and happy individual, I 
+decided to give running another chance.
+But my first try didn't go as planned and ended up being a completely ludicrous 
+and painful endeavour.
+Although we were born to run \[[1](#ref-1)\], the act of rapidly putting one 
+feet in front of the other can be abused until it becomes painful and 
+destructive.
 To pervert something so ordinary, all you need is a morbid wish for 
 penance through physical exercise, a tendency for absurd overestimation of your 
 own skills and the inability to give up on unrealistic goals.
-A perfect recipe for a healing dosage of good ol' self-inflicted pain.
 
 I make it sound like the first run after my prolonged absence was a marathon or 
 some other *über*-human distance.
@@ -60,10 +47,10 @@ Before 2017 I was playing basketball in a club and all other athletic
 training&mdash;including running&mdash;was accessory to my goal of 
 becoming a good basketball player. 
 A few things happened in my life back then, one being the development of chronic 
-pain in my knees, shins and feet due to flat-footedness and I stopped playing 
-basketball, a sport I've played since I remember.
-I tried to do some exercises in the months that followed but never mustered 
-enough motivation.
+pain in my knees, shins and feet due to flat-footedness.
+I stopped playing basketball, a sport I've played since I remember.
+Doing some exercises in the months that followed, I never mustered enough 
+motivation to stick to a training schedule without basketball.
 The next three years I did not exercise regularly, no weightlifting and for 
 sure no running.
 I lost some weight but otherwise stayed in decent enough shape and didn't
@@ -357,21 +344,21 @@ suitable for my skill level.
 Right now I run a stunning four kilometer route with eighty meters of 
 altitude in about thirty-five minutes.
 The track takes me through gorgeous and fragrant woods and along quaint villages 
-with picturesque churches and chapels and fields full of hay surrounding them.
-I've made a lot of progress, the strength and endurance in my calves, ankles and 
-feet growing significantly, same as my cardiovascular fitness.
+with picturesque churches and chapels surrounded by fields full of hay.
+I've made a lot of progress.
+The strength and endurance in my calves, ankles and feet has grown significantly, 
+same as my cardiovascular fitness.
 However, my physical gains are nothing compared to the progress of my approach.
 All my life I thought running was inherently exhausting, which is not true.
 My approach has made it so.
-Always running as fast as possible with a high heart rate and constantly out of
-breath, I was a very inefficient runner who never conserved energy during
-lighter stretches.
+Always running as fast as possible and constantly out of breath, I was a very 
+inefficient runner who never conserved energy during lighter stretches.
 Turns out you can run at a speed where it feels like you actually gain more 
 energy rather than depleting your reserves.
 When hitting the sweet spot I feel like I can run forever, a state many runners 
 have told me about but I thought was made up.
 As to using physical exercise as punishment to rid myself from an anxious and 
-restless mind like I did during my first run, it has not happened since then.
+restless mind like I did during the first run, it has not happened since then.
 Partly due to adding regular running to my self-care routine has kept my mind
 in a calm and healthy state. 
 But also because I'm starting to doubt the effectiveness of this behaviour more 
