@@ -6,7 +6,7 @@ authors = ["Jonas Fassbender"]
 [taxonomies]
 tags = ["story"]
 [extra]
-summary = "A tale of human foolishness"
+summary = "A tale about human foolishness"
 +++
 
 A couple of months ago I went running for the first time.
