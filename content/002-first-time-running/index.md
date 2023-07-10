@@ -1,7 +1,7 @@
 +++
 title = "Going Running for the First Time"
 template = "page.html"
-date = 2023-05-24T15:00:00Z
+date = 2023-07-10T15:00:00Z
 authors = ["Jonas Fassbender"]
 [taxonomies]
 tags = ["story"]
@@ -17,7 +17,7 @@ remember exactly when&mdash;was in the early summer months of 2015, pretty
 much exactly eight years ago.
 I never enjoyed running when I did it more or less regularly back then.
 In order to become a better athlete, I did it anyway.
-As I am getting older while trying to be a healthy and happy individual, I 
+As I am getting older, while trying to be a healthy and happy individual, I 
 decided to give running another chance.
 But my first try didn't go as planned and ended up being a completely ludicrous 
 and painful endeavour.
@@ -38,7 +38,7 @@ sufficient (one of the most uncomfortable ailments afterwards was my hurting
 ego).
 Before it all, I thought I was in peak physical condition.
 I've been doing sports pretty much my whole life, with only two notable 
-absences, neither one recent. 
+absences.
 One year when I was fourteen and three years from 2017 to 2020.
 The former was due to inflammation in my knee (I got diagnosed with 
 Osgood-Schlatter disease) and the latter was caused by pure and utter 
@@ -53,8 +53,7 @@ Doing some exercises in the months that followed, I never mustered enough
 motivation to stick to a training schedule without basketball.
 The next three years I did not exercise regularly, no weightlifting and for 
 sure no running.
-I lost some weight but otherwise stayed in decent enough shape and didn't
-degenerate too badly.
+I lost some weight but otherwise stayed in decent enough shape.
 
 In 2020 then, a friend&mdash;a decent amateur strength athlete&mdash;and 
 I were discussing the fact that we were not using the offerings of our 
@@ -63,9 +62,9 @@ He suggested to go to the gym together, as our uni had its own (the
 Pleasance Gym in Edinburgh, terrific place) with reasonable plans and fair 
 prices for enrolled students.
 I politely declined.
-He was adamant and told me, we could just go and play a game of squash.
+He was adamant and told me, we could go and play a game of squash.
 I yielded and we went to the gym together.
-He played me.
+He tricked me.
 Sure, we went to the Pleasance to play squash.
 But to my surprise we arrived thirty minutes early.
 
@@ -85,9 +84,9 @@ The soreness was excruciating and lasted a whole week.
 One of the best parts of my daily routine was walking to and from uni through 
 beautiful Edinburgh.
 From Leith along Leith Walk to bustling Princes Street, across North Bridge 
-with its breathtaking view over Old and New Town, Scott Monument and the 
-Balmoral and finally alongside Old College through Potterrow Port to the Bayes 
-Centre and back.
+with its breathtaking view over epic Old and New Town, Scott Monument and the 
+noble Balmoral and finally alongside Old College through Potterrow Port to the 
+Bayes Centre and back.
 2.5 kilometers one-way.
 I hobbled the whole distance, but it was absolutely worth it.
 I was hooked on weightlifting again.
@@ -105,8 +104,8 @@ one of his runs.
 I politely declined.
 He was adamant and told me, I'd feel great afterwards.
 I yielded and we went running together.
-If there is a morale to this tale then it's probably that you shouldn't be
-spineless and give in to your silly friends so easily.
+If there is a morale to this tale then it's probably that you shouldn't give in 
+to your silly friends so easily.
 While spinelessness plays a prominent role in my every-day decision making, it 
 was not the only reason I took him up on his offer.
 I've been contemplating going running again, because only with weightlifting 
@@ -167,9 +166,9 @@ topped with a thick layer of strong allioli, thick slices of
 fresh tomatoes and even thicker pieces of hearty cheese, made perfect with a 
 drizzle of olive oil and arugula on top.
 Some pickled olives and cucumbers and a small salad with a honey-mustard 
-dressing on the side&mdash;it was pure ecstasy.
-Although lunch was amazing, it was not really the best choice of food to eat 
-before taking my endurance to its limits and by the time we entered the plain,
+dressing on the side, it was pure ecstasy.
+Although lunch was amazing, it was not the best choice of food to eat before 
+taking my endurance to its limits and by the time we entered the plain,
 I was feeling sicker with every step.
 
 We finally caught sight of the crossroads where we would part.
@@ -212,7 +211,7 @@ Entertaining that thought for a minute, I violently disregarded it.
 Not reaching that cursed gym was not an option.
 I retched a last time, stood up and trotted onwards.
 
-By the time I continued my feet and calves were cramping deliciously.
+By the time I continued, my feet and calves were cramping deliciously.
 I managed to slowly stumble a few yards with forefoot striking but had to 
 abandon it to relieve my aching muscles, switching to heel striking.
 The switch of striking style allowed me to retain a rhythmic motion, but I 
@@ -271,10 +270,11 @@ I kept my pace easy and slow, stopping at the shady places I stopped before.
 My brain was mercifully numb, shut down by the steady movement and exhaustion.
 While I remember the disquiet during the first quarter of the run very well,
 I can't recall my state of mind while running back through the plane,
-which makes me assume it was peaceful or at least empty.
+making me assume it was peaceful.
+Or at least empty.
 Until I reached the last section, back up the hill.
 With my poor endurance I was immediately winded by the not-so-steep incline.
-I was already running as slow as possible, so I couldn't decrease my speed any 
+I was already running as slow as possible so I couldn't decrease my speed any 
 further or else I would've reverted to walking.
 Luckily there was a shady spot at the end of the section with the steepest 
 incline.
@@ -289,7 +289,7 @@ experienced due to fatigue and pain.
 Once&mdash;in a similarly agitated state&mdash;I decided it'd be a proper 
 blast to break-in new hiking boots with a fifty kilometer hike.
 It turned my feet into a bloody pulp, but that's a story for another day.
-I witnessed an utterly irrational idea take roots in my mind,
+I witnessed an utterly irrational thought take roots in my mind,
 conquer it and annihilate all reason I had left.
 Completely filled with the conviction that the only way I'd manage the final 
 stretch would be in a full-out sprint, that's what I did.
@@ -310,9 +310,9 @@ At last, I was at peace.
 Even the pain in my legs and lungs felt good.
 A warm and tingly sensation started to arise underneath the cramps as my muscles 
 started to relax.
-I was happy and even when *L* returned shortly after, as flamboyant as ever and 
-not exhausted at all from running twice the distance that nearly broke me, I 
-couldn't stop smiling.
+I was happy and even when *L* returned shortly after&mdash;as flamboyant as ever 
+and not exhausted at all from running twice the distance that nearly broke 
+me&mdash;I couldn't stop smiling.
 My hurting ego, very much displeased with my performance, was unable to subdue 
 my state of exuberance.
 Alas, the feeling didn't last.
@@ -320,8 +320,8 @@ After a prolonged shower the high was gone.
 The calmness stayed a little longer, but without the high my body made me aware 
 of what I had done.
 While I expected discomfort in certain spots&mdash;most notably my feet, which 
-did not disappoint with their exquisite soreness making me limp for three 
-days&mdash;there were unexpected parts of my organism feeling strange as well.
+did not disappoint with their exquisite soreness causing me a limp&mdash;there 
+were unexpected parts of my organism feeling strange as well.
 My immune system went into complete overdrive and my nose was stuffy all night.
 I could also feel that my body temperature was higher than usual when I was lying 
 in bed, like I had a slight fever.
