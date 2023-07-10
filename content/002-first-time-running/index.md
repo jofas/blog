@@ -17,7 +17,7 @@ remember exactly when&mdash;was in the early summer months of 2015, pretty
 much exactly eight years ago.
 I never enjoyed running when I did it more or less regularly back then.
 In order to become a better athlete, I did it anyway.
-As I am getting older, while trying to be a healthy and happy individual, I 
+As I'm getting older while trying to be a healthy and happy individual, I 
 decided to give running another chance.
 But my first try didn't go as planned and ended up being a completely ludicrous 
 and painful endeavour.
