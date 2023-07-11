@@ -504,6 +504,8 @@ jobs:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
 ```
 
+---
+
 [^1]: I don't call me that, but I enjoy dabbling with modern concepts of DevOps
   like CI/CD, artifact registries, containerisation, Kubernetes and cloud 
   computing. 
