@@ -25,4 +25,6 @@ many things could've been handled more elegantly and in a more orthogonal way.
 
 % TODO: configuration baked into the image vs. provided at runtime
 
+% TODO: about the setup but also about the improvements
+
 % TODO: diagram showing what is going on. 
