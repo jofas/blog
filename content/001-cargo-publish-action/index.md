@@ -4,7 +4,7 @@ template = "page.html"
 date = 2023-04-21T15:00:00Z
 authors = ["Jonas Fassbender"]
 [taxonomies]
-tags = ["devops", "rust", "software", "cargo"]
+tags = ["devops", "rust"]
 [extra]
 summary = "Automatically publish your crates when you push a tag to your repository that looks like a SemVer version"
 +++
