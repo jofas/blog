@@ -28,3 +28,7 @@ many things could've been handled more elegantly and in a more orthogonal way.
 % TODO: about the setup but also about the improvements
 
 % TODO: diagram showing what is going on. 
+
+## Links
+
+* https://docs.docker.com/engine/reference/run/#network-host
