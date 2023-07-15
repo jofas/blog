@@ -1,8 +1,82 @@
-\documentclass[tikz,convert={outfile=\jobname.svg}]{standalone}
+\documentclass[dvisvgm]{standalone}
+
+\usepackage{tikz}
+\usepackage{fontawesome5}
+\usepackage{svg}
+
+\usetikzlibrary{%
+    arrows,
+    arrows.meta,
+    decorations,
+    backgrounds,
+    positioning,
+    fit,
+    graphs,
+    petri,
+    shadows,
+    datavisualization.formats.functions,
+    calc,
+    shapes,
+    shapes.multipart,
+    matrix,
+    plotmarks
+}
+
 \begin{document}
-\begin{tikzpicture}
-  \draw (0,0) -- (10,10);
-  \draw (10,0) -- (0,10);
-  \node at (5,5) {Lorem ipsum at domine standalonus};
+\begin{tikzpicture}[]
+    \node[draw, fill=blue!30, minimum height=4cm, minimum width=16cm] (cluster) {};
+
+    \matrix[column sep=1cm, row sep=1cm] at (cluster.center) {
+        &\node[draw, fill=white] (ss1)  {StatefulSet 1};
+        &\node[draw, fill=white] (ss2) {StatefulSet 2};
+        &\node {\dots};
+        &\node[draw, fill=white] (ssn) {StatefulSet N};
+        \\
+
+        \node[draw, fill=white] (openvpn) {OpenVPN};
+        &\node[draw, fill=white] (s1) {Service 1};
+        &\node[draw, fill=white] (s2) {Service 2};
+        &\node {\dots};
+        &\node[draw, fill=white] (ssn) {StatefulSet N};
+        \\
+    };
+
+    \node[draw, fill=gray!20, minimum height=9cm, minimum width=12cm, below=2 of cluster] (onprem) {};
+
+    \matrix[column sep=1cm, row sep=1cm] at (onprem.center) {
+        \node[draw, fill=blue!10, minimum height=4cm, minimum width=6cm] (docker) {}; \\
+        \node[draw, minimum height=2cm, minimum width=4cm, fill=gray!10] (cronjob) {Cron Job};
+        &\node[draw, fill=gray!80, cylinder, shape border rotate=90, aspect=0.25] (hdd) {~~~~~~~~\texttt{/dev/sda1}}; \\
+    };
+
+    \node[draw, fill=blue!20, minimum height=2cm, minimum width=4cm] at (docker.center) (container) {};
+    \node[draw, fill=purple!10] at (container.center) {\texttt{backup.sh}};
+
+    \node[draw, fill=purple!10] at (cronjob.center) {\texttt{run\_backup.sh}};
+
+    \node[left=5 of container, label=below:Admin] (admin) {\includesvg[height=24pt]{user-solid}};
+
+    \node[below right] at (cluster.north west) (cluster-icon) {\includesvg[height=10pt]{cloud-solid}};
+    \node[right=0 of cluster-icon] {Cluster};
+
+    \node[above right] at (onprem.south west) (onprem-icon) {\includesvg[height=10pt]{server-solid}};
+    \node[right=0 of onprem-icon] {On Premise};
+
+    \node[above right] at (docker.south west) (docker-icon) {\includesvg[height=10pt]{docker}};
+    \node[right=0 of docker-icon] {Docker};
+
+    \node[above right] at (container.south west) {Container};
+
+    \node[above right] at (cronjob.south west) {Cron Job};
+    \node[left=-1 of hdd] {\includesvg[height=10pt]{hard-drive-solid}};
+
+    % TODO: missing edges
+    % TODO: colors
+
+    \draw[->] (cronjob.15) -- node[above] {1. \texttt{mount}} (hdd.160);
+    \draw[->] (cronjob.355) -- node[below] {7. \texttt{unmount}} (hdd.188);
+    \draw[->] (cronjob) -- node[below right]{2. Spin up} (container);
+    \draw[<-, dashed] (container) -|node[above]{2. Mount as volume} (hdd);
+    \draw[->] (container) -- node[above left]{6. Send E-Mail} (admin);
 \end{tikzpicture}
 \end{document}
