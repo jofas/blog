@@ -81,7 +81,7 @@
     \draw[<-, very thick, dashed] (container.350) -|node[below left]{2. Mount as Volume} (hdd.95);
     \draw[->, very thick] (container) -- node[above]{6. Send E-Mail} (admin);
     \draw[->, very thick] (container.150) |- ($(container)!.65!(openvpn)$) node[above] {3. Connect} -| (openvpn);
-    \draw[->, very thick] (container.north east) -| node[above left]{5. Dump Backup} (hdd.45);
+    \draw[->, very thick] (container.15) -| node[above left]{5. Dump Backup} (hdd.45);
 
     \draw[very thick] (container.north) |- ($(container)!.8!(create-backup-label)$) node[above left] {4. Create Backups} -| (create-backup-label.center);
     \draw[->, very thick] (create-backup-label.center) -| (s1);
