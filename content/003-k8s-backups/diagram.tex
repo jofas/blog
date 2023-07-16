@@ -37,24 +37,24 @@
         &\node[draw, fill=white] (s1) {Service 1};
         &\node[draw, fill=white] (s2) {Service 2};
         &\node {\dots};
-        &\node[draw, fill=white] (ssn) {StatefulSet N};
+        &\node[draw, fill=white] (sn) {Service N};
         \\
     };
 
     \node[draw, fill=gray!20, minimum height=9cm, minimum width=12cm, below=2 of cluster] (onprem) {};
 
-    \matrix[column sep=1cm, row sep=1cm] at (onprem.center) {
-        \node[draw, fill=blue!10, minimum height=4cm, minimum width=6cm] (docker) {}; \\
-        \node[draw, minimum height=2cm, minimum width=4cm, fill=gray!10] (cronjob) {Cron Job};
+    \matrix[column sep=2cm, row sep=1cm] at (onprem.center) {
+        \node[draw, fill=blue!10, minimum height=3.5cm, minimum width=5.5cm] (docker) {}; \\
+        \node[draw, minimum height=1.5cm, minimum width=4cm, fill=gray!10] (cronjob) {Cron Job};
         &\node[draw, fill=gray!80, cylinder, shape border rotate=90, aspect=0.25] (hdd) {~~~~~~~~\texttt{/dev/sda1}}; \\
     };
 
-    \node[draw, fill=blue!20, minimum height=2cm, minimum width=4cm] at (docker.center) (container) {};
+    \node[draw, fill=blue!20, minimum height=1.5cm, minimum width=4cm] at (docker.center) (container) {};
     \node[draw, fill=purple!10] at (container.center) {\texttt{backup.sh}};
 
     \node[draw, fill=purple!10] at (cronjob.center) {\texttt{run\_backup.sh}};
 
-    \node[left=5 of container, label=below:Admin] (admin) {\includesvg[height=24pt]{user-solid}};
+    \node[left=6 of container, label=below:Admin] (admin) {\includesvg[height=24pt]{user-solid}};
 
     \node[below right] at (cluster.north west) (cluster-icon) {\includesvg[height=10pt]{cloud-solid}};
     \node[right=0 of cluster-icon] {Cluster};
@@ -70,13 +70,26 @@
     \node[above right] at (cronjob.south west) {Cron Job};
     \node[left=-1 of hdd] {\includesvg[height=10pt]{hard-drive-solid}};
 
-    % TODO: missing edges
     % TODO: colors
+    % TODO: more icons (privacy, linux, scroll, box, database, network-wired)
 
-    \draw[->] (cronjob.15) -- node[above] {1. \texttt{mount}} (hdd.160);
-    \draw[->] (cronjob.355) -- node[below] {7. \texttt{unmount}} (hdd.188);
-    \draw[->] (cronjob) -- node[below right]{2. Spin up} (container);
-    \draw[<-, dashed] (container) -|node[above]{2. Mount as volume} (hdd);
-    \draw[->] (container) -- node[above left]{6. Send E-Mail} (admin);
+    \node[below right=2 of s2] (create-backup-label) {};
+
+    \draw[->, very thick] (cronjob.15) -- node[above] {1. \texttt{Mount}} (hdd.160);
+    \draw[->, very thick] (cronjob.355) -- node[below] {7. \texttt{Unmount}} (hdd.188);
+    \draw[->, very thick] (cronjob) -- node[below right]{2. Spin Up} (container);
+    \draw[<-, very thick, dashed] (container.350) -|node[below left]{2. Mount as Volume} (hdd.95);
+    \draw[->, very thick] (container) -- node[above]{6. Send E-Mail} (admin);
+    \draw[->, very thick] (container.150) |- ($(container)!.65!(openvpn)$) node[above] {3. Connect} -| (openvpn);
+    \draw[->, very thick] (container.north east) -| node[above left]{5. Dump Backup} (hdd.45);
+
+    \draw[very thick] (container.north) |- ($(container)!.8!(create-backup-label)$) node[above left] {4. Create Backups} -| (create-backup-label.center);
+    \draw[->, very thick] (create-backup-label.center) -| (s1);
+    \draw[->, very thick] (create-backup-label.center) -| (s2);
+    \draw[->, very thick] (create-backup-label.center) -| (sn);
+
+    \draw[very thick] (s1) -- (ss1);
+    \draw[very thick] (s2) -- (ss2);
+    \draw[very thick] (sn) -- (ssn);
 \end{tikzpicture}
 \end{document}
