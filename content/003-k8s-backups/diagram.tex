@@ -2,7 +2,6 @@
 
 \usepackage{tikz}
 \usepackage{fontawesome5}
-\usepackage{svg}
 
 \usetikzlibrary{%
     arrows,
@@ -24,59 +23,52 @@
 
 \begin{document}
 \begin{tikzpicture}[]
-    \node[draw, fill=blue!30, minimum height=4cm, minimum width=16cm] (cluster) {};
+    \node[draw, fill=blue!5, minimum height=4cm, minimum width=16cm] (cluster) {};
 
     \matrix[column sep=1cm, row sep=1cm] at (cluster.center) {
-        &\node[draw, fill=white] (ss1)  {StatefulSet 1};
-        &\node[draw, fill=white] (ss2) {StatefulSet 2};
+        &\node[draw, fill=white] (ss1)  {\faIcon{database} StatefulSet 1};
+        &\node[draw, fill=white] (ss2) {\faIcon{database} StatefulSet 2};
         &\node {\dots};
-        &\node[draw, fill=white] (ssn) {StatefulSet N};
+        &\node[draw, fill=white] (ssn) {\faIcon{database} StatefulSet N};
         \\
 
-        \node[draw, fill=white] (openvpn) {OpenVPN};
-        &\node[draw, fill=white] (s1) {Service 1};
-        &\node[draw, fill=white] (s2) {Service 2};
+        \node[draw, fill=white] (openvpn) {\faIcon{user-secret} OpenVPN};
+        &\node[draw, fill=white] (s1) {\faIcon{network-wired} Service 1};
+        &\node[draw, fill=white] (s2) {\faIcon{network-wired} Service 2};
         &\node {\dots};
-        &\node[draw, fill=white] (sn) {Service N};
+        &\node[draw, fill=white] (sn) {\faIcon{network-wired} Service N};
         \\
     };
 
-    \node[draw, fill=gray!20, minimum height=9cm, minimum width=12cm, below=2 of cluster] (onprem) {};
+    \node[draw, fill=gray!10, minimum height=9cm, minimum width=12cm, below=2 of cluster] (onprem) {};
 
-    \matrix[column sep=2cm, row sep=1cm] at (onprem.center) {
-        \node[draw, fill=blue!10, minimum height=3.5cm, minimum width=5.5cm] (docker) {}; \\
-        \node[draw, minimum height=1.5cm, minimum width=4cm, fill=gray!10] (cronjob) {Cron Job};
-        &\node[draw, fill=gray!80, cylinder, shape border rotate=90, aspect=0.25] (hdd) {~~~~~~~~\texttt{/dev/sda1}}; \\
+    \matrix[column sep=2.5cm, row sep=1cm] at (onprem.center) {
+        \node[draw, fill=blue!10, minimum height=3.5cm, minimum width=5cm] (docker) {}; \\
+        \node[draw, minimum height=2cm, minimum width=4cm, fill=gray!5] (cronjob) {Cron Job};
+        &\node[draw, fill=gray!35, cylinder, shape border rotate=90, aspect=0.25] (hdd) {\faIcon{hdd} \texttt{/dev/sda1}}; \\
     };
 
-    \node[draw, fill=blue!20, minimum height=1.5cm, minimum width=4cm] at (docker.center) (container) {};
-    \node[draw, fill=purple!10] at (container.center) {\texttt{backup.sh}};
+    \node[draw, fill=blue!20, minimum height=2cm, minimum width=4cm] at (docker.center) (container) {};
+    \node[draw, fill=purple!10] at (container.center) {\faIcon{scroll} \texttt{backup.sh}};
 
-    \node[draw, fill=purple!10] at (cronjob.center) {\texttt{run\_backup.sh}};
+    \node[draw, fill=purple!10] at (cronjob.center) {\faIcon{scroll} \texttt{run\_backup.sh}};
 
-    \node[left=6 of container, label=below:Admin] (admin) {\includesvg[height=24pt]{user-solid}};
+    \node[left=6 of container, label=below:Admin] (admin) {\Huge{\faIcon{user}}};
 
-    \node[below right] at (cluster.north west) (cluster-icon) {\includesvg[height=10pt]{cloud-solid}};
-    \node[right=0 of cluster-icon] {Cluster};
+    \node[below right] at (cluster.north west) {\faIcon{cloud} Cluster};
 
-    \node[above right] at (onprem.south west) (onprem-icon) {\includesvg[height=10pt]{server-solid}};
-    \node[right=0 of onprem-icon] {On Premise};
+    \node[above right] at (onprem.south west) {\faIcon{server} On Premise};
 
-    \node[above right] at (docker.south west) (docker-icon) {\includesvg[height=10pt]{docker}};
-    \node[right=0 of docker-icon] {Docker};
+    \node[above right] at (docker.south west) {\faIcon{docker} Docker};
 
-    \node[above right] at (container.south west) {Container};
+    \node[above right] at (container.south west) {\faIcon{box} Container};
 
-    \node[above right] at (cronjob.south west) {Cron Job};
-    \node[left=-1 of hdd] {\includesvg[height=10pt]{hard-drive-solid}};
-
-    % TODO: colors
-    % TODO: more icons (privacy, linux, scroll, box, database, network-wired)
+    \node[above right] at (cronjob.south west) {\faIcon{robot} Cron Job};
 
     \node[below right=2 of s2] (create-backup-label) {};
 
-    \draw[->, very thick] (cronjob.15) -- node[above] {1. \texttt{Mount}} (hdd.160);
-    \draw[->, very thick] (cronjob.355) -- node[below] {7. \texttt{Unmount}} (hdd.188);
+    \draw[->, very thick] (cronjob.12) -- node[above] {1. Mount} (hdd.160);
+    \draw[->, very thick] (cronjob.355) -- node[below] {7. Unmount} (hdd.188);
     \draw[->, very thick] (cronjob) -- node[below right]{2. Spin Up} (container);
     \draw[<-, very thick, dashed] (container.350) -|node[below left]{2. Mount as Volume} (hdd.95);
     \draw[->, very thick] (container) -- node[above]{6. Send E-Mail} (admin);
