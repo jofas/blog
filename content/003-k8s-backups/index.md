@@ -9,6 +9,12 @@ tags = ["devops", "k8s"]
 summary = "My setup for creating local backups of data from a kubernetes cluster"
 +++
 
+<div class="text-center">
+<object data="diagram.svg" type="image/svg+xml"></object>
+
+Figure 1: Diagram of my Backup Routine
+</div>
+
 While planning the sunset I realised I'd have to stop the backup cron job running 
 on my server.
 Because I was kind of proud of my setup and remembered that it took me some time

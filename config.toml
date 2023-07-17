@@ -36,6 +36,7 @@ logo = "me.jpg"
 avatar_dark = "logo_dark.svg"
 avatar_light = "logo_light.svg"
 favicon = "logo_192.png"
+custom_css = ["blog.tailwind.css"]
 
 [extra.show]
 tags = true
