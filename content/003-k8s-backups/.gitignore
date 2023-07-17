@@ -1,4 +1,4 @@
 svg-inkscape
-diagram.*
-!diagram.svg
-!diagram.tex
+diagram-*
+!diagram-*.svg
+!diagram-*.tex

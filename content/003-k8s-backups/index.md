@@ -10,7 +10,8 @@ summary = "My setup for creating local backups of data from a kubernetes cluster
 +++
 
 <div class="text-center">
-<object data="diagram.svg" type="image/svg+xml"></object>
+<object class="block dark:hidden" data="diagram-light.svg" type="image/svg+xml"></object>
+<object class="hidden dark:block" data="diagram-dark.svg" type="image/svg+xml"></object>
 
 Figure 1: Diagram of my Backup Routine
 </div>
