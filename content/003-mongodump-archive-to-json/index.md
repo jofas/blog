@@ -8,3 +8,19 @@ tags = ["devops", "mongodb"]
 [extra]
 summary = "If you need to look up data from your backups"
 +++
+
+Since I started using MongoDB in two years ago as my database of choice
+when building web services, it has been a pleasure.
+Everything has been easy and there was never a fuzz.
+The [Rust client](https://crates.io/crates/mongodb) is amazing and building 
+RESTful web services in Rust with MongoDB for persistent storage has taken me a 
+long way.
+Only for full-text search I had to bring in a database that is more
+advanced in that regard (Elasticsearch).
+Besides the great integration into the Rust ecosystem, another positive aspect 
+is the tooling and scripting capabilities.
+The [`mongosh`](https://www.mongodb.com/docs/mongodb-shell/) REPL for 
+JavaScript is a versatile tool making database administration, document changes
+and data retrieval for one-off jobs and analytics tasks a breeze.
+But this post is about a different set of developer tools from the MongoDB world,
+the [database tools](https://www.mongodb.com/docs/database-tools/).
