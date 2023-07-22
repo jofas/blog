@@ -72,6 +72,14 @@ Running `mongodump --archive=foo.dump` will create the `foo.dump` archive
 containing the files from the listing above.
 Perfect. My backup strategy for my MongoDB servers.
 
+{% admonition(type="tip") %}
+
+Lol text _text_ **text** `text`
+
+More than one paragraph
+
+{% end %}
+
 TODO: mention that this backup strategy might not scale but is good enough for 
 the scale I operate at
 
