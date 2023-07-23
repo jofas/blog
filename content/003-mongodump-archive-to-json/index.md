@@ -40,7 +40,7 @@ around on various hard drives?
 `mongodump` is a utility that creates a binary dump of your standalone MongoDB
 instance, replica set or sharded cluster.
 You provide it with a connection string and it will dump every database with 
-every collection in a binary format ([`bson`](https://www.mongodb.com/basics/bson)) 
+every collection in a binary format ([Bson](https://www.mongodb.com/basics/bson)) 
 to your local disk.
 Each collection will be dumped to its own Bson file, along with a Json file
 containing metadata about the collection.
@@ -79,27 +79,54 @@ In my case I need offline access, because the service storing the data got
 retired and does not exist anymore.
 Without an immediate successor system, the data is not available online anymore
 and all that is left is the data from the backups.
-Even though the service is down right now, the data still needs to be accessible 
+Even though the service got retired, the data still needs to be accessible 
 for various operations beyond the original reason for collection.
 This includes operations like analytics, regulatory ones 
 ([right of access](https://gdpr-info.eu/art-15-gdpr/)) and maybe one day 
 migration to a new system.
 The backups themselves are stored in a binary format.
 Their only purpose is to be machine-interpretable in order to restore the
-contents.
-But in order to fulfill the pending business needs, the data must be actionable
-and human-readable.
-So we need to extract the data somehow.
+contents to a MongoDB deployment.
+But to fulfill the ongoing business needs, the data must be actionable
+and therefore human-readable.
+So we need to extract it somehow.
 
 {% admonition(type="note") %}
 
 Before retiring the service I thought long and hard about how I intent to 
 retain access to the data offline.
-Instead of creating an extra final Json dump, I thought that I must be able to 
-get the data from the backups instead.
-I deemed retrieving the data from the backups preferable, resulting in the
-setup described in this tutorial.
+I did not delete the service only to realize later that I lost necessary business 
+information, scrambling to restore it somehow, coming up with the solution 
+presented here.
+Instead of the obvious other way of getting offline access through an extra dump 
+of the data in a human-readable format like Json or CSV, I thought that I 
+must be able to get the data from the backups instead.
+I deemed retrieving the data from the backups preferable, mainly for two 
+reasons:
 
+* *Replication:* Backups were made daily and twice a week the backup device was 
+  changed.
+  Every hard drive not connected to the server is stored in a secure location. 
+  Before shutting down the service completely, there was a grace period where 
+  write access was revoked and people could only read the existing data.
+  During that grace period the final, immutable state of the data was replicated 
+  onto every backup hard drive.
+  Getting the same replication for an extra dump seemed like a lot of unnecessary
+  manual work. 
+  I could've changed the backup routine to dump human-readable data and
+  let it run for another three weeks to populate every device with at least one
+  copy of the data, but that would've meant paying for the hosting of a useless
+  shell of a service.
+ 
+* *History:*  All the backups together make up a coarsely grained history of 
+  the data and the changes that were made to it.
+  If it turns out that a document is broken in the final data dump and we need 
+  to find the correct version somewhere in the older backups, I'd need to be 
+  able to sift through the backups anyway.
+  Might as well write the script for it now when I can use it for other
+  operations that require offline access and kill two (one being hypothetical) 
+  birds with one stone.
+  
 {% end %}
 
 {% admonition(type="caution") %}
