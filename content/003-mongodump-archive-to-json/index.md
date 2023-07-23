@@ -97,8 +97,8 @@ Before retiring the service I thought long and hard about how I intent to
 retain access to the data offline.
 Instead of creating an extra final Json dump, I thought that I must be able to 
 get the data from the backups instead.
-I deemed retrieving the data from the backups preferable, resulting in this
-tutorial.
+I deemed retrieving the data from the backups preferable, resulting in the
+setup described in this tutorial.
 
 {% end %}
 
