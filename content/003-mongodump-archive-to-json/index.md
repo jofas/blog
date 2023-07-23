@@ -35,14 +35,14 @@ extract a collection from a `mongodump` archive file as Json.
 # But Why?
 
 Good question.
-But first, what is a `mongodump` archive and why do I have a lot of them lying
+First though, what is a `mongodump` archive and why do I have a lot of them lying
 around on various hard drives?
 `mongodump` is a utility that creates a binary dump of your standalone MongoDB
-instance, replica set or shared cluster.
+instance, replica set or sharded cluster.
 You provide it with a connection string and it will dump every database with 
 every collection in a binary format ([`bson`](https://www.mongodb.com/basics/bson)) 
 to your local disk.
-Each collection will be dumped to its own bson file, along with a json file
+Each collection will be dumped to its own Bson file, along with a Json file
 containing metadata about the collection.
 Let's say you have a MongoDB server running locally with a single database
 called `my_database` containing the collections `my_collection_1` and 
@@ -72,17 +72,48 @@ Running `mongodump --archive=foo.dump` will create the `foo.dump` archive
 containing the files from the listing above.
 Perfect. My backup strategy for my MongoDB servers.
 
-{% admonition(type="info") %}
+Okay, I got a bunch of `foo.dump` files now in case I screw up and destroy
+the production data and need to restore it to a proper state.
+Why do I need offline access?
+In my case I need offline access, because the service storing the data got 
+retired and does not exist anymore.
+Without an immediate successor system, the data is not available online anymore
+and all that is left is the data from the backups.
+Even though the service is down right now, the data still needs to be accessible 
+for various operations beyond the original reason for collection.
+This includes operations like analytics, regulatory ones 
+([right of access](https://gdpr-info.eu/art-15-gdpr/)) and maybe one day 
+migration to a new system.
+The backups themselves are stored in a binary format.
+Their only purpose is to be machine-interpretable in order to restore the
+contents.
+But in order to fulfill the pending business needs, the data must be actionable
+and human-readable.
+So we need to extract the data somehow.
 
-TODO: mention that this backup strategy might not scale but is good enough for 
-the scale I operate at
+{% admonition(type="note") %}
+
+Before retiring the service I thought long and hard about how I intent to 
+retain access to the data offline.
+Instead of creating an extra final Json dump, I thought that I must be able to 
+get the data from the backups instead.
+I deemed retrieving the data from the backups preferable, resulting in this
+tutorial.
 
 {% end %}
 
-TODO: inspect backup 
+{% admonition(type="caution") %}
 
-TODO: why offline? (in my case because the service got retired, but might be
-useful for analytics)
+Note that while this backup strategy is good enough for the scale I operate
+at, it might not be suitable for your use-case.
+`mongodump`and `mongorestore` are not meant to back up larger MongoDB deployments.
+While `mongdump` can connect to sharded clusters and create binary data dumps,
+it should not be used to create backups, as `mongodump` does not maintain the
+atomicity guarantees of transactions across shards.
+Read more about it 
+[here](https://www.mongodb.com/docs/manual/core/backups/#std-label-backup-with-mongodump).
+
+{% end %}
 
 # Required Steps
 
@@ -94,6 +125,6 @@ TODO: describe my thought process (restore -> export to `bsondump` and back)
 
 TODO: script
 
-# Optional: Enhance Script with a CLI 
+# Optional: Slap on a Rudimentary CLI 
 
 TODO: optional CLI
