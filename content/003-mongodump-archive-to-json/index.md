@@ -202,7 +202,30 @@ machine, (VI) finally delete the container again *et voilà*, we extracted a
 collection from our binary archive into a human-readable form.
 Without further ado, here is the bash script:
 
-TODO: script
+```bash
+# read CLI arguments 
+ARCHIVE=$1
+DB=$2
+COLLECTION=$3
+OUT=$4
+
+# spin up container
+docker run -d --name mongodump_to_json mongo:latest
+
+# copy archive into container
+docker cp $ARCHIVE mongodump_to_json:archive.dump
+
+# extract archive
+docker exec -t mongodump_to_json mongorestore --archive=archive.dump
+
+# export collection to json file
+docker exec -t mongodump_to_json mongoexport --pretty --db=$DB --collection=$COLLECTION -o=$OUT
+docker cp mongodump_to_json:$OUT $OUT
+
+# gracefully shut down container again
+docker stop mongodump_to_json
+docker rm mongodump_to_json
+```
 
 TODO: describe arguments shortly
 
