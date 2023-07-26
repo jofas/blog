@@ -1,5 +1,5 @@
 +++
-title = "Automate Publishing your Crates with GitHub Actions"
+title = "How to Automate Publishing your Crates with GitHub Actions"
 template = "page.html"
 date = 2023-04-21T15:00:00Z
 authors = ["Jonas Fassbender"]
