@@ -1,5 +1,5 @@
 +++
-title = "Extract Collection as Json from a Mongodump Archive"
+title = "Extract a Collection from a Mongodump Archive"
 template = "page.html"
 date = 2023-07-20T15:00:00Z
 authors = ["Jonas Fassbender"]
@@ -9,7 +9,7 @@ tags = ["devops", "mongodb"]
 summary = "If you need to look up data from your backups"
 +++
 
-Since I started using MongoDB in two years ago as my database of choice
+Since I started using MongoDB two years ago as my database of choice
 when building web services, it has been a pleasure.
 Everything has been easy and there was never a fuzz.
 The [Rust client](https://crates.io/crates/mongodb) is amazing and building 
@@ -20,17 +20,17 @@ advanced in that regard (Elasticsearch).
 Besides the great integration into the Rust ecosystem, another positive aspect 
 is the tooling and scripting capabilities.
 The [`mongosh`](https://www.mongodb.com/docs/mongodb-shell/) REPL for 
-JavaScript is a versatile tool making database administration, document changes
+JavaScript is a versatile tool making database administration, document updates
 and data retrieval for one-off jobs and analytics tasks a breeze.
 But this post is about a different set of developer tools from the MongoDB world,
 the [database tools](https://www.mongodb.com/docs/database-tools/).
 The MongoDB database tools are a set of cli programs you can use to interact
 with your deployment.
-We will use the data import and export tools, namely 
-[`mongodump`](https://www.mongodb.com/docs/database-tools/mongodump/),
+In this article I will show you how you can use the data import and export tools, 
+namely [`mongodump`](https://www.mongodb.com/docs/database-tools/mongodump/),
 [`mongorestore`](https://www.mongodb.com/docs/database-tools/mongorestore/) and 
-[`mongoexport`](https://www.mongodb.com/docs/database-tools/mongoexport/) to 
-extract a collection from a `mongodump` archive file as Json.
+[`mongoexport`](https://www.mongodb.com/docs/database-tools/mongoexport/), to 
+extract a collection from a `mongodump` archive file.
 
 # But Why?
 
@@ -47,7 +47,7 @@ containing metadata about the collection.
 Let's say you have a MongoDB server running locally with a single database
 called `my_database` containing the collections `my_collection_1` and 
 `my_collection_2`.
-When you run `mongodbump` without any arguments it will create a directory 
+When you run `mongodbump` without any arguments it will create a sub-directory 
 `dump/` in your current work directory with the following files:
 
 ```
@@ -77,8 +77,8 @@ the production data and need to restore it to a proper state.
 Why do I need offline access?
 In my case I need offline access, because the service storing the data got 
 retired and does not exist anymore.
-Without an immediate successor system, the data is not available online anymore
-and all that is left is the data from the backups.
+Without an immediate successor system, the data is no longer available online.
+The only place the data can be retrieved from are the backup archives.
 Even though the service got retired, the data still needs to be accessible 
 for various operations beyond the original reason for collection.
 This includes operations like analytics, regulatory ones 
@@ -88,8 +88,8 @@ The backups themselves are stored in a binary format.
 Their only purpose is to be machine-interpretable in order to restore the
 contents to a MongoDB deployment.
 But to fulfill the ongoing business needs, the data must be actionable
-and therefore human-readable.
-So we need to extract it somehow.
+for people and therefore human-readable.
+So we need to extract it from the archive somehow.
 
 {% admonition(type="note") %}
 
@@ -106,7 +106,8 @@ reasons:
 
 * *Replication:* Backups were made daily and twice a week the backup device was 
   changed.
-  Every hard drive not connected to the server is stored in a secure location. 
+  Every hard drive not connected to the server is stored in a secure location
+  off-site. 
   Before shutting down the service completely, there was a grace period where 
   write access was revoked and people could only read the existing data.
   During that grace period the final, immutable state of the data was replicated 
@@ -115,8 +116,8 @@ reasons:
   manual work. 
   I could've changed the backup routine to dump human-readable data and
   let it run for another three weeks to populate every device with at least one
-  copy of the data, but that would've meant paying for the hosting of a useless
-  shell of a service.
+  copy of the data, but that would've meant unnecessarily paying for the hosting 
+  of a useless shell of a service.
  
 * *History:*  All the backups together make up a coarsely grained history of 
   the data and the changes that were made to it.
