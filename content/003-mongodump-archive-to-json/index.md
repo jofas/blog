@@ -1,5 +1,5 @@
 +++
-title = "Extract a Collection from a Mongodump Archive"
+title = "How to Extract a Collection from a Mongodump Archive"
 template = "page.html"
 date = 2023-07-20T15:00:00Z
 authors = ["Jonas Fassbender"]
@@ -74,7 +74,7 @@ Perfect. My backup strategy for my MongoDB servers.
 
 Okay, I got a bunch of `foo.dump` files now in case I screw up and destroy
 the production data and need to restore it to a proper state.
-Why do I need offline access?
+Why do I need offline access to the data stored in the backups?
 In my case I need offline access, because the service storing the data got 
 retired and does not exist anymore.
 Without an immediate successor system, the data is no longer available online.
@@ -196,14 +196,14 @@ more than a simple and idempotent bash script, thanks to Docker and the
 [`mongo`](https://hub.docker.com/_/mongo) image.
 All that is necessary is (I) to create a container with the `mongo` image,
 (II) copy the archive file to the container, (III) restore it to the MongoDB 
-instance running locally inside the container, (IV) export the collection
+instance running inside the container, (IV) export the collection
 we want to extract to a file, (V) copy the file from the container to the local 
 machine, (VI) finally delete the container again *et voilà*, we extracted a 
 collection from our binary archive into a human-readable form.
 Without further ado, here is the bash script:
 
 ```bash
-# read CLI arguments 
+# CLI arguments 
 ARCHIVE=$1
 DB=$2
 COLLECTION=$3
@@ -227,7 +227,22 @@ docker stop mongodump_to_json
 docker rm mongodump_to_json
 ```
 
-TODO: describe arguments shortly
+All we need to do is provide four arguments to the script.
+The path to the archive file we want to use,which collection from which 
+database we want to retrieve and finally where to store the extracted data.
+If we wanted to retrieve `my_collection_2` from the `foo.dump` archive from the 
+example above, we'd call the script like this:
+
+```bash
+sh mongodump_to_json.sh foo.dump my_database my_collection_2 my_collection_2.json
+```
+
+This command creates a `my_collection_2.json` file in the current work directory 
+with the documents of `my_collection_2`.
+
+TODO: closing sentence or two
+
+TODO: mention versioning of tools and database
 
 # Optional: Slap On a Rudimentary CLI 
 
