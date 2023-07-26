@@ -247,3 +247,84 @@ TODO: mention versioning of tools and database
 # Optional: Slap On a Rudimentary CLI 
 
 TODO: optional CLI
+
+```bash
+#!/bin/bash
+
+mongodump_to_json() {
+  ARCHIVE=$1
+  DB=$2
+  COLLECTION=$3
+  OUT=$4
+
+  # spin up container
+  docker run -d --name mongodump_to_json mongo:latest
+
+  # copy archive into container
+  docker cp $ARCHIVE mongodump_to_json:archive.dump
+
+  # extract archive
+  docker exec -t mongodump_to_json mongorestore --archive=archive.dump
+
+  # export collection to json file
+  docker exec -t mongodump_to_json mongoexport --pretty --db=$DB --collection=$COLLECTION -o=$OUT
+  docker cp mongodump_to_json:$OUT $OUT
+
+  # gracefully shut down container again
+  docker stop mongodump_to_json
+  docker rm mongodump_to_json
+}
+
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    -a|--archive)
+      ARCHIVE=$2
+      shift
+      shift
+      ;;
+    --db)
+      DB=$2
+      shift
+      shift
+      ;;
+    --collection)
+      COLLECTION=$2
+      shift
+      shift
+      ;;
+    -o|--out)
+      OUT=$2
+      shift
+      shift
+      ;;
+    *)
+      echo "UNKNOWN ARGUMENT: $1"
+      exit 1
+  esac
+done
+
+# required arguments
+
+if [ -z ${ARCHIVE+x} ]; then
+  echo "MISSING ARGUMENT: -a/--archive"
+  exit 1
+fi
+
+if [ -z ${DB+x} ]; then
+  echo "MISSING ARGUMENT: --db"
+  exit 1
+fi
+
+if [ -z ${COLLECTION+x} ]; then
+  echo "MISSING ARGUMENT: --collection"
+  exit 1
+fi
+
+# optional arguments
+
+if [ -z ${OUT+x} ]; then
+  OUT="$DB-$COLLECTION.json"
+fi
+
+mongodump_to_json $ARCHIVE $DB $COLLECTION $OUT
+```
