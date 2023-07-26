@@ -145,6 +145,36 @@ Read more about it
 
 # Required Steps
 
+Turns out my use-case described above seems to be less common than anticipated.
+The process of extracting documents from an archive created with `mongodump` 
+requires more tools and resources than I initially expected.
+I thought that I must be able to use `mongodump` itself or at least its 
+counterpart `mongorestore` for restoring data to query the data from an 
+archive file and print the documents in a human-readable format to stdout.
+Looking through the documentation quickly revealed that this is not the case.
+The MongoDB database tools are split between binary and text import/export 
+tools.
+On the binary side you have `mongodump` and `mongorestore` with the equivalent 
+tools `mongoexport` and `mongoimport` for working with the text formats Json,
+CSV and TSV.
+Even though it turned out that I can't use only the binary tools to retrieve the 
+data from an archive in text format, I can't argue with a clean and consistent 
+design like that.
+There is a third CLI tool for working with binary data in the MongoDB database
+tools, `bsondump`.
+`bsondump` sounds very much like what we are looking for.
+A tool that is able to convert Bson (binary Json) files to Json.
+Unfortunately `bsondump` is only able to work with Bson files directly,
+which we don't have.
+The Bson files containing the documents of our collections are compressed in
+an archive.
+`bsondump` is not able to work with archives, an exclusive feature of 
+`mongodump` and `mongorestore`.
+
+TODO: I was hoping to get the data without a MongoDB instance
+
+TODO: cargo crate files (cargo package -- tarball) and java jars (zip)
+
 TODO: describe setup
 
 TODO: describe my thought process (restore -> export to `bsondump` and back)
