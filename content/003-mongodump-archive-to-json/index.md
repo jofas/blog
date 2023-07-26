@@ -146,13 +146,14 @@ Read more about it
 # Required Steps
 
 I was hoping to be able to extract the data from the archive file without
-having to spin up a MongoDB instance.
+having to spin up a local MongoDB instance, which in my mind sounded like too
+much overhead for such a benign task. 
 But it turns out my use-case described above is less common than anticipated.
 The process of extracting documents from an archive created with `mongodump` 
 requires more tools and resources than I initially expected.
 I thought that I must be able to use `mongodump` itself or at least its 
 counterpart `mongorestore` to query the data from an archive file and print the 
-documents in a human-readable format to stdout.
+documents in a human-readable format to a file or stdout.
 Looking through the documentation quickly revealed that this is not the case.
 The MongoDB database tools are split between binary and text import/export 
 tools.
@@ -160,29 +161,51 @@ On the binary side you have `mongodump` and `mongorestore` with the equivalent
 tools `mongoexport` and `mongoimport` for working with the text formats Json,
 CSV and TSV.
 Even though it turned out that I can't use only the binary tools to retrieve the 
-data from an archive in text format, I can't argue with a clean and consistent 
-design like that.
-There is a third CLI tool for working with binary data in the MongoDB database
-tools, `bsondump`.
-`bsondump` sounds very much like what we are looking for.
-A tool that is able to convert Bson (binary Json) files to Json.
-Unfortunately `bsondump` is only able to work with Bson files directly,
-which we don't have.
-The Bson files containing the documents of our collections are compressed in
-an archive.
-`bsondump` is not able to work with archives, an exclusive feature of 
+data from an archive in text format, I can't argue with such a clean and 
+consistent design.
+
+There is a third CLI tool for working with binary data dumps in the MongoDB 
+database tools, `bsondump`.
+`bsondump` is able to convert Bson files to Json, which sounds very much like 
+what we are looking for.
+Unfortunately `bsondump` is only able to work with uncompressed Bson files,
+which we don't have, as we are writing our dumps to an archive instead of the
+file system directly.
+`bsondump` is not able to work with the archives, a feature exclusive to 
 `mongodump` and `mongorestore`.
-
-TODO: cargo crate files (cargo package -- tarball) and java jars (zip)
-
-TODO: describe setup
-
-TODO: describe my thought process (restore -> export to `bsondump` and back)
+Last thing I checked was whether it is possible to extract the files from the
+archive using an available decompression program.
+It is not an uncommon pattern to base domain-specific archives on general-purpose
+formats like Tar or Zip.
+For example, [`cargo package`](https://doc.rust-lang.org/cargo/commands/cargo-package.html)
+creates simple Tarballs from Cargo packages while Java's `.jar` files are
+just Zip archives with a metadata file in a specific location.
+Unfortunately this is [not true](https://stackoverflow.com/a/56519349/20665825) 
+for the archives created by `mongodump`.
+So extracting the binary file containing the documents from a collection and
+subsequently using `bsondump` to read the file was not possible either.
+This means the only way we can extract the data in a human-readable format from
+an archive is by starting a MongoDB instance, restoring the archive by running
+`mongorestore --archive=foo.dump` and lastly downloading the data again with
+`mongoexport`.
 
 # Docker and Bash to the Rescue
 
+What sounded like another overly complex Ops process turned out to be nothing
+more than a simple and idempotent bash script, thanks to Docker and the 
+[`mongo`](https://hub.docker.com/_/mongo) image.
+All that is necessary is (I) to create a container with the `mongo` image,
+(II) copy the archive file to the container, (III) restore it to the MongoDB 
+instance running locally inside the container, (IV) export the collection
+we want to a file, (V) copy the file from the container to the local machine,
+(VI) finally delete the container again *et voilà*, we extracted a collection
+from our binary archive into a human-readable form.
+Without further ado, here the bash script:
+
 TODO: script
 
-# Optional: Slap on a Rudimentary CLI 
+TODO: describe arguments shortly
+
+# Optional: Slap On a Rudimentary CLI 
 
 TODO: optional CLI
