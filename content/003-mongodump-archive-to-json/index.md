@@ -197,10 +197,10 @@ more than a simple and idempotent bash script, thanks to Docker and the
 All that is necessary is (I) to create a container with the `mongo` image,
 (II) copy the archive file to the container, (III) restore it to the MongoDB 
 instance running locally inside the container, (IV) export the collection
-we want to a file, (V) copy the file from the container to the local machine,
-(VI) finally delete the container again *et voilà*, we extracted a collection
-from our binary archive into a human-readable form.
-Without further ado, here the bash script:
+we want to extract to a file, (V) copy the file from the container to the local 
+machine, (VI) finally delete the container again *et voilà*, we extracted a 
+collection from our binary archive into a human-readable form.
+Without further ado, here is the bash script:
 
 TODO: script
 
