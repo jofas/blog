@@ -145,12 +145,14 @@ Read more about it
 
 # Required Steps
 
-Turns out my use-case described above seems to be less common than anticipated.
+I was hoping to be able to extract the data from the archive file without
+having to spin up a MongoDB instance.
+But it turns out my use-case described above is less common than anticipated.
 The process of extracting documents from an archive created with `mongodump` 
 requires more tools and resources than I initially expected.
 I thought that I must be able to use `mongodump` itself or at least its 
-counterpart `mongorestore` for restoring data to query the data from an 
-archive file and print the documents in a human-readable format to stdout.
+counterpart `mongorestore` to query the data from an archive file and print the 
+documents in a human-readable format to stdout.
 Looking through the documentation quickly revealed that this is not the case.
 The MongoDB database tools are split between binary and text import/export 
 tools.
@@ -170,8 +172,6 @@ The Bson files containing the documents of our collections are compressed in
 an archive.
 `bsondump` is not able to work with archives, an exclusive feature of 
 `mongodump` and `mongorestore`.
-
-TODO: I was hoping to get the data without a MongoDB instance
 
 TODO: cargo crate files (cargo package -- tarball) and java jars (zip)
 
