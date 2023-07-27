@@ -80,15 +80,15 @@ retired and does not exist anymore.
 Without an immediate successor system, the data is no longer available online.
 The only place the data can be retrieved from are the backup archives.
 Even though the service got retired, the data still needs to be accessible 
-for various operations beyond the original reason for collection.
-This includes operations like analytics, regulatory ones 
+for various (manual) operations beyond the original reason for collection.
+This includes operations like user support, analytics, regulatory ones 
 ([right of access](https://gdpr-info.eu/art-15-gdpr/)) and maybe one day 
 migration to a new system.
 The backups themselves are stored in a binary format.
 Their only purpose is to be machine-interpretable in order to restore the
 contents to a MongoDB deployment.
-But to fulfill the ongoing business needs, the data must be actionable
-for people and therefore human-readable.
+But to fulfill the ongoing business needs, the data must be accessed by people 
+and therefore needs to be human-readable.
 So we need to extract it from the archive somehow.
 
 {% admonition(type="note") %}
@@ -240,7 +240,9 @@ sh mongodump_to_json.sh foo.dump my_database my_collection_2 my_collection_2.jso
 ```
 
 This command creates a `my_collection_2.json` file in the current work directory 
-on the host machine with the documents of `my_collection_2`.
+on the host machine with the documents of `my_collection_2` formatted as a 
+Json array.
+Human-readable and actionable, ready to be put to use.
 
 {% admonition(type="note") %}
 
