@@ -192,7 +192,7 @@ an archive is by starting a MongoDB instance, restoring the archive by running
 # Docker and Bash to the Rescue
 
 What sounded like another overly complex Ops process turned out to be nothing
-more than a simple and idempotent bash script, thanks to Docker and the 
+more than a simple and idempotent Bash script, thanks to Docker and the 
 [`mongo`](https://hub.docker.com/_/mongo) image.
 All that is necessary is (I) to create a container with the `mongo` image,
 (II) copy the archive file to the container, (III) restore it to the MongoDB 
@@ -200,9 +200,11 @@ instance running inside the container, (IV) export the collection
 we want to extract to a file, (V) copy the file from the container to the local 
 machine, (VI) finally delete the container again *et voilà*, we extracted a 
 collection from our binary archive into a human-readable form.
-Without further ado, here is the bash script:
+Without further ado, here is the Bash script:
 
 ```bash
+#!/bin/bash
+
 # CLI arguments 
 ARCHIVE=$1
 DB=$2
@@ -240,8 +242,6 @@ sh mongodump_to_json.sh foo.dump my_database my_collection_2 my_collection_2.jso
 This command creates a `my_collection_2.json` file in the current work directory 
 on the host machine with the documents of `my_collection_2`.
 
-TODO: closing sentence or two
-
 {% admonition(type="note") %}
 
 The script creates a container from the latest version of the `mongo` image.
@@ -256,7 +256,17 @@ See i.e. [here](https://www.mongodb.com/docs/database-tools/mongodump/#mongodb-s
 
 # Optional: Slap On a Rudimentary CLI 
 
-TODO: optional CLI
+To hide the fact that deep down I'm a thoughtless savage, I like to keep up 
+the pretense of being a sane and stable person by adding a rudimentary CLI to 
+my Bash scripts if they need to be executed with arguments.
+I'm not going as far as writing a help or man page (Rust's 
+[`clap`](https://docs.rs/clap/latest/clap/) has ruined me with its incredible 
+API for creating CLI programs with ease). 
+But being able to provide named arguments whose existence is checked before 
+anything weird can happen, or providing sensible default values for optional 
+arguments, gives me a better feeling about the whole script.
+Here's the final version of the script I use, with the logic abstracted into a 
+function and a crude little CLI on top: 
 
 ```bash
 #!/bin/bash
