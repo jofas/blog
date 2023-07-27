@@ -369,4 +369,4 @@ Executing the script looks a lot nicer and less random than before as well:
 sh mongodump_to_json.sh -a foo.dump --db my_database --collection my_collection_2 -o my_collection_2.json
 ``` 
 
-Not a proper CLI ready for major distribution, but good enough for me.
+Not a proper CLI ready for major distribution, but good enough for myself.
