@@ -261,10 +261,10 @@ the pretense of being a sane and stable person by adding a rudimentary CLI to
 my Bash scripts if they need to be executed with arguments.
 I'm not going as far as writing a help or man page (Rust's 
 [`clap`](https://docs.rs/clap/latest/clap/) has ruined me with its incredible 
-API for creating CLI programs with ease). 
+API for creating CLI programs with ease and zero effort). 
 But being able to provide named arguments whose existence is checked before 
 anything weird can happen, or providing sensible default values for optional 
-arguments, gives me a better feeling about the whole script.
+arguments gives me a better feeling about the whole script.
 Here's the final version of the script I use, with the logic abstracted into a 
 function and a crude little CLI on top: 
 
@@ -348,3 +348,12 @@ fi
 
 mongodump_to_json $ARCHIVE $DB $COLLECTION $OUT
 ```
+
+The interface is now more flexible and harder to misuse.
+Executing the script looks a lot nicer and less random than before as well:
+
+```bash
+sh mongodump_to_json.sh -a foo.dump --db my_database --collection my_collection_2 -o my_collection_2.json
+``` 
+
+Not a proper CLI ready for major distribution, but effective nonetheless.
