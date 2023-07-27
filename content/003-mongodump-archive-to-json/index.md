@@ -228,7 +228,7 @@ docker rm mongodump_to_json
 ```
 
 All we need to do is provide four arguments to the script.
-The path to the archive file we want to use,which collection from which 
+The path to the archive file we want to use, which collection from which 
 database we want to retrieve and finally where to store the extracted data.
 If we wanted to retrieve `my_collection_2` from the `foo.dump` archive from the 
 example above, we'd call the script like this:
@@ -238,11 +238,21 @@ sh mongodump_to_json.sh foo.dump my_database my_collection_2 my_collection_2.jso
 ```
 
 This command creates a `my_collection_2.json` file in the current work directory 
-with the documents of `my_collection_2`.
+on the host machine with the documents of `my_collection_2`.
 
 TODO: closing sentence or two
 
-TODO: mention versioning of tools and database
+{% admonition(type="note") %}
+
+The script creates a container from the latest version of the `mongo` image.
+As of July 2023, if your production system is running MongoDB version 4.0 or 
+earlier, you may run into compatibility issues when using the database tools 
+installed in the image. 
+If that's the case you should use an earlier version of the `mongo` image and
+try again.
+See i.e. [here](https://www.mongodb.com/docs/database-tools/mongodump/#mongodb-server-compatibility).
+
+{% end %}
 
 # Optional: Slap On a Rudimentary CLI 
 
