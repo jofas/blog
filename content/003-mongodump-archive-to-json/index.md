@@ -244,6 +244,17 @@ on the host machine with the documents of `my_collection_2` formatted as a
 Json array.
 Human-readable and actionable, ready to be put to use.
 
+While I was hoping to accomplish extracting a collection from a `mongodump` 
+archive file without first recreating the collection in a local MongoDB instance
+before downloading it again in a different format, it turned out that the 
+database tools were not meant for that.
+`bsondump` exists, but it is unable to work with archive files, only with
+standalone Bson files.
+But thanks to Docker and the `mongo` container it is not necessary to create
+a complex local MongoDB installation.
+Just a simple, self-contained and most importantly idempotent Bash script is 
+needed to do the job and I'm happy with the solution.
+
 {% admonition(type="note") %}
 
 The script creates a container from the latest version of the `mongo` image.
