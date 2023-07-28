@@ -22,7 +22,7 @@ is the tooling and scripting capabilities.
 The [`mongosh`](https://www.mongodb.com/docs/mongodb-shell/) REPL for 
 JavaScript is a versatile tool making database administration, document updates
 and data retrieval for one-off jobs and analytics tasks a breeze.
-But this post is about a different set of developer tools from the MongoDB world,
+This post is about a another set of developer tools from the MongoDB world,
 the [database tools](https://www.mongodb.com/docs/database-tools/).
 The MongoDB database tools are a set of cli programs you can use to interact
 with your deployment.
@@ -37,10 +37,10 @@ extract a collection from a `mongodump` archive file.
 Good question.
 First though, what is a `mongodump` archive and why do I have a lot of them lying
 around on various hard drives?
-`mongodump` is a utility that creates a binary dump of your standalone MongoDB
-instance, replica set or sharded cluster.
-You provide it with a connection string and it will dump every database with 
-every collection in a binary format ([Bson](https://www.mongodb.com/basics/bson)) 
+`mongodump` is a utility that creates a binary dump of your MongoDB deployment,
+no matter whether it is a standalone instance, replica set or sharded cluster.
+You provide `mongodump` with a connection string and it will dump every database 
+with every collection in a binary format ([Bson](https://www.mongodb.com/basics/bson)) 
 to your local disk.
 Each collection will be dumped to its own Bson file, along with a Json file
 containing metadata about the collection.
@@ -66,13 +66,13 @@ Nice. We have a bunch of files containing the documents of our collections
 saved locally on disk.
 This is very helpful for creating backups of our production database, but
 `mongodump` can do even better.
-Instead of creating a directory it can also create an archive instead, making
+Instead of creating a directory it can also create an archive file, making
 the backup more self-contained and space efficient.
 Running `mongodump --archive=foo.dump` will create the `foo.dump` archive
 containing the files from the listing above.
 Perfect. My backup strategy for my MongoDB servers.
 
-Okay, I got a bunch of `foo.dump` files now in case I screw up and destroy
+I got a bunch of `foo.dump` files now, in case I screw up and destroy
 the production data and need to restore it to a proper state.
 Why do I need offline access to the data stored in the backups?
 In my case I need offline access, because the service storing the data got 
@@ -113,11 +113,13 @@ reasons:
   During that grace period the final, immutable state of the data was replicated 
   onto every backup hard drive.
   Getting the same replication for an extra dump seemed like a lot of unnecessary
-  manual work. 
-  I could've changed the backup routine to dump human-readable data and
-  let it run for another three weeks to populate every device with at least one
-  copy of the data, but that would've meant unnecessarily paying for the hosting 
-  of a useless shell of a service.
+  manual work, requiring me to get every hard drive, drive to my server's 
+  location and one by one plug them in and copy the final dump to every drive.
+  Another possibility would've been to change the backup routine to dump 
+  human-readable data and let it run for another three weeks to populate every 
+  device with at least one copy of the data.
+  But that would've meant unnecessarily paying for the hosting of a useless 
+  shell of a service.
  
 * *History:*  All the backups together make up a coarsely grained history of 
   the data and the changes that were made to it.
@@ -146,11 +148,9 @@ Read more about it
 # Required Steps
 
 I was hoping to be able to extract the data from the archive file without
-having to spin up a local MongoDB instance, which in my mind sounded like too
+spinning up a local MongoDB instance, which in my mind sounded like too
 much overhead for such a benign task. 
 But it turns out my use-case described above is less common than anticipated.
-The process of extracting documents from an archive created with `mongodump` 
-requires more tools and resources than I initially expected.
 I thought that I must be able to use `mongodump` itself or at least its 
 counterpart `mongorestore` to query the data from an archive file and print the 
 documents in a human-readable format to a file or stdout.
@@ -160,16 +160,16 @@ tools.
 On the binary side you have `mongodump` and `mongorestore` with the equivalent 
 tools `mongoexport` and `mongoimport` for working with the text formats Json,
 CSV and TSV.
-Even though it turned out that I can't use only the binary tools to retrieve the 
-data from an archive in text format, I can't argue with such a clean and 
-consistent design.
+Even though it turns out that we can't use only the binary tools to retrieve the 
+data from an archive in text format, condemning such a clean and consistent 
+design would be preposterous.
 
 There is a third CLI tool for working with binary data dumps in the MongoDB 
 database tools, `bsondump`.
 `bsondump` is able to convert Bson files to Json, which sounds very much like 
 what we are looking for.
-Unfortunately `bsondump` is only able to work with uncompressed Bson files,
-which we don't have, as we are writing our dumps to an archive instead of the
+Unfortunately `bsondump` is only able to work with uncompressed Bson files.
+We don't have these, as we are writing our dumps to an archive instead of the
 file system directly.
 `bsondump` is not able to work with the archives, a feature exclusive to 
 `mongodump` and `mongorestore`.
@@ -194,12 +194,17 @@ an archive is by starting a MongoDB instance, restoring the archive by running
 What sounded like another overly complex Ops process turned out to be nothing
 more than a simple and idempotent Bash script, thanks to Docker and the 
 [`mongo`](https://hub.docker.com/_/mongo) image.
-All that is necessary is (I) to create a container with the `mongo` image,
-(II) copy the archive file to the container, (III) restore it to the MongoDB 
-instance running inside the container, (IV) export the collection
-we want to extract to a file, (V) copy the file from the container to the local 
-machine, (VI) finally delete the container again *et voilà*, we extracted a 
-collection from our binary archive into a human-readable form.
+All the necessary steps are:
+
+1. Create a container from the `mongo` image
+2. Copy the archive file to the container 
+3. Restore it to the MongoDB instance running inside the container
+4. Export the collection we want to extract to a file 
+5. Copy the file from the container to the local machine
+6. Delete the container again 
+
+*Et voilà*, we extracted a collection from our binary archive into a 
+human-readable form.
 Without further ado, here is the Bash script:
 
 ```bash
@@ -250,10 +255,11 @@ before downloading it again in a different format, it turned out that the
 database tools were not meant for that.
 `bsondump` exists, but it is unable to work with archive files, only with
 standalone Bson files.
-But thanks to Docker and the `mongo` container it is not necessary to create
+But thanks to Docker and the `mongo` container, it is not necessary to create
 a complex local MongoDB installation.
-Just a simple, self-contained and most importantly idempotent Bash script is 
-needed to do the job and I'm happy with the solution.
+Just a simple, self-contained and most importantly idempotent Bash script that
+only calls various Docker commands under the hood is needed to do the job and 
+I'm happy with the solution.
 
 {% admonition(type="note") %}
 
@@ -274,12 +280,12 @@ the pretense of being a sane and stable person by adding a rudimentary CLI to
 my Bash scripts if they need to be executed with arguments.
 I'm not going as far as writing a help or man page (Rust's 
 [`clap`](https://docs.rs/clap/latest/clap/) has ruined me with its incredible 
-API for creating CLI programs with ease and zero effort). 
+API for creating CLI programs with zero effort). 
 But being able to provide named arguments whose existence is checked before 
 anything weird can happen, or providing sensible default values for optional 
 arguments gives me a better feeling about the whole script.
 Here's the final version of the script I use, with the logic abstracted into a 
-function and a crude little CLI on top: 
+function and a crude little CLI added on top: 
 
 ```bash
 #!/bin/bash
