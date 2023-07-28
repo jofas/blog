@@ -1,7 +1,7 @@
 +++
 title = "How to Extract a Collection from a Mongodump Archive"
 template = "page.html"
-date = 2023-07-20T15:00:00Z
+date = 2023-07-28T15:00:00Z
 authors = ["Jonas Fassbender"]
 [taxonomies]
 tags = ["devops", "mongodb"]
@@ -22,7 +22,7 @@ is the tooling and scripting capabilities.
 The [`mongosh`](https://www.mongodb.com/docs/mongodb-shell/) REPL for 
 JavaScript is a versatile tool making database administration, document updates
 and data retrieval for one-off jobs and analytics tasks a breeze.
-This post is about a another set of developer tools from the MongoDB world,
+Another useful set of developer tools from the MongoDB world are
 the [database tools](https://www.mongodb.com/docs/database-tools/).
 The MongoDB database tools are a set of cli programs you can use to interact
 with your deployment.
@@ -32,22 +32,23 @@ namely [`mongodump`](https://www.mongodb.com/docs/database-tools/mongodump/),
 [`mongoexport`](https://www.mongodb.com/docs/database-tools/mongoexport/), to 
 extract a collection from a `mongodump` archive file.
 
-# But Why?
+# Why?
 
 Good question.
-First though, what is a `mongodump` archive and why do I have a lot of them lying
-around on various hard drives?
+First though, what is a `mongodump` archive and why do I have a lot of them 
+on various hard drives?
 `mongodump` is a utility that creates a binary dump of your MongoDB deployment,
-no matter whether it is a standalone instance, replica set or sharded cluster.
-You provide `mongodump` with a connection string and it will dump every database 
-with every collection in a binary format ([Bson](https://www.mongodb.com/basics/bson)) 
-to your local disk.
+no matter whether the deployment is a standalone instance, replica set or 
+sharded cluster.
+You provide `mongodump` with a connection string to the deployment and it will 
+dump every database with every collection in a binary format 
+([Bson](https://www.mongodb.com/basics/bson)) to your local disk.
 Each collection will be dumped to its own Bson file, along with a Json file
 containing metadata about the collection.
 Let's say you have a MongoDB server running locally with a single database
 called `my_database` containing the collections `my_collection_1` and 
 `my_collection_2`.
-When you run `mongodbump` without any arguments it will create a sub-directory 
+When running `mongodbump` without any arguments, it will create a sub-directory 
 `dump/` in your current work directory with the following files:
 
 ```
@@ -64,16 +65,14 @@ When you run `mongodbump` without any arguments it will create a sub-directory
 
 Nice. We have a bunch of files containing the documents of our collections
 saved locally on disk.
-This is very helpful for creating backups of our production database, but
-`mongodump` can do even better.
-Instead of creating a directory it can also create an archive file, making
+This is very helpful for creating backups of our production database.
+But `mongodump` can do even better.
+Instead of creating a directory, it can also create an archive file, making
 the backup more self-contained and space efficient.
 Running `mongodump --archive=foo.dump` will create the `foo.dump` archive
-containing the files from the listing above.
+with the files from the listing above.
 Perfect. My backup strategy for my MongoDB servers.
 
-I got a bunch of `foo.dump` files now, in case I screw up and destroy
-the production data and need to restore it to a proper state.
 Why do I need offline access to the data stored in the backups?
 In my case I need offline access, because the service storing the data got 
 retired and does not exist anymore.
@@ -96,7 +95,7 @@ So we need to extract it from the archive somehow.
 Before retiring the service I thought long and hard about how I intent to 
 retain access to the data offline.
 I did not delete the service only to realize later that I lost necessary business 
-information, scrambling to restore it somehow, coming up with the solution 
+information, scrambling to restore it, coming up with the solution 
 presented here.
 Instead of the obvious other way of getting offline access through an extra dump 
 of the data in a human-readable format like Json or CSV, I thought that I 
@@ -106,8 +105,8 @@ reasons:
 
 * *Replication:* Backups were made daily and twice a week the backup device was 
   changed.
-  Every hard drive not connected to the server is stored in a secure location
-  off-site. 
+  Every hard drive not currently connected to the server is stored in a secure 
+  location off-site. 
   Before shutting down the service completely, there was a grace period where 
   write access was revoked and people could only read the existing data.
   During that grace period the final, immutable state of the data was replicated 
@@ -148,8 +147,8 @@ Read more about it
 # Required Steps
 
 I was hoping to be able to extract the data from the archive file without
-spinning up a local MongoDB instance, which in my mind sounded like too
-much overhead for such a benign task. 
+spinning up a local MongoDB instance.
+In my mind this sounded like too much overhead for such a benign task. 
 But it turns out my use-case described above is less common than anticipated.
 I thought that I must be able to use `mongodump` itself or at least its 
 counterpart `mongorestore` to query the data from an archive file and print the 
@@ -175,11 +174,12 @@ file system directly.
 `mongodump` and `mongorestore`.
 Last thing I checked was whether it is possible to extract the files from the
 archive using an available decompression program.
-It is not an uncommon pattern to base domain-specific archives on general-purpose
-formats like Tar or Zip.
+It is not an uncommon pattern to base domain-specific archive formats on 
+general-purpose formats like Tar or Zip.
 For example, [`cargo package`](https://doc.rust-lang.org/cargo/commands/cargo-package.html)
 creates simple Tarballs from Cargo packages while Java's `.jar` files are
-just Zip archives with a metadata file in a specific location.
+just Zip archives with a metadata file in a specific location within the 
+archive.
 Unfortunately this is [not true](https://stackoverflow.com/a/56519349/20665825) 
 for the archives created by `mongodump`.
 So extracting the binary file containing the documents from a collection and
@@ -194,7 +194,7 @@ an archive is by starting a MongoDB instance, restoring the archive by running
 What sounded like another overly complex Ops process turned out to be nothing
 more than a simple and idempotent Bash script, thanks to Docker and the 
 [`mongo`](https://hub.docker.com/_/mongo) image.
-All the necessary steps are:
+The necessary steps are:
 
 1. Create a container from the `mongo` image
 2. Copy the archive file to the container 
@@ -204,7 +204,7 @@ All the necessary steps are:
 6. Delete the container again 
 
 *Et voilà*, we extracted a collection from our binary archive into a 
-human-readable form.
+human-readable format.
 Without further ado, here is the Bash script:
 
 ```bash
@@ -279,8 +279,8 @@ To hide the fact that deep down I'm a thoughtless savage, I like to keep up
 the pretense of being a sane and stable person by adding a rudimentary CLI to 
 my Bash scripts if they need to be executed with arguments.
 I'm not going as far as writing a help or man page (Rust's 
-[`clap`](https://docs.rs/clap/latest/clap/) has ruined me with its incredible 
-API for creating CLI programs with zero effort). 
+[`clap`](https://docs.rs/clap/latest/clap/) has ruined CLI programming for me 
+with its incredible API for creating interfaces with zero effort). 
 But being able to provide named arguments whose existence is checked before 
 anything weird can happen, or providing sensible default values for optional 
 arguments gives me a better feeling about the whole script.
