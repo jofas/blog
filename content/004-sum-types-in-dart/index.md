@@ -17,7 +17,9 @@ TODO: Ergonomics / strong typing of Rust impacting other languages
 
 TODO: basic class
 
-TODO: discuss library (https://dart.dev/language/libraries) private (https://github.com/dart-lang/sdk/issues/33383)
+# Privacy of the `value` and `tag` Fields
+
+TODO: discuss library (https://dart.dev/language/libraries) private (https://github.com/dart-lang/sdk/issues/33383). 
 
 # Example: [`Option<T>`](https://doc.rust-lang.org/std/option/enum.Option.html)
 
