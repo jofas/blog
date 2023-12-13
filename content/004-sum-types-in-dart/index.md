@@ -13,9 +13,11 @@ TODO: Dart 3 Pattern matching
 
 TODO: Enhanced Enums not the same
 
-TODO: Ergonomics of Rust impacting other languages
+TODO: Ergonomics / strong typing of Rust impacting other languages
 
 TODO: basic class
+
+TODO: discuss library (https://dart.dev/language/libraries) private (https://github.com/dart-lang/sdk/issues/33383)
 
 # Example: [`Option<T>`](https://doc.rust-lang.org/std/option/enum.Option.html)
 
