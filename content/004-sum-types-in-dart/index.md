@@ -9,17 +9,45 @@ tags = ["dart", "rust"]
 summary = "Rewrite it in Rust™"
 +++
 
-TODO: Dart 3 Pattern matching
+Every developer's journey is unique.
+We have different interests. 
+Different starting points.
+Different reasons.
+Different minds.
+But there is one thing that unites us all in the struggle.
+Each of us continuously faces perilous fights and dangerous altercations, 
+always pushing onwards, discovering new problems that need to be solved with 
+every step.
+(All while being perfectly safe in a well climatised room, sitting in front of
+a screen, or many, with a hot beverage, of course.)
+During these intense battles of the mind versus the machines we try to tame and 
+bend to our will, we transform.
+With every crafted solution, we pick up knowledge, experience, concepts, 
+structures and patterns.
+Our minds sharpend and sensitised to protect us from the imminent doom that 
+faces those that aren't vigilant enough.
+(I might be having dark thoughts right now.)
+We turn the things we gain into weapons we carry around with us, smirkingly 
+daring a problem to show up, knowing the lessons we've learned give us the 
+power to be victorious again and again.
 
-TODO: Enhanced Enums not the same
+TODO: my journey (segue to why I need sum types in dart)
 
 TODO: Ergonomics / strong typing of Rust impacting other languages
 
-TODO: basic class
+TODO: what are sum types or tagged unions
+
+TODO: base class
+
+TODO: Enhanced Enums not the same (as notification)
 
 # Privacy of the `value` and `tag` Fields
 
-TODO: discuss library (https://dart.dev/language/libraries) private (https://github.com/dart-lang/sdk/issues/33383). 
+TODO: discuss library (<https://dart.dev/language/libraries>) private (<https://github.com/dart-lang/sdk/issues/33383>). 
+
+TODO: private vs. public vs. public + meta.protected
+
+TODO: Dart 3 Pattern matching
 
 # Example: [`Option<T>`](https://doc.rust-lang.org/std/option/enum.Option.html)
 
